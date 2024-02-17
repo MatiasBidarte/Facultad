@@ -1,0 +1,60 @@
+﻿@using Dominio;
+@{
+    ViewData["Title"] = "ListaMiembros";
+}
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">@ViewBag.Error</div>
+}
+
+@if (ViewBag.Miembros == null || ViewBag.Miembros.Count == 0)
+{
+    <div class="alert alert-danger">No se encontraron miembros en el sistema</div>
+}
+else
+{
+    <h1>Lista de miembros</h1>
+
+    <br />
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Email</th>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Fecha de nacimiento</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Miembro m in ViewBag.Miembros)
+            {
+                <tr>
+                    <td>@m.Email</td>
+                    <td>@m.Nombre</td>
+                    <td>@m.Apellido</td>
+                    <td>@m.FechaNacimiento.ToShortDateString()</td>
+                    @if(m.EstaBloqueado)
+                    {
+                            <td>
+                                <form method="post" action="~/Usuarios/DesbloquearMiembro">
+                                    <input type="text" name="email" value="@m.Email" hidden />
+                                    <input class="btn btn-success" type="submit" value="Desbloquear" />
+                                </form>
+                            </td>
+                     }
+                     else
+                     {
+                        <td>
+                            <form method="post" action="~/Usuarios/BloquearMiembro">
+                                <input type="text" name="email" value="@m.Email" hidden />
+                                <input class="btn btn-danger" type="submit" value="Bloquear" />
+                            </form>
+                        </td>
+                     }
+                </tr>
+            }
+        </tbody>
+    </table>
+}

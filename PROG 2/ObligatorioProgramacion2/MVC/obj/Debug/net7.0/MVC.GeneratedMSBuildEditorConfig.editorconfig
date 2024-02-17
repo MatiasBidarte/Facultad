@@ -1,0 +1,89 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MVC
+build_property.RootNamespace = MVC
+build_property.ProjectDir = /Users/matiasbidarte/Desktop/facu.nosync/PROG 2/ObligatorioProgramacion2/MVC/
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/matiasbidarte/Desktop/facu.nosync/PROG 2/ObligatorioProgramacion2/MVC
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/matiasbidarte/Desktop/facu.nosync/PROG 2/ObligatorioProgramacion2/MVC/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/matiasbidarte/Desktop/facu.nosync/PROG 2/ObligatorioProgramacion2/MVC/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/matiasbidarte/Desktop/facu.nosync/PROG 2/ObligatorioProgramacion2/MVC/Views/Publicaciones/CrearPost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHVibGljYWNpb25lcy9DcmVhclBvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/matiasbidarte/Desktop/facu.nosync/PROG 2/ObligatorioProgramacion2/MVC/Views/Publicaciones/ListaPostsParaAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHVibGljYWNpb25lcy9MaXN0YVBvc3RzUGFyYUFkbWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/matiasbidarte/Desktop/facu.nosync/PROG 2/ObligatorioProgramacion2/MVC/Views/Publicaciones/ListaPostsParaMiembro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHVibGljYWNpb25lcy9MaXN0YVBvc3RzUGFyYU1pZW1icm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/matiasbidarte/Desktop/facu.nosync/PROG 2/ObligatorioProgramacion2/MVC/Views/Publicaciones/PublicacionesPorTextoYVA.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHVibGljYWNpb25lcy9QdWJsaWNhY2lvbmVzUG9yVGV4dG9ZVkEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/matiasbidarte/Desktop/facu.nosync/PROG 2/ObligatorioProgramacion2/MVC/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/matiasbidarte/Desktop/facu.nosync/PROG 2/ObligatorioProgramacion2/MVC/Views/Shared/NoAutorizado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL05vQXV0b3JpemFkby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/matiasbidarte/Desktop/facu.nosync/PROG 2/ObligatorioProgramacion2/MVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/matiasbidarte/Desktop/facu.nosync/PROG 2/ObligatorioProgramacion2/MVC/Views/Solicitudes/ListaSolicitudes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU29saWNpdHVkZXMvTGlzdGFTb2xpY2l0dWRlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/matiasbidarte/Desktop/facu.nosync/PROG 2/ObligatorioProgramacion2/MVC/Views/Usuarios/CambioDeContrasenia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpb3MvQ2FtYmlvRGVDb250cmFzZW5pYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/matiasbidarte/Desktop/facu.nosync/PROG 2/ObligatorioProgramacion2/MVC/Views/Usuarios/ListaMiembros.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpb3MvTGlzdGFNaWVtYnJvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/matiasbidarte/Desktop/facu.nosync/PROG 2/ObligatorioProgramacion2/MVC/Views/Usuarios/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpb3MvTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/matiasbidarte/Desktop/facu.nosync/PROG 2/ObligatorioProgramacion2/MVC/Views/Usuarios/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpb3MvUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/matiasbidarte/Desktop/facu.nosync/PROG 2/ObligatorioProgramacion2/MVC/Views/Usuarios/VerMiembros.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpb3MvVmVyTWllbWJyb3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/matiasbidarte/Desktop/facu.nosync/PROG 2/ObligatorioProgramacion2/MVC/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/matiasbidarte/Desktop/facu.nosync/PROG 2/ObligatorioProgramacion2/MVC/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/matiasbidarte/Desktop/facu.nosync/PROG 2/ObligatorioProgramacion2/MVC/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-tgi9xj0eup

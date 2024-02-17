@@ -1,0 +1,35 @@
+﻿@using Dominio;
+
+@{
+    ViewData["Title"] = "ModificarNombre";
+}
+
+<h1>Modificar Nombre</h1>
+
+
+<br />
+
+@if (ViewBag.Barrio == null)
+{
+    <div class="alert alert-danger">Barrio nulo</div>
+}
+else
+{
+    <p>Cambiando nombre del barrio @ViewBag.Barrio.Codigo</p>
+
+    <form action="~/Barrios/ProcesarModificarNombre" method="post">
+
+        <div class="form-group">
+            <label for="codigo">Codigo</label>
+            <input type="number" class="form-control" name="codigo" value="@ViewBag.Barrio.Codigo" disabled readonly>
+        </div>
+
+        <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" class="form-control" name="nombre" placeholder="Ingrese nuevo nombre" value="@ViewBag.Barrio.Nombre">
+        </div>
+
+        <br />
+        <input type="submit" class="btn btn-secondary" value="Editar" />
+    </form>
+}

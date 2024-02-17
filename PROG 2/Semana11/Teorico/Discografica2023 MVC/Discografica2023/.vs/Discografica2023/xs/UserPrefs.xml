@@ -1,0 +1,41 @@
+﻿<Properties StartupConfiguration="{4CDE6ACE-9076-40BD-9658-2FD75955C039}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Consola PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Web/Views/Discos/ListaDisco.cshtml">
+    <Files>
+      <File FileName="Web/Controllers/DiscosController.cs" Line="90" Column="17" />
+      <File FileName="Dominio/Disco.cs" Line="168" Column="21" />
+      <File FileName="Web/Views/Discos/AltaDisco.cshtml" Line="29" Column="43" />
+      <File FileName="Web/Controllers/MusicosController.cs" Line="53" Column="17" />
+      <File FileName="Web/Views/Musicos/AltaSolista.cshtml" Line="20" Column="7" />
+      <File FileName="Web/Views/Discos/CambiarNombre.cshtml" Line="26" Column="1" />
+      <File FileName="Dominio/Sistema.cs" Line="1" Column="1" />
+      <File FileName="Web/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
+      <File FileName="Web/Views/Discos/ListaDisco.cshtml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Discografica2023" expanded="True">
+            <Node name="Dominio" expanded="True" />
+            <Node name="Web" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Discos" expanded="True">
+                  <Node name="ListaDisco.cshtml" selected="True" />
+                </Node>
+                <Node name="Musicos" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

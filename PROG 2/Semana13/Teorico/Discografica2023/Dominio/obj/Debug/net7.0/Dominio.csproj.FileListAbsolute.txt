@@ -1,0 +1,96 @@
+D:\Santiago Baillo\N2b\Practico 5\Discografica\Discografica2023\Discografica2023\Dominio\bin\Debug\net7.0\Dominio.deps.json
+D:\Santiago Baillo\N2b\Practico 5\Discografica\Discografica2023\Discografica2023\Dominio\bin\Debug\net7.0\Dominio.dll
+D:\Santiago Baillo\N2b\Practico 5\Discografica\Discografica2023\Discografica2023\Dominio\bin\Debug\net7.0\Dominio.pdb
+D:\Santiago Baillo\N2b\Practico 5\Discografica\Discografica2023\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.csproj.AssemblyReference.cache
+D:\Santiago Baillo\N2b\Practico 5\Discografica\Discografica2023\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+D:\Santiago Baillo\N2b\Practico 5\Discografica\Discografica2023\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.AssemblyInfoInputs.cache
+D:\Santiago Baillo\N2b\Practico 5\Discografica\Discografica2023\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.AssemblyInfo.cs
+D:\Santiago Baillo\N2b\Practico 5\Discografica\Discografica2023\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.csproj.CoreCompileInputs.cache
+D:\Santiago Baillo\N2b\Practico 5\Discografica\Discografica2023\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.dll
+D:\Santiago Baillo\N2b\Practico 5\Discografica\Discografica2023\Discografica2023\Dominio\obj\Debug\net7.0\refint\Dominio.dll
+D:\Santiago Baillo\N2b\Practico 5\Discografica\Discografica2023\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.pdb
+D:\Santiago Baillo\N2b\Practico 5\Discografica\Discografica2023\Discografica2023\Dominio\obj\Debug\net7.0\ref\Dominio.dll
+D:\Downloads\Discografica2023\Discografica2023\Discografica2023\Dominio\bin\Debug\net7.0\Dominio.deps.json
+D:\Downloads\Discografica2023\Discografica2023\Discografica2023\Dominio\bin\Debug\net7.0\Dominio.dll
+D:\Downloads\Discografica2023\Discografica2023\Discografica2023\Dominio\bin\Debug\net7.0\Dominio.pdb
+D:\Downloads\Discografica2023\Discografica2023\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.csproj.AssemblyReference.cache
+D:\Downloads\Discografica2023\Discografica2023\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+D:\Downloads\Discografica2023\Discografica2023\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.AssemblyInfoInputs.cache
+D:\Downloads\Discografica2023\Discografica2023\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.AssemblyInfo.cs
+D:\Downloads\Discografica2023\Discografica2023\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.csproj.CoreCompileInputs.cache
+D:\Downloads\Discografica2023\Discografica2023\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.dll
+D:\Downloads\Discografica2023\Discografica2023\Discografica2023\Dominio\obj\Debug\net7.0\refint\Dominio.dll
+D:\Downloads\Discografica2023\Discografica2023\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.pdb
+D:\Downloads\Discografica2023\Discografica2023\Discografica2023\Dominio\obj\Debug\net7.0\ref\Dominio.dll
+D:\Santiago Baillo\N2B\Semana 6\Discografica2023\Discografica2023\Discografica2023\Dominio\bin\Debug\net7.0\Dominio.deps.json
+D:\Santiago Baillo\N2B\Semana 6\Discografica2023\Discografica2023\Discografica2023\Dominio\bin\Debug\net7.0\Dominio.dll
+D:\Santiago Baillo\N2B\Semana 6\Discografica2023\Discografica2023\Discografica2023\Dominio\bin\Debug\net7.0\Dominio.pdb
+D:\Santiago Baillo\N2B\Semana 6\Discografica2023\Discografica2023\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.csproj.AssemblyReference.cache
+D:\Santiago Baillo\N2B\Semana 6\Discografica2023\Discografica2023\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+D:\Santiago Baillo\N2B\Semana 6\Discografica2023\Discografica2023\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.AssemblyInfoInputs.cache
+D:\Santiago Baillo\N2B\Semana 6\Discografica2023\Discografica2023\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.AssemblyInfo.cs
+D:\Santiago Baillo\N2B\Semana 6\Discografica2023\Discografica2023\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.csproj.CoreCompileInputs.cache
+D:\Santiago Baillo\N2B\Semana 6\Discografica2023\Discografica2023\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.dll
+D:\Santiago Baillo\N2B\Semana 6\Discografica2023\Discografica2023\Discografica2023\Dominio\obj\Debug\net7.0\refint\Dominio.dll
+D:\Santiago Baillo\N2B\Semana 6\Discografica2023\Discografica2023\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.pdb
+D:\Santiago Baillo\N2B\Semana 6\Discografica2023\Discografica2023\Discografica2023\Dominio\obj\Debug\net7.0\ref\Dominio.dll
+D:\Santiago Baillo\N2B\Semana 7\Discografica2023\Discografica2023\Discografica2023\Dominio\bin\Debug\net7.0\Dominio.deps.json
+D:\Santiago Baillo\N2B\Semana 7\Discografica2023\Discografica2023\Discografica2023\Dominio\bin\Debug\net7.0\Dominio.dll
+D:\Santiago Baillo\N2B\Semana 7\Discografica2023\Discografica2023\Discografica2023\Dominio\bin\Debug\net7.0\Dominio.pdb
+D:\Santiago Baillo\N2B\Semana 7\Discografica2023\Discografica2023\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.csproj.AssemblyReference.cache
+D:\Santiago Baillo\N2B\Semana 7\Discografica2023\Discografica2023\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+D:\Santiago Baillo\N2B\Semana 7\Discografica2023\Discografica2023\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.AssemblyInfoInputs.cache
+D:\Santiago Baillo\N2B\Semana 7\Discografica2023\Discografica2023\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.AssemblyInfo.cs
+D:\Santiago Baillo\N2B\Semana 7\Discografica2023\Discografica2023\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.csproj.CoreCompileInputs.cache
+D:\Santiago Baillo\N2B\Semana 7\Discografica2023\Discografica2023\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.dll
+D:\Santiago Baillo\N2B\Semana 7\Discografica2023\Discografica2023\Discografica2023\Dominio\obj\Debug\net7.0\refint\Dominio.dll
+D:\Santiago Baillo\N2B\Semana 7\Discografica2023\Discografica2023\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.pdb
+D:\Santiago Baillo\N2B\Semana 7\Discografica2023\Discografica2023\Discografica2023\Dominio\obj\Debug\net7.0\ref\Dominio.dll
+D:\Santiago Baillo\N2B\Semana 9\Discografica2023\Dominio\bin\Debug\net7.0\Dominio.deps.json
+D:\Santiago Baillo\N2B\Semana 9\Discografica2023\Dominio\bin\Debug\net7.0\Dominio.dll
+D:\Santiago Baillo\N2B\Semana 9\Discografica2023\Dominio\bin\Debug\net7.0\Dominio.pdb
+D:\Santiago Baillo\N2B\Semana 9\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.csproj.AssemblyReference.cache
+D:\Santiago Baillo\N2B\Semana 9\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+D:\Santiago Baillo\N2B\Semana 9\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.AssemblyInfoInputs.cache
+D:\Santiago Baillo\N2B\Semana 9\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.AssemblyInfo.cs
+D:\Santiago Baillo\N2B\Semana 9\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.csproj.CoreCompileInputs.cache
+D:\Santiago Baillo\N2B\Semana 9\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.dll
+D:\Santiago Baillo\N2B\Semana 9\Discografica2023\Dominio\obj\Debug\net7.0\refint\Dominio.dll
+D:\Santiago Baillo\N2B\Semana 9\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.pdb
+D:\Santiago Baillo\N2B\Semana 9\Discografica2023\Dominio\obj\Debug\net7.0\ref\Dominio.dll
+D:\Santiago Baillo\N2B\Semana 10\Discografica2023 MVC\Discografica2023\Dominio\bin\Debug\net7.0\Dominio.deps.json
+D:\Santiago Baillo\N2B\Semana 10\Discografica2023 MVC\Discografica2023\Dominio\bin\Debug\net7.0\Dominio.dll
+D:\Santiago Baillo\N2B\Semana 10\Discografica2023 MVC\Discografica2023\Dominio\bin\Debug\net7.0\Dominio.pdb
+D:\Santiago Baillo\N2B\Semana 10\Discografica2023 MVC\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.csproj.AssemblyReference.cache
+D:\Santiago Baillo\N2B\Semana 10\Discografica2023 MVC\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+D:\Santiago Baillo\N2B\Semana 10\Discografica2023 MVC\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.AssemblyInfoInputs.cache
+D:\Santiago Baillo\N2B\Semana 10\Discografica2023 MVC\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.AssemblyInfo.cs
+D:\Santiago Baillo\N2B\Semana 10\Discografica2023 MVC\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.csproj.CoreCompileInputs.cache
+D:\Santiago Baillo\N2B\Semana 10\Discografica2023 MVC\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.dll
+D:\Santiago Baillo\N2B\Semana 10\Discografica2023 MVC\Discografica2023\Dominio\obj\Debug\net7.0\refint\Dominio.dll
+D:\Santiago Baillo\N2B\Semana 10\Discografica2023 MVC\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.pdb
+D:\Santiago Baillo\N2B\Semana 10\Discografica2023 MVC\Discografica2023\Dominio\obj\Debug\net7.0\ref\Dominio.dll
+D:\Santiago Baillo\N2B\Semana 11\Teorico\Discografica2023 MVC\Discografica2023\Dominio\bin\Debug\net7.0\Dominio.deps.json
+D:\Santiago Baillo\N2B\Semana 11\Teorico\Discografica2023 MVC\Discografica2023\Dominio\bin\Debug\net7.0\Dominio.dll
+D:\Santiago Baillo\N2B\Semana 11\Teorico\Discografica2023 MVC\Discografica2023\Dominio\bin\Debug\net7.0\Dominio.pdb
+D:\Santiago Baillo\N2B\Semana 11\Teorico\Discografica2023 MVC\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.csproj.AssemblyReference.cache
+D:\Santiago Baillo\N2B\Semana 11\Teorico\Discografica2023 MVC\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+D:\Santiago Baillo\N2B\Semana 11\Teorico\Discografica2023 MVC\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.AssemblyInfoInputs.cache
+D:\Santiago Baillo\N2B\Semana 11\Teorico\Discografica2023 MVC\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.AssemblyInfo.cs
+D:\Santiago Baillo\N2B\Semana 11\Teorico\Discografica2023 MVC\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.csproj.CoreCompileInputs.cache
+D:\Santiago Baillo\N2B\Semana 11\Teorico\Discografica2023 MVC\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.dll
+D:\Santiago Baillo\N2B\Semana 11\Teorico\Discografica2023 MVC\Discografica2023\Dominio\obj\Debug\net7.0\refint\Dominio.dll
+D:\Santiago Baillo\N2B\Semana 11\Teorico\Discografica2023 MVC\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.pdb
+D:\Santiago Baillo\N2B\Semana 11\Teorico\Discografica2023 MVC\Discografica2023\Dominio\obj\Debug\net7.0\ref\Dominio.dll
+D:\Santiago Baillo\N2B\Semana 13\Discografica2023 MVC\Discografica2023\Dominio\bin\Debug\net7.0\Dominio.deps.json
+D:\Santiago Baillo\N2B\Semana 13\Discografica2023 MVC\Discografica2023\Dominio\bin\Debug\net7.0\Dominio.dll
+D:\Santiago Baillo\N2B\Semana 13\Discografica2023 MVC\Discografica2023\Dominio\bin\Debug\net7.0\Dominio.pdb
+D:\Santiago Baillo\N2B\Semana 13\Discografica2023 MVC\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.csproj.AssemblyReference.cache
+D:\Santiago Baillo\N2B\Semana 13\Discografica2023 MVC\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+D:\Santiago Baillo\N2B\Semana 13\Discografica2023 MVC\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.AssemblyInfoInputs.cache
+D:\Santiago Baillo\N2B\Semana 13\Discografica2023 MVC\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.AssemblyInfo.cs
+D:\Santiago Baillo\N2B\Semana 13\Discografica2023 MVC\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.csproj.CoreCompileInputs.cache
+D:\Santiago Baillo\N2B\Semana 13\Discografica2023 MVC\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.dll
+D:\Santiago Baillo\N2B\Semana 13\Discografica2023 MVC\Discografica2023\Dominio\obj\Debug\net7.0\refint\Dominio.dll
+D:\Santiago Baillo\N2B\Semana 13\Discografica2023 MVC\Discografica2023\Dominio\obj\Debug\net7.0\Dominio.pdb
+D:\Santiago Baillo\N2B\Semana 13\Discografica2023 MVC\Discografica2023\Dominio\obj\Debug\net7.0\ref\Dominio.dll

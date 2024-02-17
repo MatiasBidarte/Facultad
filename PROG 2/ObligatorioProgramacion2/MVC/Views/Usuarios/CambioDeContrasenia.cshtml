@@ -1,0 +1,31 @@
+﻿@using Dominio;
+@{
+    ViewData["Title"] = "CambioDeContraseña";
+}
+
+<h1>Cambio de contraseña</h1>
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">@ViewBag.Error</div>
+}
+
+@if (ViewBag.Exito != null)
+{
+    <div class="alert alert-success">@ViewBag.Exito</div>
+}
+
+<br />
+<table class="table">
+    <tbody>
+        <tr>
+            <td>
+                <form method="post" action="~/Usuarios/ProcesarCambioDeContrasenia">
+                    <input type="password" name="contNueva" id="nuevaContra" />
+                    <label for="nuevaContra">Nueva contraseña</label>
+                    <input type="submit" value="Cambiar" />
+                </form>
+            </td>
+        </tr>
+    </tbody>
+</table>

@@ -1,0 +1,35 @@
+﻿@using Dominio;
+
+@{
+    ViewData["Title"] = "ListarBarrios";
+}
+
+@if (ViewBag.Error != null)
+{
+        <div class="alert alert-danger">@ViewBag.Error</div>
+}
+
+@if (ViewBag.Barrios == null || ViewBag.Barrios.Count == 0)
+{
+    <div class="alert alert-danger">No hay barrios en el sistema</div>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Codigo</th>
+                <th>Nombre</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Barrio b in ViewBag.Barrios)
+            {
+                <tr>
+                    <td>@b.Codigo</td>
+                    <td>@b.Nombre</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

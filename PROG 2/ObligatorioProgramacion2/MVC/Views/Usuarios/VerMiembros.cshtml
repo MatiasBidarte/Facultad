@@ -1,0 +1,63 @@
+﻿@using Dominio;
+@{
+    ViewData["Title"] = "VerMiembros";
+}
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">
+        <p>@ViewBag.Error</p>
+    </div>
+}
+
+@if (ViewBag.Exito != null)
+{
+    <div class="alert alert-success">
+        <p>@ViewBag.Exito</p>
+    </div>
+}
+
+<h1>Lista de miembros</h1>
+
+@{
+    Sistema sistema = Sistema.Instancia;
+    Miembro yo = sistema.ObtenerMiembroPorEmail(Context.Session.GetString("email")!);
+}
+
+<br />
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Email</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Fecha de nacimiento</th>
+            <th>Es amigo</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Miembro m in ViewBag.Miembros)
+        {
+            if (!m.Equals(yo))
+            {
+                <tr>
+                    <td>@m.Email</td>
+                    <td>@m.Nombre</td>
+                    <td>@m.Apellido</td>
+                    <td>@m.FechaNacimiento.ToShortDateString()</td>
+                    <td>@(yo.EsAmigo(m) ? "si" : "no")</td>
+                    @if (!yo.EsAmigo(m)) /*HAY que deshabilitar esto cuando se mande una solicitud nueva*/
+                    {
+                        <td style="background-color: white; border: none; box-shadow: none;">
+                            <form action="~/Solicitudes/CrearSolicitud" method="post">
+                                <input type="text" name="email" value="@m.Email" hidden />
+                                <input type="submit" class="btn btn-primary" value="Enviar Solicitud de amistad" />
+                            </form>
+                        </td>
+                    }
+                </tr>
+            }
+        }
+    </tbody>
+</table>

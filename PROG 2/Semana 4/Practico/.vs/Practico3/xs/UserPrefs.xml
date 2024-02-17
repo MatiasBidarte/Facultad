@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{5C272D86-91E3-4701-9382-72E87F7A71B8}|Default">
+  <MonoDevelop.Ide.ItemProperties.Ejercicio1 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Practico3/Cliente.cs">
+    <Files>
+      <File FileName="Practico3/Program.cs" Line="13" Column="51" />
+      <File FileName="Practico3/Cliente.cs" Line="54" Column="36" />
+      <File FileName="Practico3/CuentaCorriente.cs" Line="15" Column="41" />
+      <File FileName="Practico3/TipoMoneda.cs" Line="2" Column="21" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Practico3" expanded="True">
+            <Node name="Ejercicio1" expanded="True">
+              <Node name="Cliente.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+</Properties>

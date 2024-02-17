@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{887AE435-4C38-4351-9021-0F9422DADAE3}|Default">
+  <MonoDevelop.Ide.ItemProperties.Consola PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Dominio/Cargo.cs">
+    <Files>
+      <File FileName="Dominio/Cargo.cs" Line="1" Column="1" />
+      <File FileName="Dominio/Contratado.cs" Line="1" Column="1" />
+      <File FileName="Dominio/Empleado.cs" Line="1" Column="1" />
+      <File FileName="Dominio/Sexo.cs" Line="1" Column="1" />
+      <File FileName="Dominio/Ordenamiento/OrdenCargoNombreDesc.cs" Line="1" Column="1" />
+      <File FileName="Dominio/Interfaces/IValidable.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SolucionDosProyectos" expanded="True">
+            <Node name="Dominio" expanded="True">
+              <Node name="Interfaces" expanded="True" />
+              <Node name="Ordenamiento" expanded="True" />
+              <Node name="Cargo.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

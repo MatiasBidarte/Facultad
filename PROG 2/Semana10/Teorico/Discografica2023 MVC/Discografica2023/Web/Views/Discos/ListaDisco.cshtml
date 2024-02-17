@@ -1,0 +1,46 @@
+﻿@using Dominio;
+
+@{
+    ViewData["Title"] = "Lista Disco";
+}
+
+<h1>Lista Disco</h1>
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">@ViewBag.Error</div>
+}
+
+@if (ViewBag.Discos == null || ViewBag.Discos.Count == 0)
+{
+    <div class="alert alert-danger">No se encontraron discos en el sistema</div>
+}
+else
+{
+    <br />
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Codigo</th>
+                <th>Titulo</th>
+                <th>Musico</th>
+                <th>Año</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Disco d in ViewBag.Discos)
+            {
+                <tr>
+                    <td>@d.Codigo</td>
+                    <td>@d.Titulo</td>
+                    <td>@d.Musico.Nombre</td>
+                    <td>@d.Anio</td>
+                    <td><a class="btn btn-primary" href="~/Discos/DetalleDisco?codigo=@d.Codigo">Detalle</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+

@@ -1,0 +1,56 @@
+﻿@using Dominio;
+
+@{
+    ViewData["Title"] = "ListadoCasas";
+}
+
+<h1>Listado Casas</h1>
+<br />
+
+@if(ViewBag.Error != null)
+{
+    <div class="alert alert-danger">@ViewBag.Error</div>
+}
+
+<form method="get" action="~/propiedades/filtrarCasas">
+    <input type="number" name="area" placeholder="Ingrese area"/>
+    <input class="btn btn-secondary" type="submit" value="Filtrar"/>
+</form>
+
+<a href="~/propiedades/ListadoCasas">Limpiar</a>
+
+<br />
+
+@if (ViewBag.Casas == null || ViewBag.Casas.Count == 0)
+{
+    <div class="alert alert-danger">No hay casas en el sistema</div>
+}
+else
+{
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Direccion</th>
+                <th>Frente</th>
+                <th>Fondo</th>
+                <th>Area</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Propiedad p in ViewBag.Casas)
+            {
+                Casa c = p as Casa;
+                <tr>
+                    <td>@c.Id</td>
+                    <td>@c.Direccion.Calle</td>
+                    <td>@c.MtFrente</td>
+                    <td>@c.MtFondo</td>
+                    <td>@c.CalcularArea()</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+

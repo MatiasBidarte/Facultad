@@ -1,0 +1,53 @@
+﻿@using Dominio;
+
+@{
+    ViewData["Title"] = "Casas por metraje";
+}
+
+@if (ViewBag.Error != null)
+{
+        <div class="alert alert-danger">@ViewBag.Error</div>
+}
+
+@if (ViewBag.Casas == null || ViewBag.Casas.Count == 0)
+{
+    <div class="alert alert-warning">No hay casas</div>
+}
+else
+{
+    <form class="row row-cols-lg-auto g-3 align-items-center" action="~/Propiedades/CasasMayoresA" method="get">
+        <div class="col-12">
+            <input type="number" class="form-control" placeholder="Metraje" name="area">
+        </div>
+        <div class="col-12">
+            <button class="btn btn-secondary" type="submit">Filtrar</button>
+        </div>
+        <div class="col-12">
+            <a class="btn btn-dark" href="~/Propiedades/ListarPropiedades">Reiniciar lista</a>
+        </div>
+    </form>
+
+    <br />
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Codigo</th>
+                <th>Metros Frente</th>
+                <th>Metros Fondo</th>
+                <th>Costro de contribucion</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Casa c in ViewBag.Casas)
+            {
+                <tr>
+                    <td>@c.Id</td>
+                    <td>@c.MtFrente</td>
+                    <td>@c.MtFondo</td>
+                    <td>@c.CostoContribucion</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

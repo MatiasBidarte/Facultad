@@ -1,0 +1,36 @@
+D:\Santiago Baillo\N2B\Semana 4\SolucionDosProyectos\Dominio\bin\Debug\net7.0\Dominio.deps.json
+D:\Santiago Baillo\N2B\Semana 4\SolucionDosProyectos\Dominio\bin\Debug\net7.0\Dominio.dll
+D:\Santiago Baillo\N2B\Semana 4\SolucionDosProyectos\Dominio\bin\Debug\net7.0\Dominio.pdb
+D:\Santiago Baillo\N2B\Semana 4\SolucionDosProyectos\Dominio\obj\Debug\net7.0\Dominio.csproj.AssemblyReference.cache
+D:\Santiago Baillo\N2B\Semana 4\SolucionDosProyectos\Dominio\obj\Debug\net7.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+D:\Santiago Baillo\N2B\Semana 4\SolucionDosProyectos\Dominio\obj\Debug\net7.0\Dominio.AssemblyInfoInputs.cache
+D:\Santiago Baillo\N2B\Semana 4\SolucionDosProyectos\Dominio\obj\Debug\net7.0\Dominio.AssemblyInfo.cs
+D:\Santiago Baillo\N2B\Semana 4\SolucionDosProyectos\Dominio\obj\Debug\net7.0\Dominio.csproj.CoreCompileInputs.cache
+D:\Santiago Baillo\N2B\Semana 4\SolucionDosProyectos\Dominio\obj\Debug\net7.0\Dominio.dll
+D:\Santiago Baillo\N2B\Semana 4\SolucionDosProyectos\Dominio\obj\Debug\net7.0\refint\Dominio.dll
+D:\Santiago Baillo\N2B\Semana 4\SolucionDosProyectos\Dominio\obj\Debug\net7.0\Dominio.pdb
+D:\Santiago Baillo\N2B\Semana 4\SolucionDosProyectos\Dominio\obj\Debug\net7.0\ref\Dominio.dll
+D:\Santiago Baillo\N2B\Semana 5\SolucionDosProyectos\Dominio\obj\Debug\net7.0\Dominio.csproj.AssemblyReference.cache
+D:\Santiago Baillo\N2B\Semana 5\SolucionDosProyectos\Dominio\obj\Debug\net7.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+D:\Santiago Baillo\N2B\Semana 5\SolucionDosProyectos\Dominio\obj\Debug\net7.0\Dominio.AssemblyInfoInputs.cache
+D:\Santiago Baillo\N2B\Semana 5\SolucionDosProyectos\Dominio\obj\Debug\net7.0\Dominio.AssemblyInfo.cs
+D:\Santiago Baillo\N2B\Semana 5\SolucionDosProyectos\Dominio\obj\Debug\net7.0\Dominio.csproj.CoreCompileInputs.cache
+D:\Santiago Baillo\N2B\Semana 5\SolucionDosProyectos\Dominio\bin\Debug\net7.0\Dominio.deps.json
+D:\Santiago Baillo\N2B\Semana 5\SolucionDosProyectos\Dominio\bin\Debug\net7.0\Dominio.dll
+D:\Santiago Baillo\N2B\Semana 5\SolucionDosProyectos\Dominio\bin\Debug\net7.0\Dominio.pdb
+D:\Santiago Baillo\N2B\Semana 5\SolucionDosProyectos\Dominio\obj\Debug\net7.0\Dominio.dll
+D:\Santiago Baillo\N2B\Semana 5\SolucionDosProyectos\Dominio\obj\Debug\net7.0\refint\Dominio.dll
+D:\Santiago Baillo\N2B\Semana 5\SolucionDosProyectos\Dominio\obj\Debug\net7.0\Dominio.pdb
+D:\Santiago Baillo\N2B\Semana 5\SolucionDosProyectos\Dominio\obj\Debug\net7.0\ref\Dominio.dll
+D:\Santiago Baillo\N2B\Semana 6\Codigo Herencia\SolucionDosProyectos\Dominio\bin\Debug\net7.0\Dominio.deps.json
+D:\Santiago Baillo\N2B\Semana 6\Codigo Herencia\SolucionDosProyectos\Dominio\bin\Debug\net7.0\Dominio.dll
+D:\Santiago Baillo\N2B\Semana 6\Codigo Herencia\SolucionDosProyectos\Dominio\bin\Debug\net7.0\Dominio.pdb
+D:\Santiago Baillo\N2B\Semana 6\Codigo Herencia\SolucionDosProyectos\Dominio\obj\Debug\net7.0\Dominio.csproj.AssemblyReference.cache
+D:\Santiago Baillo\N2B\Semana 6\Codigo Herencia\SolucionDosProyectos\Dominio\obj\Debug\net7.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+D:\Santiago Baillo\N2B\Semana 6\Codigo Herencia\SolucionDosProyectos\Dominio\obj\Debug\net7.0\Dominio.AssemblyInfoInputs.cache
+D:\Santiago Baillo\N2B\Semana 6\Codigo Herencia\SolucionDosProyectos\Dominio\obj\Debug\net7.0\Dominio.AssemblyInfo.cs
+D:\Santiago Baillo\N2B\Semana 6\Codigo Herencia\SolucionDosProyectos\Dominio\obj\Debug\net7.0\Dominio.csproj.CoreCompileInputs.cache
+D:\Santiago Baillo\N2B\Semana 6\Codigo Herencia\SolucionDosProyectos\Dominio\obj\Debug\net7.0\Dominio.dll
+D:\Santiago Baillo\N2B\Semana 6\Codigo Herencia\SolucionDosProyectos\Dominio\obj\Debug\net7.0\refint\Dominio.dll
+D:\Santiago Baillo\N2B\Semana 6\Codigo Herencia\SolucionDosProyectos\Dominio\obj\Debug\net7.0\Dominio.pdb
+D:\Santiago Baillo\N2B\Semana 6\Codigo Herencia\SolucionDosProyectos\Dominio\obj\Debug\net7.0\ref\Dominio.dll

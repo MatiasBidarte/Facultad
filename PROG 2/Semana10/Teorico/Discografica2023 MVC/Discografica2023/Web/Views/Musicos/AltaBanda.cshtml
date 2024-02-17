@@ -1,0 +1,39 @@
+﻿@using Dominio;
+@model Banda;
+
+@{
+    ViewData["Title"] = "AltaBanda";
+}
+
+<h1>Alta Banda</h1>
+
+@if (ViewBag.Error != null)
+{
+        <div class="alert alert-danger">@ViewBag.Error</div>
+}
+
+@if (ViewBag.Exito != null)
+{
+            <div class="alert alert-success">@ViewBag.Exito</div>
+}
+
+<br />
+
+<form action="~/Musicos/ProcesarAltaBanda" method="post">
+    <div class="form-group">
+        <label for="nombre">Nombre</label>
+        <input type="text" class="form-control" name="Nombre" placeholder="Ingrese nombre" value="@Model.Nombre">
+    </div>
+
+    <div class="form-group">
+        <label for="pais">Pais</label>
+        <input type="text" class="form-control" name="Pais" placeholder="Ingrese país" value="@Model.Pais">
+    </div>
+
+    <div class="form-group">
+        <label for="descuento">Integrantes</label>
+        <input type="number" class="form-control" name="CantIntegrantes" value="@Model.CantIntegrantes">
+    </div>
+    <br />
+    <input type="submit" class="btn btn-secondary" value="Crear" />
+</form>

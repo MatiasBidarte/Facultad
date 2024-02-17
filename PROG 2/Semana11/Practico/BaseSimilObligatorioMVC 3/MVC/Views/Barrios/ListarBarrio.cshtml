@@ -1,0 +1,16 @@
+﻿@using Dominio;
+
+@{
+    ViewData["Title"] = "ListarBarrio";
+}
+
+@if (ViewBag.Barrio == null)
+{
+    <div class="alert alert-danger">Barrio nulo</div>
+}
+else
+{
+    <h1>Detalle del Barrio @ViewBag.Barrio.Codigo</h1>
+    <p><strong>Codigo:</strong> @ViewBag.Barrio.Codigo</p>
+    <p><strong>Nombre:</strong> @ViewBag.Barrio.Nombre</p>
+}

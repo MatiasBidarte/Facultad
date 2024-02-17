@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewData["Title"] = "DetalleBarrio";
+}
+
+<h1>Detalle Barrio</h1>
+
+@if(ViewBag.Barrio == null)
+{
+    <div class="alert alert-danger">Barrio nulo</div>
+}
+else
+{
+    <p>@ViewBag.Barrio.Codigo</p>
+    <p>@ViewBag.Barrio.Nombre</p>
+}
+

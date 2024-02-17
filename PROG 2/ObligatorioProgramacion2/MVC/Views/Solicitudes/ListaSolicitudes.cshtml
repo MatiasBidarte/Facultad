@@ -1,0 +1,57 @@
+﻿@using Dominio;
+@{
+    ViewData["Title"] = "ListaSolicitudes";
+}
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">
+        <p>@ViewBag.Error</p>
+    </div>
+}
+
+@if (ViewBag.Exito != null)
+{
+    <div class="alert alert-success">
+        <p>@ViewBag.Exito</p>
+    </div>
+}
+
+<h1>Lista de Solicitudes</h1>
+
+<br />
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Miembro Solicitante</th>
+            <th>Miembro Solicitado</th>
+            <th>Estado</th>
+            <th>Fecha de creación</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Invitacion i in ViewBag.Solicitudes)
+        {
+            <tr>
+                <td>@i.MiembroSolicitante.Nombre @i.MiembroSolicitante.Apellido</td>
+                <td>@i.MiembroSolicitado.Nombre @i.MiembroSolicitado.Apellido</td>
+                <td>@i.Estado</td>
+                <td>@i.Fecha.ToShortDateString()</td>
+                @if (i.Estado == Estado.PENDIENTE_APROBACION)
+                {
+                    <td style="display:flex; flex-direction:column; gap:5px;">
+                        <form method="post" action="~/Solicitudes/AceptarSolicitud">
+                            <input type="number" name="id" value="@i.ID" hidden />
+                            <input class="btn btn-success" type="submit" value="Aceptar" />
+                        </form>
+                        <form method="post" action="~/Solicitudes/RechazarSolicitud">
+                            <input type="number" name="id" value="@i.ID" hidden />
+                            <input class="btn btn-danger" type="submit" value="Rechazar" />
+                        </form>
+                    </td>
+                }
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,11 @@
+C:\Users\Maty Pc\Desktop\cosas de la facu\PROG 2 ORT\Discrografica\Dominio\bin\Debug\net7.0\Dominio.deps.json
+C:\Users\Maty Pc\Desktop\cosas de la facu\PROG 2 ORT\Discrografica\Dominio\bin\Debug\net7.0\Dominio.dll
+C:\Users\Maty Pc\Desktop\cosas de la facu\PROG 2 ORT\Discrografica\Dominio\bin\Debug\net7.0\Dominio.pdb
+C:\Users\Maty Pc\Desktop\cosas de la facu\PROG 2 ORT\Discrografica\Dominio\obj\Debug\net7.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Maty Pc\Desktop\cosas de la facu\PROG 2 ORT\Discrografica\Dominio\obj\Debug\net7.0\Dominio.AssemblyInfoInputs.cache
+C:\Users\Maty Pc\Desktop\cosas de la facu\PROG 2 ORT\Discrografica\Dominio\obj\Debug\net7.0\Dominio.AssemblyInfo.cs
+C:\Users\Maty Pc\Desktop\cosas de la facu\PROG 2 ORT\Discrografica\Dominio\obj\Debug\net7.0\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Maty Pc\Desktop\cosas de la facu\PROG 2 ORT\Discrografica\Dominio\obj\Debug\net7.0\Dominio.dll
+C:\Users\Maty Pc\Desktop\cosas de la facu\PROG 2 ORT\Discrografica\Dominio\obj\Debug\net7.0\refint\Dominio.dll
+C:\Users\Maty Pc\Desktop\cosas de la facu\PROG 2 ORT\Discrografica\Dominio\obj\Debug\net7.0\Dominio.pdb
+C:\Users\Maty Pc\Desktop\cosas de la facu\PROG 2 ORT\Discrografica\Dominio\obj\Debug\net7.0\ref\Dominio.dll

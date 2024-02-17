@@ -1,0 +1,36 @@
+/Users/nelizabelar/Downloads/BaseSimilObligatorioMVC 3/Dominio/bin/Debug/net7.0/Dominio.deps.json
+/Users/nelizabelar/Downloads/BaseSimilObligatorioMVC 3/Dominio/bin/Debug/net7.0/Dominio.dll
+/Users/nelizabelar/Downloads/BaseSimilObligatorioMVC 3/Dominio/bin/Debug/net7.0/Dominio.pdb
+/Users/nelizabelar/Downloads/BaseSimilObligatorioMVC 3/Dominio/obj/Debug/net7.0/Dominio.csproj.AssemblyReference.cache
+/Users/nelizabelar/Downloads/BaseSimilObligatorioMVC 3/Dominio/obj/Debug/net7.0/Dominio.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nelizabelar/Downloads/BaseSimilObligatorioMVC 3/Dominio/obj/Debug/net7.0/Dominio.AssemblyInfoInputs.cache
+/Users/nelizabelar/Downloads/BaseSimilObligatorioMVC 3/Dominio/obj/Debug/net7.0/Dominio.AssemblyInfo.cs
+/Users/nelizabelar/Downloads/BaseSimilObligatorioMVC 3/Dominio/obj/Debug/net7.0/Dominio.csproj.CoreCompileInputs.cache
+/Users/nelizabelar/Downloads/BaseSimilObligatorioMVC 3/Dominio/obj/Debug/net7.0/Dominio.dll
+/Users/nelizabelar/Downloads/BaseSimilObligatorioMVC 3/Dominio/obj/Debug/net7.0/refint/Dominio.dll
+/Users/nelizabelar/Downloads/BaseSimilObligatorioMVC 3/Dominio/obj/Debug/net7.0/Dominio.pdb
+/Users/nelizabelar/Downloads/BaseSimilObligatorioMVC 3/Dominio/obj/Debug/net7.0/ref/Dominio.dll
+D:/Santiago Baillo/N2B/Semana 11/Dominio para MVC/BaseSimilObligatorioMVC 3/Dominio/bin/Debug/net7.0/Dominio.deps.json
+D:/Santiago Baillo/N2B/Semana 11/Dominio para MVC/BaseSimilObligatorioMVC 3/Dominio/bin/Debug/net7.0/Dominio.dll
+D:/Santiago Baillo/N2B/Semana 11/Dominio para MVC/BaseSimilObligatorioMVC 3/Dominio/bin/Debug/net7.0/Dominio.pdb
+D:/Santiago Baillo/N2B/Semana 11/Dominio para MVC/BaseSimilObligatorioMVC 3/Dominio/obj/Debug/net7.0/Dominio.csproj.AssemblyReference.cache
+D:/Santiago Baillo/N2B/Semana 11/Dominio para MVC/BaseSimilObligatorioMVC 3/Dominio/obj/Debug/net7.0/Dominio.GeneratedMSBuildEditorConfig.editorconfig
+D:/Santiago Baillo/N2B/Semana 11/Dominio para MVC/BaseSimilObligatorioMVC 3/Dominio/obj/Debug/net7.0/Dominio.AssemblyInfoInputs.cache
+D:/Santiago Baillo/N2B/Semana 11/Dominio para MVC/BaseSimilObligatorioMVC 3/Dominio/obj/Debug/net7.0/Dominio.AssemblyInfo.cs
+D:/Santiago Baillo/N2B/Semana 11/Dominio para MVC/BaseSimilObligatorioMVC 3/Dominio/obj/Debug/net7.0/Dominio.csproj.CoreCompileInputs.cache
+D:/Santiago Baillo/N2B/Semana 11/Dominio para MVC/BaseSimilObligatorioMVC 3/Dominio/obj/Debug/net7.0/Dominio.dll
+D:/Santiago Baillo/N2B/Semana 11/Dominio para MVC/BaseSimilObligatorioMVC 3/Dominio/obj/Debug/net7.0/refint/Dominio.dll
+D:/Santiago Baillo/N2B/Semana 11/Dominio para MVC/BaseSimilObligatorioMVC 3/Dominio/obj/Debug/net7.0/Dominio.pdb
+D:/Santiago Baillo/N2B/Semana 11/Dominio para MVC/BaseSimilObligatorioMVC 3/Dominio/obj/Debug/net7.0/ref/Dominio.dll
+/Users/matiasbidarte/Desktop/facu.nosync/PROG 2/Semana12/Practico/MVC/BaseSimilObligatorioMVC 3/Dominio/bin/Debug/net7.0/Dominio.deps.json
+/Users/matiasbidarte/Desktop/facu.nosync/PROG 2/Semana12/Practico/MVC/BaseSimilObligatorioMVC 3/Dominio/bin/Debug/net7.0/Dominio.dll
+/Users/matiasbidarte/Desktop/facu.nosync/PROG 2/Semana12/Practico/MVC/BaseSimilObligatorioMVC 3/Dominio/bin/Debug/net7.0/Dominio.pdb
+/Users/matiasbidarte/Desktop/facu.nosync/PROG 2/Semana12/Practico/MVC/BaseSimilObligatorioMVC 3/Dominio/obj/Debug/net7.0/Dominio.csproj.AssemblyReference.cache
+/Users/matiasbidarte/Desktop/facu.nosync/PROG 2/Semana12/Practico/MVC/BaseSimilObligatorioMVC 3/Dominio/obj/Debug/net7.0/Dominio.GeneratedMSBuildEditorConfig.editorconfig
+/Users/matiasbidarte/Desktop/facu.nosync/PROG 2/Semana12/Practico/MVC/BaseSimilObligatorioMVC 3/Dominio/obj/Debug/net7.0/Dominio.AssemblyInfoInputs.cache
+/Users/matiasbidarte/Desktop/facu.nosync/PROG 2/Semana12/Practico/MVC/BaseSimilObligatorioMVC 3/Dominio/obj/Debug/net7.0/Dominio.AssemblyInfo.cs
+/Users/matiasbidarte/Desktop/facu.nosync/PROG 2/Semana12/Practico/MVC/BaseSimilObligatorioMVC 3/Dominio/obj/Debug/net7.0/Dominio.csproj.CoreCompileInputs.cache
+/Users/matiasbidarte/Desktop/facu.nosync/PROG 2/Semana12/Practico/MVC/BaseSimilObligatorioMVC 3/Dominio/obj/Debug/net7.0/Dominio.dll
+/Users/matiasbidarte/Desktop/facu.nosync/PROG 2/Semana12/Practico/MVC/BaseSimilObligatorioMVC 3/Dominio/obj/Debug/net7.0/refint/Dominio.dll
+/Users/matiasbidarte/Desktop/facu.nosync/PROG 2/Semana12/Practico/MVC/BaseSimilObligatorioMVC 3/Dominio/obj/Debug/net7.0/Dominio.pdb
+/Users/matiasbidarte/Desktop/facu.nosync/PROG 2/Semana12/Practico/MVC/BaseSimilObligatorioMVC 3/Dominio/obj/Debug/net7.0/ref/Dominio.dll

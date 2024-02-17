@@ -1,0 +1,97 @@
+C:\Users\luisd\OneDrive\Desktop\ORT\p2\Dominio\Dominio\bin\Debug\netcoreapp3.1\Dominio.deps.json
+C:\Users\luisd\OneDrive\Desktop\ORT\p2\Dominio\Dominio\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\luisd\OneDrive\Desktop\ORT\p2\Dominio\Dominio\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\luisd\OneDrive\Desktop\ORT\p2\Dominio\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.AssemblyReference.cache
+C:\Users\luisd\OneDrive\Desktop\ORT\p2\Dominio\Dominio\obj\Debug\netcoreapp3.1\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luisd\OneDrive\Desktop\ORT\p2\Dominio\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfoInputs.cache
+C:\Users\luisd\OneDrive\Desktop\ORT\p2\Dominio\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfo.cs
+C:\Users\luisd\OneDrive\Desktop\ORT\p2\Dominio\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\luisd\OneDrive\Desktop\ORT\p2\Dominio\Dominio\obj\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\luisd\OneDrive\Desktop\ORT\p2\Dominio\Dominio\obj\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\luisd\OneDrive\Desktop\ORT\p2\dominioMVC\Dominio\bin\Debug\netcoreapp3.1\Dominio.deps.json
+C:\Users\luisd\OneDrive\Desktop\ORT\p2\dominioMVC\Dominio\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\luisd\OneDrive\Desktop\ORT\p2\dominioMVC\Dominio\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\luisd\OneDrive\Desktop\ORT\p2\dominioMVC\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.AssemblyReference.cache
+C:\Users\luisd\OneDrive\Desktop\ORT\p2\dominioMVC\Dominio\obj\Debug\netcoreapp3.1\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luisd\OneDrive\Desktop\ORT\p2\dominioMVC\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfoInputs.cache
+C:\Users\luisd\OneDrive\Desktop\ORT\p2\dominioMVC\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfo.cs
+C:\Users\luisd\OneDrive\Desktop\ORT\p2\dominioMVC\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\luisd\OneDrive\Desktop\ORT\p2\dominioMVC\Dominio\obj\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\luisd\OneDrive\Desktop\ORT\p2\dominioMVC\Dominio\obj\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\luisd\OneDrive\Desktop\capacitacionP2\EjemploSimilObligatorio\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.AssemblyReference.cache
+C:\Users\luisd\OneDrive\Desktop\capacitacionP2\EjemploSimilObligatorio\Dominio\obj\Debug\netcoreapp3.1\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luisd\OneDrive\Desktop\capacitacionP2\EjemploSimilObligatorio\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfoInputs.cache
+C:\Users\luisd\OneDrive\Desktop\capacitacionP2\EjemploSimilObligatorio\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfo.cs
+C:\Users\luisd\OneDrive\Desktop\capacitacionP2\EjemploSimilObligatorio\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\luisd\OneDrive\Desktop\capacitacionP2\EjemploSimilObligatorio\Dominio\obj\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\luisd\OneDrive\Desktop\capacitacionP2\EjemploSimilObligatorio\Dominio\obj\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\luisd\OneDrive\Desktop\capacitacionP2\EjemploSimilObligatorio\Dominio\bin\Debug\netcoreapp3.1\Dominio.deps.json
+C:\Users\luisd\OneDrive\Desktop\capacitacionP2\EjemploSimilObligatorio\Dominio\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\luisd\OneDrive\Desktop\capacitacionP2\EjemploSimilObligatorio\Dominio\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\deSosa\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\TrabajoCoordAcademico\Materias\P2\CapacitacionNuevosDocentes\BaseEjemploSimilObligatorio\EjemploSimilObligatorio\Dominio\bin\Debug\netcoreapp3.1\Dominio.deps.json
+C:\Users\deSosa\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\TrabajoCoordAcademico\Materias\P2\CapacitacionNuevosDocentes\BaseEjemploSimilObligatorio\EjemploSimilObligatorio\Dominio\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\deSosa\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\TrabajoCoordAcademico\Materias\P2\CapacitacionNuevosDocentes\BaseEjemploSimilObligatorio\EjemploSimilObligatorio\Dominio\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\deSosa\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\TrabajoCoordAcademico\Materias\P2\CapacitacionNuevosDocentes\BaseEjemploSimilObligatorio\EjemploSimilObligatorio\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.AssemblyReference.cache
+C:\Users\deSosa\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\TrabajoCoordAcademico\Materias\P2\CapacitacionNuevosDocentes\BaseEjemploSimilObligatorio\EjemploSimilObligatorio\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfoInputs.cache
+C:\Users\deSosa\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\TrabajoCoordAcademico\Materias\P2\CapacitacionNuevosDocentes\BaseEjemploSimilObligatorio\EjemploSimilObligatorio\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfo.cs
+C:\Users\deSosa\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\TrabajoCoordAcademico\Materias\P2\CapacitacionNuevosDocentes\BaseEjemploSimilObligatorio\EjemploSimilObligatorio\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\deSosa\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\TrabajoCoordAcademico\Materias\P2\CapacitacionNuevosDocentes\BaseEjemploSimilObligatorio\EjemploSimilObligatorio\Dominio\obj\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\deSosa\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\TrabajoCoordAcademico\Materias\P2\CapacitacionNuevosDocentes\BaseEjemploSimilObligatorio\EjemploSimilObligatorio\Dominio\obj\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\luisd\OneDrive\Desktop\capacitacionP2\EjemploSimilObligatorioConsola\Dominio\bin\Debug\netcoreapp3.1\Dominio.deps.json
+C:\Users\luisd\OneDrive\Desktop\capacitacionP2\EjemploSimilObligatorioConsola\Dominio\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\luisd\OneDrive\Desktop\capacitacionP2\EjemploSimilObligatorioConsola\Dominio\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\luisd\OneDrive\Desktop\capacitacionP2\EjemploSimilObligatorioConsola\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.AssemblyReference.cache
+C:\Users\luisd\OneDrive\Desktop\capacitacionP2\EjemploSimilObligatorioConsola\Dominio\obj\Debug\netcoreapp3.1\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luisd\OneDrive\Desktop\capacitacionP2\EjemploSimilObligatorioConsola\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfoInputs.cache
+C:\Users\luisd\OneDrive\Desktop\capacitacionP2\EjemploSimilObligatorioConsola\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfo.cs
+C:\Users\luisd\OneDrive\Desktop\capacitacionP2\EjemploSimilObligatorioConsola\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\luisd\OneDrive\Desktop\capacitacionP2\EjemploSimilObligatorioConsola\Dominio\obj\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\luisd\OneDrive\Desktop\capacitacionP2\EjemploSimilObligatorioConsola\Dominio\obj\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\deSosa\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\TrabajoCoordAcademico\Materias\P2\CapacitacionNuevosDocentes\CodigoEjemploSimilObligatorio\SolucionSimilObligatorioConsola\SolucionSimilObligatorioConsola\Dominio\bin\Debug\netcoreapp3.1\Dominio.deps.json
+C:\Users\deSosa\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\TrabajoCoordAcademico\Materias\P2\CapacitacionNuevosDocentes\CodigoEjemploSimilObligatorio\SolucionSimilObligatorioConsola\SolucionSimilObligatorioConsola\Dominio\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\deSosa\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\TrabajoCoordAcademico\Materias\P2\CapacitacionNuevosDocentes\CodigoEjemploSimilObligatorio\SolucionSimilObligatorioConsola\SolucionSimilObligatorioConsola\Dominio\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\deSosa\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\TrabajoCoordAcademico\Materias\P2\CapacitacionNuevosDocentes\CodigoEjemploSimilObligatorio\SolucionSimilObligatorioConsola\SolucionSimilObligatorioConsola\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.AssemblyReference.cache
+C:\Users\deSosa\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\TrabajoCoordAcademico\Materias\P2\CapacitacionNuevosDocentes\CodigoEjemploSimilObligatorio\SolucionSimilObligatorioConsola\SolucionSimilObligatorioConsola\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfoInputs.cache
+C:\Users\deSosa\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\TrabajoCoordAcademico\Materias\P2\CapacitacionNuevosDocentes\CodigoEjemploSimilObligatorio\SolucionSimilObligatorioConsola\SolucionSimilObligatorioConsola\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfo.cs
+C:\Users\deSosa\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\TrabajoCoordAcademico\Materias\P2\CapacitacionNuevosDocentes\CodigoEjemploSimilObligatorio\SolucionSimilObligatorioConsola\SolucionSimilObligatorioConsola\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\deSosa\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\TrabajoCoordAcademico\Materias\P2\CapacitacionNuevosDocentes\CodigoEjemploSimilObligatorio\SolucionSimilObligatorioConsola\SolucionSimilObligatorioConsola\Dominio\obj\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\deSosa\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\TrabajoCoordAcademico\Materias\P2\CapacitacionNuevosDocentes\CodigoEjemploSimilObligatorio\SolucionSimilObligatorioConsola\SolucionSimilObligatorioConsola\Dominio\obj\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\deSosa\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\TrabajoCoordAcademico\Materias\P2\SolucionSimilObligatorioConsola\SolucionSimilObligatorioConsola\Dominio\bin\Debug\netcoreapp3.1\Dominio.deps.json
+C:\Users\deSosa\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\TrabajoCoordAcademico\Materias\P2\SolucionSimilObligatorioConsola\SolucionSimilObligatorioConsola\Dominio\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\deSosa\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\TrabajoCoordAcademico\Materias\P2\SolucionSimilObligatorioConsola\SolucionSimilObligatorioConsola\Dominio\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\deSosa\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\TrabajoCoordAcademico\Materias\P2\SolucionSimilObligatorioConsola\SolucionSimilObligatorioConsola\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.AssemblyReference.cache
+C:\Users\deSosa\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\TrabajoCoordAcademico\Materias\P2\SolucionSimilObligatorioConsola\SolucionSimilObligatorioConsola\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfoInputs.cache
+C:\Users\deSosa\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\TrabajoCoordAcademico\Materias\P2\SolucionSimilObligatorioConsola\SolucionSimilObligatorioConsola\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfo.cs
+C:\Users\deSosa\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\TrabajoCoordAcademico\Materias\P2\SolucionSimilObligatorioConsola\SolucionSimilObligatorioConsola\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\deSosa\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\TrabajoCoordAcademico\Materias\P2\SolucionSimilObligatorioConsola\SolucionSimilObligatorioConsola\Dominio\obj\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\deSosa\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\TrabajoCoordAcademico\Materias\P2\SolucionSimilObligatorioConsola\SolucionSimilObligatorioConsola\Dominio\obj\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\luisd\OneDrive\Desktop\capacitacionP2\SolucionSimilObligatorioConsola\SolucionSimilObligatorioConsola\SolucionSimilObligatorioConsola\Dominio\bin\Debug\netcoreapp3.1\Dominio.deps.json
+C:\Users\luisd\OneDrive\Desktop\capacitacionP2\SolucionSimilObligatorioConsola\SolucionSimilObligatorioConsola\SolucionSimilObligatorioConsola\Dominio\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\luisd\OneDrive\Desktop\capacitacionP2\SolucionSimilObligatorioConsola\SolucionSimilObligatorioConsola\SolucionSimilObligatorioConsola\Dominio\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\luisd\OneDrive\Desktop\capacitacionP2\SolucionSimilObligatorioConsola\SolucionSimilObligatorioConsola\SolucionSimilObligatorioConsola\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.AssemblyReference.cache
+C:\Users\luisd\OneDrive\Desktop\capacitacionP2\SolucionSimilObligatorioConsola\SolucionSimilObligatorioConsola\SolucionSimilObligatorioConsola\Dominio\obj\Debug\netcoreapp3.1\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luisd\OneDrive\Desktop\capacitacionP2\SolucionSimilObligatorioConsola\SolucionSimilObligatorioConsola\SolucionSimilObligatorioConsola\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfoInputs.cache
+C:\Users\luisd\OneDrive\Desktop\capacitacionP2\SolucionSimilObligatorioConsola\SolucionSimilObligatorioConsola\SolucionSimilObligatorioConsola\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfo.cs
+C:\Users\luisd\OneDrive\Desktop\capacitacionP2\SolucionSimilObligatorioConsola\SolucionSimilObligatorioConsola\SolucionSimilObligatorioConsola\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\luisd\OneDrive\Desktop\capacitacionP2\SolucionSimilObligatorioConsola\SolucionSimilObligatorioConsola\SolucionSimilObligatorioConsola\Dominio\obj\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\luisd\OneDrive\Desktop\capacitacionP2\SolucionSimilObligatorioConsola\SolucionSimilObligatorioConsola\SolucionSimilObligatorioConsola\Dominio\obj\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\luisd\OneDrive\Desktop\capacitacionP2\SolucionSimilObligatorioConsola\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.AssemblyReference.cache
+C:\Users\luisd\OneDrive\Desktop\capacitacionP2\SolucionSimilObligatorioConsola\Dominio\obj\Debug\netcoreapp3.1\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luisd\OneDrive\Desktop\capacitacionP2\SolucionSimilObligatorioConsola\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfoInputs.cache
+C:\Users\luisd\OneDrive\Desktop\capacitacionP2\SolucionSimilObligatorioConsola\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfo.cs
+C:\Users\luisd\OneDrive\Desktop\capacitacionP2\SolucionSimilObligatorioConsola\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\luisd\OneDrive\Desktop\capacitacionP2\SolucionSimilObligatorioConsola\Dominio\obj\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\luisd\OneDrive\Desktop\capacitacionP2\SolucionSimilObligatorioConsola\Dominio\obj\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\luisd\OneDrive\Desktop\capacitacionP2\SolucionSimilObligatorioConsola\Dominio\bin\Debug\netcoreapp3.1\Dominio.deps.json
+C:\Users\luisd\OneDrive\Desktop\capacitacionP2\SolucionSimilObligatorioConsola\Dominio\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\luisd\OneDrive\Desktop\capacitacionP2\SolucionSimilObligatorioConsola\Dominio\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\luisd\OneDrive\Desktop\capacitacionP2\SolucionSimilObligatorioMVC\Dominio\bin\Debug\netcoreapp3.1\Dominio.deps.json
+C:\Users\luisd\OneDrive\Desktop\capacitacionP2\SolucionSimilObligatorioMVC\Dominio\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\luisd\OneDrive\Desktop\capacitacionP2\SolucionSimilObligatorioMVC\Dominio\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\luisd\OneDrive\Desktop\capacitacionP2\SolucionSimilObligatorioMVC\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.AssemblyReference.cache
+C:\Users\luisd\OneDrive\Desktop\capacitacionP2\SolucionSimilObligatorioMVC\Dominio\obj\Debug\netcoreapp3.1\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luisd\OneDrive\Desktop\capacitacionP2\SolucionSimilObligatorioMVC\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfoInputs.cache
+C:\Users\luisd\OneDrive\Desktop\capacitacionP2\SolucionSimilObligatorioMVC\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfo.cs
+C:\Users\luisd\OneDrive\Desktop\capacitacionP2\SolucionSimilObligatorioMVC\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\luisd\OneDrive\Desktop\capacitacionP2\SolucionSimilObligatorioMVC\Dominio\obj\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\luisd\OneDrive\Desktop\capacitacionP2\SolucionSimilObligatorioMVC\Dominio\obj\Debug\netcoreapp3.1\Dominio.pdb

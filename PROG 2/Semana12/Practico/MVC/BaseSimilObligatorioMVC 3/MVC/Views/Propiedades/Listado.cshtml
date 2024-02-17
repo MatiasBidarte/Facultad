@@ -1,0 +1,38 @@
+﻿@using Dominio;
+
+@{
+    ViewData["Title"] = "Listado";
+}
+
+<h1>Listado</h1>
+
+@if (ViewBag.Propiedades == null || ViewBag.Propiedades.Count == 0)
+{
+    <div class="alert alert-danger">No hay propiedades en el sistema</div>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Direccion</th>
+                <th>Fecha</th>
+                <th>Tipo</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Propiedad p in ViewBag.Propiedades)
+            {
+                <tr>
+                    <td>@p.Id</td>
+                    <td>@p.Direccion.Calle</td>
+                    <td>@p.FechaConstruccion.ToShortDateString()</td>
+                    <td>@p.TipoPropiedad()</td>
+                    <td><a class="btn btn-secondary" href="~/barrios/DetalleBarrio/@p.Direccion.Barrio.Codigo">Ver barrio</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

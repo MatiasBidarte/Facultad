@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewData["Title"] = "AltaBarrio";
+}
+
+<h1>Alta Barrio</h1>
+
+<br />
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">@ViewBag.Error</div>
+}
+
+@if (ViewBag.Exito != null)
+{
+    <div class="alert alert-success">@ViewBag.Exito</div>
+}
+
+<br />
+
+<form action="~/Barrios/ProcesarAltaBarrio" method="post">
+    <div class="form-group">
+        <label for="codigo">Codigo</label>
+        <input type="number" class="form-control" id="codigo" name="codigo" placeholder="Ingrese codigo" value="@ViewBag.Codigo">
+    </div>
+
+    <div class="form-group">
+        <label for="nombre">Nombre</label>
+        <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ingrese nombre" value="@ViewBag.Nombre">
+    </div>
+
+    <br />
+    <input type="submit" class="btn btn-secondary" value="Crear" />
+</form>
+

@@ -1,0 +1,53 @@
+﻿<Properties StartupConfiguration="{9746B601-D07B-43EA-B6EC-BB8C0FA7A1C0}|http">
+  <MonoDevelop.Ide.ItemProperties.Consola PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.MVC PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/matiasbidarte/Desktop/facu.nosync/PROG 2/ObligatorioProgramacion2/Dominio/Miembro.cs" line="119" column="1" />
+      <Breakpoint file="/Users/matiasbidarte/Desktop/facu.nosync/PROG 2/ObligatorioProgramacion2/MVC/Controllers/PublicacionesController.cs" line="76" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../Dominio/Sistema.cs">
+    <Files>
+      <File FileName="../MVC/Views/Usuarios/VerMiembros.cshtml" Line="17" Column="11" />
+      <File FileName="../MVC/Views/Usuarios/CambioDeContraseña.cshtml" Line="16" Column="2" />
+      <File FileName="../MVC/Controllers/UsuariosController.cs" Line="29" Column="1" />
+      <File FileName="../MVC/Views/Usuarios/Login.cshtml" Line="1" Column="1" />
+      <File FileName="../Dominio/Sistema.cs" Line="372" Column="31" />
+      <File FileName="../Dominio/Miembro.cs" Line="36" Column="43" />
+      <File FileName="../MVC/Views/Shared/_Layout.cshtml" Line="66" Column="160" />
+      <File FileName="../MVC/Views/Publicaciones/ListaPostsParaMiembro.cshtml" Line="26" Column="5" />
+      <File FileName="../MVC/Controllers/PublicacionesController.cs" Line="76" Column="1" />
+      <File FileName="../MVC/Program.cs" Line="31" Column="1" />
+      <File FileName="../Dominio/Usuario.cs" Line="1" Column="1" />
+      <File FileName="../MVC/Views/Usuarios/Register.cshtml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SocialNetwork" expanded="True">
+            <Node name="Consola" expanded="True" />
+            <Node name="Dominio" expanded="True">
+              <Node name="Sistema.cs" selected="True" />
+            </Node>
+            <Node name="MVC" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Publicaciones" expanded="True" />
+                <Node name="Shared" expanded="True" />
+                <Node name="Solicitudes" expanded="True" />
+                <Node name="Usuarios" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="Images" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

@@ -1,0 +1,12 @@
+/Users/matiasvidarte/Desktop/facu/PROG 2/Semana 5/Practico/Ejercicio/Dominio/bin/Debug/net7.0/Dominio.deps.json
+/Users/matiasvidarte/Desktop/facu/PROG 2/Semana 5/Practico/Ejercicio/Dominio/bin/Debug/net7.0/Dominio.dll
+/Users/matiasvidarte/Desktop/facu/PROG 2/Semana 5/Practico/Ejercicio/Dominio/bin/Debug/net7.0/Dominio.pdb
+/Users/matiasvidarte/Desktop/facu/PROG 2/Semana 5/Practico/Ejercicio/Dominio/obj/Debug/net7.0/Dominio.csproj.AssemblyReference.cache
+/Users/matiasvidarte/Desktop/facu/PROG 2/Semana 5/Practico/Ejercicio/Dominio/obj/Debug/net7.0/Dominio.GeneratedMSBuildEditorConfig.editorconfig
+/Users/matiasvidarte/Desktop/facu/PROG 2/Semana 5/Practico/Ejercicio/Dominio/obj/Debug/net7.0/Dominio.AssemblyInfoInputs.cache
+/Users/matiasvidarte/Desktop/facu/PROG 2/Semana 5/Practico/Ejercicio/Dominio/obj/Debug/net7.0/Dominio.AssemblyInfo.cs
+/Users/matiasvidarte/Desktop/facu/PROG 2/Semana 5/Practico/Ejercicio/Dominio/obj/Debug/net7.0/Dominio.csproj.CoreCompileInputs.cache
+/Users/matiasvidarte/Desktop/facu/PROG 2/Semana 5/Practico/Ejercicio/Dominio/obj/Debug/net7.0/Dominio.dll
+/Users/matiasvidarte/Desktop/facu/PROG 2/Semana 5/Practico/Ejercicio/Dominio/obj/Debug/net7.0/refint/Dominio.dll
+/Users/matiasvidarte/Desktop/facu/PROG 2/Semana 5/Practico/Ejercicio/Dominio/obj/Debug/net7.0/Dominio.pdb
+/Users/matiasvidarte/Desktop/facu/PROG 2/Semana 5/Practico/Ejercicio/Dominio/obj/Debug/net7.0/ref/Dominio.dll

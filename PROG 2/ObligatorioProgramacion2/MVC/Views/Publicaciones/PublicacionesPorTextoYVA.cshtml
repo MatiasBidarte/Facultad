@@ -1,0 +1,58 @@
+﻿@using Dominio;
+@{
+    ViewData["Title"] = "PublicacionesPorTextoYVA";
+}
+
+<h1>Publicaciones por texto y VA</h1>
+
+<form class="row row-cols-lg-auto g-3 align-items-center" action="~/Publicaciones/PublicacionesPorTextoYVA" method="get">
+    <div class="col-12">
+        <input type="text" class="form-control" placeholder="Ingrese texto a filtrar" name="texto">
+    </div>
+    <div class="col-12">
+        <input type="number" class="form-control" placeholder="Ingrese valor de VA" name="va">
+    </div>
+    <div class="col-12">
+        <button class="btn btn-secondary" type="submit">Filtrar</button>
+    </div>
+    <div class="col-12">
+        <a class="btn btn-dark" href="~/Publicaciones/listaDePublicacionesParaFiltrar">Reiniciar lista</a>
+    </div>
+</form>
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">@ViewBag.Error</div>
+}
+else if (ViewBag.Publicaciones == null || ViewBag.Publicaciones.Count == 0)
+{
+    <div class="alert alert-info">No se encontraron publicaciones</div>
+}
+
+<br />
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Titulo</th>
+            <th>Creador</th>
+            <th>Contenido</th>
+            <th>Valor de aceptación</th>
+            <th>Tipo</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if(ViewBag.Publicaciones != null)
+        {
+            @foreach (Publicacion publi in ViewBag.Publicaciones)
+            {
+                <tr>
+                    <td>@publi.Titulo</td>
+                    <td>@publi.Creador.Email</td>
+                    <td>@publi.Contenido</td>
+                    <td>@publi.CalcularVA()</td>
+                    <td>@publi.Tipo()</td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

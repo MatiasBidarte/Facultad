@@ -1,0 +1,15 @@
+/Users/matiasvidarte/Desktop/facu/PROG 2/Practico3/Practico3/bin/Debug/net7.0/Ejercicio1
+/Users/matiasvidarte/Desktop/facu/PROG 2/Practico3/Practico3/bin/Debug/net7.0/Ejercicio1.deps.json
+/Users/matiasvidarte/Desktop/facu/PROG 2/Practico3/Practico3/bin/Debug/net7.0/Ejercicio1.runtimeconfig.json
+/Users/matiasvidarte/Desktop/facu/PROG 2/Practico3/Practico3/bin/Debug/net7.0/Ejercicio1.dll
+/Users/matiasvidarte/Desktop/facu/PROG 2/Practico3/Practico3/bin/Debug/net7.0/Ejercicio1.pdb
+/Users/matiasvidarte/Desktop/facu/PROG 2/Practico3/Practico3/obj/Debug/net7.0/Ejercicio1.csproj.AssemblyReference.cache
+/Users/matiasvidarte/Desktop/facu/PROG 2/Practico3/Practico3/obj/Debug/net7.0/Ejercicio1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/matiasvidarte/Desktop/facu/PROG 2/Practico3/Practico3/obj/Debug/net7.0/Ejercicio1.AssemblyInfoInputs.cache
+/Users/matiasvidarte/Desktop/facu/PROG 2/Practico3/Practico3/obj/Debug/net7.0/Ejercicio1.AssemblyInfo.cs
+/Users/matiasvidarte/Desktop/facu/PROG 2/Practico3/Practico3/obj/Debug/net7.0/Ejercicio1.csproj.CoreCompileInputs.cache
+/Users/matiasvidarte/Desktop/facu/PROG 2/Practico3/Practico3/obj/Debug/net7.0/Ejercicio1.dll
+/Users/matiasvidarte/Desktop/facu/PROG 2/Practico3/Practico3/obj/Debug/net7.0/refint/Ejercicio1.dll
+/Users/matiasvidarte/Desktop/facu/PROG 2/Practico3/Practico3/obj/Debug/net7.0/Ejercicio1.pdb
+/Users/matiasvidarte/Desktop/facu/PROG 2/Practico3/Practico3/obj/Debug/net7.0/Ejercicio1.genruntimeconfig.cache
+/Users/matiasvidarte/Desktop/facu/PROG 2/Practico3/Practico3/obj/Debug/net7.0/ref/Ejercicio1.dll

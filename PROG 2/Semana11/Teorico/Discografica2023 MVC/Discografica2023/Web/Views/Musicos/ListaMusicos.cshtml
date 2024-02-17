@@ -1,0 +1,57 @@
+﻿@using Dominio;
+
+@{
+    ViewData["Title"] = "ListaMusicos";
+}
+
+<h1>Lista Musicos</h1>
+
+<br />
+
+<form class="row row-cols-lg-auto g-3 align-items-center" action="~/Musicos/FiltrarMusicos" method="get">
+    <div class="col-12">
+        <input type="text" class="form-control" placeholder="Pais" name="pais">
+    </div>
+    <div class="col-12">
+        <button class="btn btn-secondary" type="submit">Filtrar</button>
+    </div>
+    <div class="col-12">
+        <a class="btn btn-dark" href="~/Musicos/ListaMusicos">Reiniciar lista</a>
+    </div>
+</form>
+
+<br />
+
+@if(ViewBag.Error != null)
+{
+    <div class="alert alert-danger">@ViewBag.Error</div>
+}
+
+@if (ViewBag.Musicos == null || ViewBag.Musicos.Count == 0)
+{
+    <div class="alert alert-danger">No se encontraron musicos en el sistema</div>
+}
+else
+{
+    <br />
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Pais</th>
+                <th>Tipo</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Musico m in ViewBag.Musicos)
+            {
+                <tr>
+                    <td>@m.Nombre</td>
+                    <td>@m.Pais</td>
+                    <td>@m.Tipo()</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+

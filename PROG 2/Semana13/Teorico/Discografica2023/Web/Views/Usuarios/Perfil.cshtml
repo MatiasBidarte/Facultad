@@ -1,0 +1,22 @@
+﻿@using Dominio;
+@{
+    ViewData["Title"] = "Perfil";
+}
+
+<h1>Perfil</h1>
+
+<p><strong>Email:</strong> @ViewBag.Usuario.Email</p>
+<p><strong>Tipo:</strong> @ViewBag.Usuario.Tipo()</p>
+<p><strong>Pass:</strong> @ViewBag.Usuario.Pass</p>
+@if (ViewBag.Usuario.Tipo() == "Fan")
+{
+    Fan f = ViewBag.Usuario as Fan; 
+    if (f.MusicoFavorito == null)
+    {
+        <p>No tienen musico favorito</p>
+    }
+    else
+    {
+        <p><strong>Musico:</strong> @f.MusicoFavorito.Nombre</p>
+    }
+}

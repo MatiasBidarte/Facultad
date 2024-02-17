@@ -1,0 +1,15 @@
+/Users/matiasvidarte/Desktop/facu/PROG 2/Clase3/Practico3/bin/Debug/net7.0/Practico3
+/Users/matiasvidarte/Desktop/facu/PROG 2/Clase3/Practico3/bin/Debug/net7.0/Practico3.deps.json
+/Users/matiasvidarte/Desktop/facu/PROG 2/Clase3/Practico3/bin/Debug/net7.0/Practico3.runtimeconfig.json
+/Users/matiasvidarte/Desktop/facu/PROG 2/Clase3/Practico3/bin/Debug/net7.0/Practico3.dll
+/Users/matiasvidarte/Desktop/facu/PROG 2/Clase3/Practico3/bin/Debug/net7.0/Practico3.pdb
+/Users/matiasvidarte/Desktop/facu/PROG 2/Clase3/Practico3/obj/Debug/net7.0/Practico3.csproj.AssemblyReference.cache
+/Users/matiasvidarte/Desktop/facu/PROG 2/Clase3/Practico3/obj/Debug/net7.0/Practico3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/matiasvidarte/Desktop/facu/PROG 2/Clase3/Practico3/obj/Debug/net7.0/Practico3.AssemblyInfoInputs.cache
+/Users/matiasvidarte/Desktop/facu/PROG 2/Clase3/Practico3/obj/Debug/net7.0/Practico3.AssemblyInfo.cs
+/Users/matiasvidarte/Desktop/facu/PROG 2/Clase3/Practico3/obj/Debug/net7.0/Practico3.csproj.CoreCompileInputs.cache
+/Users/matiasvidarte/Desktop/facu/PROG 2/Clase3/Practico3/obj/Debug/net7.0/Practico3.dll
+/Users/matiasvidarte/Desktop/facu/PROG 2/Clase3/Practico3/obj/Debug/net7.0/refint/Practico3.dll
+/Users/matiasvidarte/Desktop/facu/PROG 2/Clase3/Practico3/obj/Debug/net7.0/Practico3.pdb
+/Users/matiasvidarte/Desktop/facu/PROG 2/Clase3/Practico3/obj/Debug/net7.0/Practico3.genruntimeconfig.cache
+/Users/matiasvidarte/Desktop/facu/PROG 2/Clase3/Practico3/obj/Debug/net7.0/ref/Practico3.dll

@@ -1,0 +1,57 @@
+﻿@using Dominio;
+@{
+    ViewData["Title"] = "ListaPosts";
+}
+
+<h1>Lista de posts</h1>
+
+@if (ViewBag.Publicaciones == null || ViewBag.Publicaciones.Count == 0)
+{
+    <div class="alert alert-danger">No se encontraron publicaciones en el sistema</div>
+}
+
+<br />
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Titulo</th>
+            <th>Creador</th>
+            <th>Privacidad</th>
+            <th>Esta Censurado</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Publicacion publi in ViewBag.Publicaciones)
+        {
+            @if (publi is Post)
+            {
+                Post p = publi as Post;
+                <tr>
+                    <td>@p.Titulo</td>
+                    <td>@p.Creador.Email</td>
+                    <td>@p.Privacidad</td>
+                    <td>@(p.EstaCensurado ? "si" : "no")</td>
+                    @if (p.EstaCensurado)
+                    {
+                        <td>
+                            <form method="post" action="~/Publicaciones/QuitarCensuraPost">
+                                <input type="text" name="id" value="@p.Id" hidden />
+                                <input class="btn btn-success" type="submit" value="Quitar Censura" />
+                            </form>
+                        </td>
+                    }
+                    else
+                    {
+                        <td>
+                            <form method="post" action="~/Publicaciones/CensurarPost">
+                                <input type="text" name="id" value="@p.Id" hidden />
+                                <input class="btn btn-danger" type="submit" value="Censurar" />
+                            </form>
+                        </td>
+                    }
+                </tr>
+            }
+        }
+    </tbody>
+</table>

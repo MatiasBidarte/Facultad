@@ -1,0 +1,51 @@
+﻿<Properties StartupConfiguration="{4CDE6ACE-9076-40BD-9658-2FD75955C039}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Consola PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Web/Views/Musicos/ListaMusicos.cshtml">
+    <Files>
+      <File FileName="Web/Controllers/MusicosController.cs" />
+      <File FileName="Dominio/Sistema.cs" />
+      <File FileName="Web/Views/Shared/NoAutorizado.cshtml" />
+      <File FileName="Web/Views/Musicos/ListaMusicos.cshtml" Line="60" Column="33" />
+      <File FileName="Web/Views/Shared/_Layout.cshtml" />
+      <File FileName="Web/Views/Musicos/AltaBanda.cshtml" />
+      <File FileName="Web/Controllers/UsuariosController.cs" />
+      <File FileName="Web/Views/Discos/ListaDisco.cshtml" />
+      <File FileName="Web/Views/Discos/DetalleDisco.cshtml" />
+      <File FileName="Web/Views/Discos/CambiarNombre.cshtml" />
+      <File FileName="Web/Views/Discos/AltaDisco.cshtml" />
+      <File FileName="Web/Program.cs" />
+      <File FileName="Web/Controllers/DiscosController.cs" />
+      <File FileName="Web/Views/Usuarios/Perfil.cshtml" />
+      <File FileName="Web/Views/Usuarios/Login.cshtml" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Discografica2023" expanded="True">
+            <Node name="Dominio" expanded="True" />
+            <Node name="Web" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Discos" expanded="True" />
+                <Node name="Musicos" expanded="True">
+                  <Node name="ListaMusicos.cshtml" selected="True" />
+                </Node>
+                <Node name="Shared" expanded="True" />
+                <Node name="Usuarios" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="images" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

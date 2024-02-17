@@ -1,0 +1,25 @@
+﻿@using Dominio;
+
+@{
+    ViewData["Title"] = "CambiarNombre";
+}
+
+<h1>Cambiar Nombre</h1>
+
+<br />
+
+<p>Cambiando nombre de @ViewBag.Disco.Codigo</p>
+
+<form action="~/Discos/ProcesarCambioNombre" method="post">
+    
+    <input type="text" class="form-control" name="codigo" value="@ViewBag.Disco.Codigo" hidden>
+
+    <div class="form-group">
+        <label for="titulo">Titulo</label>
+        <input type="text" class="form-control" name="titulo" placeholder="Ingrese titulo" value="@ViewBag.Disco.Titulo">
+    </div>
+
+    <br />
+    <input type="submit" class="btn btn-secondary" value="Crear" />
+</form>
+

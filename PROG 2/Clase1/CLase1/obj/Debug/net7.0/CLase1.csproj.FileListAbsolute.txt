@@ -1,0 +1,15 @@
+/Users/matiasvidarte/Desktop/facu/PROG 2/Clase1/CLase1/bin/Debug/net7.0/CLase1
+/Users/matiasvidarte/Desktop/facu/PROG 2/Clase1/CLase1/bin/Debug/net7.0/CLase1.deps.json
+/Users/matiasvidarte/Desktop/facu/PROG 2/Clase1/CLase1/bin/Debug/net7.0/CLase1.runtimeconfig.json
+/Users/matiasvidarte/Desktop/facu/PROG 2/Clase1/CLase1/bin/Debug/net7.0/CLase1.dll
+/Users/matiasvidarte/Desktop/facu/PROG 2/Clase1/CLase1/bin/Debug/net7.0/CLase1.pdb
+/Users/matiasvidarte/Desktop/facu/PROG 2/Clase1/CLase1/obj/Debug/net7.0/CLase1.csproj.AssemblyReference.cache
+/Users/matiasvidarte/Desktop/facu/PROG 2/Clase1/CLase1/obj/Debug/net7.0/CLase1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/matiasvidarte/Desktop/facu/PROG 2/Clase1/CLase1/obj/Debug/net7.0/CLase1.AssemblyInfoInputs.cache
+/Users/matiasvidarte/Desktop/facu/PROG 2/Clase1/CLase1/obj/Debug/net7.0/CLase1.AssemblyInfo.cs
+/Users/matiasvidarte/Desktop/facu/PROG 2/Clase1/CLase1/obj/Debug/net7.0/CLase1.csproj.CoreCompileInputs.cache
+/Users/matiasvidarte/Desktop/facu/PROG 2/Clase1/CLase1/obj/Debug/net7.0/CLase1.dll
+/Users/matiasvidarte/Desktop/facu/PROG 2/Clase1/CLase1/obj/Debug/net7.0/refint/CLase1.dll
+/Users/matiasvidarte/Desktop/facu/PROG 2/Clase1/CLase1/obj/Debug/net7.0/CLase1.pdb
+/Users/matiasvidarte/Desktop/facu/PROG 2/Clase1/CLase1/obj/Debug/net7.0/CLase1.genruntimeconfig.cache
+/Users/matiasvidarte/Desktop/facu/PROG 2/Clase1/CLase1/obj/Debug/net7.0/ref/CLase1.dll

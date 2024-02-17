@@ -1,0 +1,148 @@
+﻿@using Dominio;
+@{
+    ViewData["Title"] ="ListarPostsParaMiembro";
+}
+
+@if(ViewBag.Error != null)
+{
+        <div class="alert alert-danger">
+            <p>@ViewBag.Error</p>
+        </div>
+}
+
+@if (ViewBag.Exito != null)
+{
+    <div class="alert alert-success">
+        <p>@ViewBag.Exito</p>
+    </div>
+}
+
+@if (ViewBag.Posts.Count == 0)
+{
+    <div class="alert alert-info">
+        <h1>No hay posts para ver...</h1>
+    </div>
+}
+else
+{
+    <h1>Listado</h1>
+        @foreach (Post p in ViewBag.Posts)
+            {
+            string idComent = $"coment{p.Id}";
+
+            <div class="card" style="width: 600px; margin-bottom: 40px;">
+                <img src="~/Images/@p.Imagen" alt="Imagen del post @p.Id" class="card-img-top"/>
+                <div class="card-body d-flex" style="gap: 100px;">
+                    <div>
+                        <h5 class="card-title">@p.Titulo</h5>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">@p.Texto</h6>
+                        <p class="card-text">@p.Contenido</p>
+                        <p class="card-text"><small class="text-body-secondary">Autor: @p.Creador.Nombre @p.Creador.Apellido - @p.FechaCreacion</small></p>
+
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target=#@idComent>
+                            Comenta aqui
+                        </button>
+
+                        <div class="modal fade" id=@idComent tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Que te pareció la publicación?</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form action="~/Publicaciones/CrearComentario" method="post" class="form">
+                                            <input type="number" name="idPost" value="@p.Id" hidden />
+                                            <input type="text" name="privacidad" value="@p.Privacidad" hidden />
+                                            <div class="form-group">
+                                                <label for="titulo">Titulo</label>
+                                                <input type="text" class="form-control" id="titulo" name="titulo" placeholder="Ingrese titulo" />
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="contenido">Contenido</label>
+                                                <input type="text" class="form-control" id="contenido" name="contenido" placeholder="Ingrese contenido" />
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="texto">Texto</label>
+                                                <input type="text" class="form-control" name="texto" placeholder="Ingrese texto" />
+                                            </div>
+                                            <input type="submit" class="btn btn-secondary" value="Crear" style="margin-top: 5px;" />
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    
+                    </div>
+                    <div>
+                        <form action="~/Publicaciones/ReaccionarPost" method="post" style="margin-bottom:5px;">
+                            <input type="text" name="id" value="@p.Id" hidden />
+                            <input type="text" name="r" value="@TipoReaccion.LIKE" hidden />
+                            <button type="submit" class="btn btn-success">
+                                Like <span class="badge text-bg-secondary">@p.CantidadReaccion(TipoReaccion.LIKE)</span>
+                            </button>
+                        </form>
+                        <form action="~/Publicaciones/ReaccionarPost" method="post" style="margin-bottom:5px;">
+                            <input type="text" name="id" value="@p.Id" hidden />
+                            <input type="text" name="r" value="@TipoReaccion.DISLIKE" hidden />
+                            <button type="submit" class="btn btn-danger">
+                                Dislike <span class="badge text-bg-secondary">@p.CantidadReaccion(TipoReaccion.DISLIKE)</span>
+                            </button>
+                        </form>
+                        <div class="btn btn-primary" style="pointer-events: none; margin-bottom:5px;">
+                            VA: <span class="badge text-bg-secondary">@p.CalcularVA()</span>
+                        </div>
+                    </div>
+                </div>
+                @if (p.Comentarios.Count > 0)
+                    {
+                        string i = $"post{p.Id}";
+                        <div class="accordion" id="accordionComments">
+                                <div class="accordion-item">
+                                    <h3 class="accordion-header">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target=#@i aria-expanded="true" aria-controls="collapseOne">
+                                            Comentarios
+                                        </button>
+                                    </h3>
+                                    <div id=@i class="accordion-collapse collapse" data-bs-parent="#accordionComments">
+                                        <div class="accordion-body">
+                                            @foreach(Comentario c in p.Comentarios)
+                                            {
+                                            <div class="d-flex" style="gap: 100px;">
+                                                 <div>
+                                                    <h4>@c.Titulo</h4>
+                                                    <p>@c.Contenido</p>
+                                                     <p><small class="text-body-secondary">Autor: @c.Creador.Nombre @c.Creador.Apellido - @c.FechaCreacion</small></p>
+                                                 </div>
+                                                 <div>
+                                                    <form action="~/Publicaciones/ReaccionarComentario" method="post" style="margin-bottom:5px;">
+                                                         <input type="text" name="id" value="@c.Id" hidden />
+                                                         <input type="text" name="r" value="@TipoReaccion.LIKE" hidden />
+                                                         <button type="submit" class="btn btn-success">
+                                                             Like <span class="badge text-bg-secondary">@c.CantidadReaccion(TipoReaccion.LIKE)</span>
+                                                         </button>
+                                                     </form>
+                                                     <form action="~/Publicaciones/ReaccionarComentario" method="post" style="margin-bottom:5px;">
+                                                         <input type="text" name="id" value="@p.Id" hidden />
+                                                         <input type="text" name="r" value="@TipoReaccion.DISLIKE" hidden />
+                                                         <button type="submit" class="btn btn-danger">
+                                                             Dislike <span class="badge text-bg-secondary">@c.CantidadReaccion(TipoReaccion.DISLIKE)</span>
+                                                         </button>
+                                                     </form>
+                                                     <div class="btn btn-primary" style="pointer-events:none; margin-bottom:5px;">
+                                                         Valor de aceptación: <span class="badge text-bg-secondary">@c.CalcularVA()</span>
+                                                     </div>
+                                                 </div>
+                                            </div>
+                                            <hr />
+                                            } 
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    }
+            </div>   
+            }
+}

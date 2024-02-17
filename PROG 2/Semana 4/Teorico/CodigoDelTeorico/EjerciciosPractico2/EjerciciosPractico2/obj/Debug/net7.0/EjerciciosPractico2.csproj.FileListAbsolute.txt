@@ -1,0 +1,45 @@
+D:\Santiago Baillo\N2B\Semana 3\Practico 2\EjerciciosPractico2\EjerciciosPractico2\bin\Debug\net7.0\EjerciciosPractico2.exe
+D:\Santiago Baillo\N2B\Semana 3\Practico 2\EjerciciosPractico2\EjerciciosPractico2\bin\Debug\net7.0\EjerciciosPractico2.deps.json
+D:\Santiago Baillo\N2B\Semana 3\Practico 2\EjerciciosPractico2\EjerciciosPractico2\bin\Debug\net7.0\EjerciciosPractico2.runtimeconfig.json
+D:\Santiago Baillo\N2B\Semana 3\Practico 2\EjerciciosPractico2\EjerciciosPractico2\bin\Debug\net7.0\EjerciciosPractico2.dll
+D:\Santiago Baillo\N2B\Semana 3\Practico 2\EjerciciosPractico2\EjerciciosPractico2\bin\Debug\net7.0\EjerciciosPractico2.pdb
+D:\Santiago Baillo\N2B\Semana 3\Practico 2\EjerciciosPractico2\EjerciciosPractico2\obj\Debug\net7.0\EjerciciosPractico2.csproj.AssemblyReference.cache
+D:\Santiago Baillo\N2B\Semana 3\Practico 2\EjerciciosPractico2\EjerciciosPractico2\obj\Debug\net7.0\EjerciciosPractico2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Santiago Baillo\N2B\Semana 3\Practico 2\EjerciciosPractico2\EjerciciosPractico2\obj\Debug\net7.0\EjerciciosPractico2.AssemblyInfoInputs.cache
+D:\Santiago Baillo\N2B\Semana 3\Practico 2\EjerciciosPractico2\EjerciciosPractico2\obj\Debug\net7.0\EjerciciosPractico2.AssemblyInfo.cs
+D:\Santiago Baillo\N2B\Semana 3\Practico 2\EjerciciosPractico2\EjerciciosPractico2\obj\Debug\net7.0\EjerciciosPractico2.csproj.CoreCompileInputs.cache
+D:\Santiago Baillo\N2B\Semana 3\Practico 2\EjerciciosPractico2\EjerciciosPractico2\obj\Debug\net7.0\EjerciciosPractico2.dll
+D:\Santiago Baillo\N2B\Semana 3\Practico 2\EjerciciosPractico2\EjerciciosPractico2\obj\Debug\net7.0\refint\EjerciciosPractico2.dll
+D:\Santiago Baillo\N2B\Semana 3\Practico 2\EjerciciosPractico2\EjerciciosPractico2\obj\Debug\net7.0\EjerciciosPractico2.pdb
+D:\Santiago Baillo\N2B\Semana 3\Practico 2\EjerciciosPractico2\EjerciciosPractico2\obj\Debug\net7.0\EjerciciosPractico2.genruntimeconfig.cache
+D:\Santiago Baillo\N2B\Semana 3\Practico 2\EjerciciosPractico2\EjerciciosPractico2\obj\Debug\net7.0\ref\EjerciciosPractico2.dll
+D:\Santiago Baillo\N2B\Semana 3\EjerciciosPractico2\EjerciciosPractico2\bin\Debug\net7.0\EjerciciosPractico2.exe
+D:\Santiago Baillo\N2B\Semana 3\EjerciciosPractico2\EjerciciosPractico2\bin\Debug\net7.0\EjerciciosPractico2.deps.json
+D:\Santiago Baillo\N2B\Semana 3\EjerciciosPractico2\EjerciciosPractico2\bin\Debug\net7.0\EjerciciosPractico2.runtimeconfig.json
+D:\Santiago Baillo\N2B\Semana 3\EjerciciosPractico2\EjerciciosPractico2\bin\Debug\net7.0\EjerciciosPractico2.dll
+D:\Santiago Baillo\N2B\Semana 3\EjerciciosPractico2\EjerciciosPractico2\bin\Debug\net7.0\EjerciciosPractico2.pdb
+D:\Santiago Baillo\N2B\Semana 3\EjerciciosPractico2\EjerciciosPractico2\obj\Debug\net7.0\EjerciciosPractico2.csproj.AssemblyReference.cache
+D:\Santiago Baillo\N2B\Semana 3\EjerciciosPractico2\EjerciciosPractico2\obj\Debug\net7.0\EjerciciosPractico2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Santiago Baillo\N2B\Semana 3\EjerciciosPractico2\EjerciciosPractico2\obj\Debug\net7.0\EjerciciosPractico2.AssemblyInfoInputs.cache
+D:\Santiago Baillo\N2B\Semana 3\EjerciciosPractico2\EjerciciosPractico2\obj\Debug\net7.0\EjerciciosPractico2.AssemblyInfo.cs
+D:\Santiago Baillo\N2B\Semana 3\EjerciciosPractico2\EjerciciosPractico2\obj\Debug\net7.0\EjerciciosPractico2.csproj.CoreCompileInputs.cache
+D:\Santiago Baillo\N2B\Semana 3\EjerciciosPractico2\EjerciciosPractico2\obj\Debug\net7.0\EjerciciosPractico2.dll
+D:\Santiago Baillo\N2B\Semana 3\EjerciciosPractico2\EjerciciosPractico2\obj\Debug\net7.0\refint\EjerciciosPractico2.dll
+D:\Santiago Baillo\N2B\Semana 3\EjerciciosPractico2\EjerciciosPractico2\obj\Debug\net7.0\EjerciciosPractico2.pdb
+D:\Santiago Baillo\N2B\Semana 3\EjerciciosPractico2\EjerciciosPractico2\obj\Debug\net7.0\EjerciciosPractico2.genruntimeconfig.cache
+D:\Santiago Baillo\N2B\Semana 3\EjerciciosPractico2\EjerciciosPractico2\obj\Debug\net7.0\ref\EjerciciosPractico2.dll
+D:\Santiago Baillo\N2B\Semana 4\CodigoDelTeorico\EjerciciosPractico2\EjerciciosPractico2\bin\Debug\net7.0\EjerciciosPractico2.exe
+D:\Santiago Baillo\N2B\Semana 4\CodigoDelTeorico\EjerciciosPractico2\EjerciciosPractico2\bin\Debug\net7.0\EjerciciosPractico2.deps.json
+D:\Santiago Baillo\N2B\Semana 4\CodigoDelTeorico\EjerciciosPractico2\EjerciciosPractico2\bin\Debug\net7.0\EjerciciosPractico2.runtimeconfig.json
+D:\Santiago Baillo\N2B\Semana 4\CodigoDelTeorico\EjerciciosPractico2\EjerciciosPractico2\bin\Debug\net7.0\EjerciciosPractico2.dll
+D:\Santiago Baillo\N2B\Semana 4\CodigoDelTeorico\EjerciciosPractico2\EjerciciosPractico2\bin\Debug\net7.0\EjerciciosPractico2.pdb
+D:\Santiago Baillo\N2B\Semana 4\CodigoDelTeorico\EjerciciosPractico2\EjerciciosPractico2\obj\Debug\net7.0\EjerciciosPractico2.csproj.AssemblyReference.cache
+D:\Santiago Baillo\N2B\Semana 4\CodigoDelTeorico\EjerciciosPractico2\EjerciciosPractico2\obj\Debug\net7.0\EjerciciosPractico2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Santiago Baillo\N2B\Semana 4\CodigoDelTeorico\EjerciciosPractico2\EjerciciosPractico2\obj\Debug\net7.0\EjerciciosPractico2.AssemblyInfoInputs.cache
+D:\Santiago Baillo\N2B\Semana 4\CodigoDelTeorico\EjerciciosPractico2\EjerciciosPractico2\obj\Debug\net7.0\EjerciciosPractico2.AssemblyInfo.cs
+D:\Santiago Baillo\N2B\Semana 4\CodigoDelTeorico\EjerciciosPractico2\EjerciciosPractico2\obj\Debug\net7.0\EjerciciosPractico2.csproj.CoreCompileInputs.cache
+D:\Santiago Baillo\N2B\Semana 4\CodigoDelTeorico\EjerciciosPractico2\EjerciciosPractico2\obj\Debug\net7.0\EjerciciosPractico2.dll
+D:\Santiago Baillo\N2B\Semana 4\CodigoDelTeorico\EjerciciosPractico2\EjerciciosPractico2\obj\Debug\net7.0\refint\EjerciciosPractico2.dll
+D:\Santiago Baillo\N2B\Semana 4\CodigoDelTeorico\EjerciciosPractico2\EjerciciosPractico2\obj\Debug\net7.0\EjerciciosPractico2.pdb
+D:\Santiago Baillo\N2B\Semana 4\CodigoDelTeorico\EjerciciosPractico2\EjerciciosPractico2\obj\Debug\net7.0\EjerciciosPractico2.genruntimeconfig.cache
+D:\Santiago Baillo\N2B\Semana 4\CodigoDelTeorico\EjerciciosPractico2\EjerciciosPractico2\obj\Debug\net7.0\ref\EjerciciosPractico2.dll

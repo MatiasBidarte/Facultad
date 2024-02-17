@@ -1,0 +1,51 @@
+﻿@using Dominio;
+@model Disco;
+
+@{
+    ViewData["Title"] = "AltaDisco";
+}
+
+<h1>Alta Disco</h1>
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">@ViewBag.Error</div>
+}
+
+@if (ViewBag.Exito != null)
+{
+    <div class="alert alert-success">@ViewBag.Exito</div>
+}
+
+<br />
+
+<form action="~/Discos/ProcesarAltaDisco" method="post">
+    <div class="form-group">
+        <label for="codigo">Codigo</label>
+        <input type="text" class="form-control" name="Codigo" placeholder="Ingrese codigo" value="@Model.Codigo">
+    </div>
+
+    <div class="form-group">
+        <label for="titulo">Titulo</label>
+        <input type="text" class="form-control" name="Titulo" placeholder="Ingrese titulo" value="@Model.Titulo">
+    </div>
+
+    <div class="form-group">
+        <label for="anio">Año</label>
+        <input type="number" class="form-control" name="Anio" value="@Model.Anio">
+    </div>
+
+    <div class="form-group">
+        <label for="musico">Musico</label>
+        <select class="form-control" id="musico" name="nombreMusico">
+            @foreach(Musico m in Sistema.Instancia.Musicos)
+            {
+                <option value="@m.Nombre">@m.Nombre</option>
+            }
+        </select>
+    </div>
+
+    <br />
+    <input type="submit" class="btn btn-secondary" value="Crear" />
+</form>
+

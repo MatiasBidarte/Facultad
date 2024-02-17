@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{39DC7F86-A518-4105-8815-D36C25DC76B1}|https">
+  <MonoDevelop.Ide.ItemProperties.MVC PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MVC/Controllers/PropiedadesController.cs">
+    <Files>
+      <File FileName="Dominio/Propiedad.cs" Line="51" Column="21" />
+      <File FileName="MVC/Views/Propiedades/AltaCasa.cshtml" Line="28" Column="17" />
+      <File FileName="MVC/Controllers/PropiedadesController.cs" Line="53" Column="31" />
+      <File FileName="Dominio/Casa.cs" Line="1" Column="1" />
+      <File FileName="Dominio/Sistema.cs" Line="223" Column="23" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Dominio" expanded="True">
+            <Node name="Dominio" expanded="True" />
+            <Node name="MVC" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="PropiedadesController.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Barrios" expanded="True" />
+                <Node name="Propiedades" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

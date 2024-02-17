@@ -1,0 +1,72 @@
+D:\Santiago Baillo\N2b\Practico 5\Discografica\Discografica2023\Discografica2023\Consola\bin\Debug\net7.0\Consola.exe
+D:\Santiago Baillo\N2b\Practico 5\Discografica\Discografica2023\Discografica2023\Consola\bin\Debug\net7.0\Consola.deps.json
+D:\Santiago Baillo\N2b\Practico 5\Discografica\Discografica2023\Discografica2023\Consola\bin\Debug\net7.0\Consola.runtimeconfig.json
+D:\Santiago Baillo\N2b\Practico 5\Discografica\Discografica2023\Discografica2023\Consola\bin\Debug\net7.0\Consola.dll
+D:\Santiago Baillo\N2b\Practico 5\Discografica\Discografica2023\Discografica2023\Consola\bin\Debug\net7.0\Consola.pdb
+D:\Santiago Baillo\N2b\Practico 5\Discografica\Discografica2023\Discografica2023\Consola\bin\Debug\net7.0\Dominio.dll
+D:\Santiago Baillo\N2b\Practico 5\Discografica\Discografica2023\Discografica2023\Consola\bin\Debug\net7.0\Dominio.pdb
+D:\Santiago Baillo\N2b\Practico 5\Discografica\Discografica2023\Discografica2023\Consola\obj\Debug\net7.0\Consola.csproj.AssemblyReference.cache
+D:\Santiago Baillo\N2b\Practico 5\Discografica\Discografica2023\Discografica2023\Consola\obj\Debug\net7.0\Consola.GeneratedMSBuildEditorConfig.editorconfig
+D:\Santiago Baillo\N2b\Practico 5\Discografica\Discografica2023\Discografica2023\Consola\obj\Debug\net7.0\Consola.AssemblyInfoInputs.cache
+D:\Santiago Baillo\N2b\Practico 5\Discografica\Discografica2023\Discografica2023\Consola\obj\Debug\net7.0\Consola.AssemblyInfo.cs
+D:\Santiago Baillo\N2b\Practico 5\Discografica\Discografica2023\Discografica2023\Consola\obj\Debug\net7.0\Consola.csproj.CoreCompileInputs.cache
+D:\Santiago Baillo\N2b\Practico 5\Discografica\Discografica2023\Discografica2023\Consola\obj\Debug\net7.0\Consola.csproj.CopyComplete
+D:\Santiago Baillo\N2b\Practico 5\Discografica\Discografica2023\Discografica2023\Consola\obj\Debug\net7.0\Consola.dll
+D:\Santiago Baillo\N2b\Practico 5\Discografica\Discografica2023\Discografica2023\Consola\obj\Debug\net7.0\refint\Consola.dll
+D:\Santiago Baillo\N2b\Practico 5\Discografica\Discografica2023\Discografica2023\Consola\obj\Debug\net7.0\Consola.pdb
+D:\Santiago Baillo\N2b\Practico 5\Discografica\Discografica2023\Discografica2023\Consola\obj\Debug\net7.0\Consola.genruntimeconfig.cache
+D:\Santiago Baillo\N2b\Practico 5\Discografica\Discografica2023\Discografica2023\Consola\obj\Debug\net7.0\ref\Consola.dll
+D:\Downloads\Discografica2023\Discografica2023\Discografica2023\Consola\bin\Debug\net7.0\Consola.exe
+D:\Downloads\Discografica2023\Discografica2023\Discografica2023\Consola\bin\Debug\net7.0\Consola.deps.json
+D:\Downloads\Discografica2023\Discografica2023\Discografica2023\Consola\bin\Debug\net7.0\Consola.runtimeconfig.json
+D:\Downloads\Discografica2023\Discografica2023\Discografica2023\Consola\bin\Debug\net7.0\Consola.dll
+D:\Downloads\Discografica2023\Discografica2023\Discografica2023\Consola\bin\Debug\net7.0\Consola.pdb
+D:\Downloads\Discografica2023\Discografica2023\Discografica2023\Consola\bin\Debug\net7.0\Dominio.dll
+D:\Downloads\Discografica2023\Discografica2023\Discografica2023\Consola\bin\Debug\net7.0\Dominio.pdb
+D:\Downloads\Discografica2023\Discografica2023\Discografica2023\Consola\obj\Debug\net7.0\Consola.csproj.AssemblyReference.cache
+D:\Downloads\Discografica2023\Discografica2023\Discografica2023\Consola\obj\Debug\net7.0\Consola.GeneratedMSBuildEditorConfig.editorconfig
+D:\Downloads\Discografica2023\Discografica2023\Discografica2023\Consola\obj\Debug\net7.0\Consola.AssemblyInfoInputs.cache
+D:\Downloads\Discografica2023\Discografica2023\Discografica2023\Consola\obj\Debug\net7.0\Consola.AssemblyInfo.cs
+D:\Downloads\Discografica2023\Discografica2023\Discografica2023\Consola\obj\Debug\net7.0\Consola.csproj.CoreCompileInputs.cache
+D:\Downloads\Discografica2023\Discografica2023\Discografica2023\Consola\obj\Debug\net7.0\Consola.csproj.CopyComplete
+D:\Downloads\Discografica2023\Discografica2023\Discografica2023\Consola\obj\Debug\net7.0\Consola.dll
+D:\Downloads\Discografica2023\Discografica2023\Discografica2023\Consola\obj\Debug\net7.0\refint\Consola.dll
+D:\Downloads\Discografica2023\Discografica2023\Discografica2023\Consola\obj\Debug\net7.0\Consola.pdb
+D:\Downloads\Discografica2023\Discografica2023\Discografica2023\Consola\obj\Debug\net7.0\Consola.genruntimeconfig.cache
+D:\Downloads\Discografica2023\Discografica2023\Discografica2023\Consola\obj\Debug\net7.0\ref\Consola.dll
+D:\Santiago Baillo\N2B\Semana 6\Discografica2023\Discografica2023\Discografica2023\Consola\bin\Debug\net7.0\Consola.exe
+D:\Santiago Baillo\N2B\Semana 6\Discografica2023\Discografica2023\Discografica2023\Consola\bin\Debug\net7.0\Consola.deps.json
+D:\Santiago Baillo\N2B\Semana 6\Discografica2023\Discografica2023\Discografica2023\Consola\bin\Debug\net7.0\Consola.runtimeconfig.json
+D:\Santiago Baillo\N2B\Semana 6\Discografica2023\Discografica2023\Discografica2023\Consola\bin\Debug\net7.0\Consola.dll
+D:\Santiago Baillo\N2B\Semana 6\Discografica2023\Discografica2023\Discografica2023\Consola\bin\Debug\net7.0\Consola.pdb
+D:\Santiago Baillo\N2B\Semana 6\Discografica2023\Discografica2023\Discografica2023\Consola\bin\Debug\net7.0\Dominio.dll
+D:\Santiago Baillo\N2B\Semana 6\Discografica2023\Discografica2023\Discografica2023\Consola\bin\Debug\net7.0\Dominio.pdb
+D:\Santiago Baillo\N2B\Semana 6\Discografica2023\Discografica2023\Discografica2023\Consola\obj\Debug\net7.0\Consola.csproj.AssemblyReference.cache
+D:\Santiago Baillo\N2B\Semana 6\Discografica2023\Discografica2023\Discografica2023\Consola\obj\Debug\net7.0\Consola.GeneratedMSBuildEditorConfig.editorconfig
+D:\Santiago Baillo\N2B\Semana 6\Discografica2023\Discografica2023\Discografica2023\Consola\obj\Debug\net7.0\Consola.AssemblyInfoInputs.cache
+D:\Santiago Baillo\N2B\Semana 6\Discografica2023\Discografica2023\Discografica2023\Consola\obj\Debug\net7.0\Consola.AssemblyInfo.cs
+D:\Santiago Baillo\N2B\Semana 6\Discografica2023\Discografica2023\Discografica2023\Consola\obj\Debug\net7.0\Consola.csproj.CoreCompileInputs.cache
+D:\Santiago Baillo\N2B\Semana 6\Discografica2023\Discografica2023\Discografica2023\Consola\obj\Debug\net7.0\Consola.csproj.CopyComplete
+D:\Santiago Baillo\N2B\Semana 6\Discografica2023\Discografica2023\Discografica2023\Consola\obj\Debug\net7.0\Consola.dll
+D:\Santiago Baillo\N2B\Semana 6\Discografica2023\Discografica2023\Discografica2023\Consola\obj\Debug\net7.0\refint\Consola.dll
+D:\Santiago Baillo\N2B\Semana 6\Discografica2023\Discografica2023\Discografica2023\Consola\obj\Debug\net7.0\Consola.pdb
+D:\Santiago Baillo\N2B\Semana 6\Discografica2023\Discografica2023\Discografica2023\Consola\obj\Debug\net7.0\Consola.genruntimeconfig.cache
+D:\Santiago Baillo\N2B\Semana 6\Discografica2023\Discografica2023\Discografica2023\Consola\obj\Debug\net7.0\ref\Consola.dll
+D:\Santiago Baillo\N2B\Semana 7\Discografica2023\Discografica2023\Discografica2023\Consola\bin\Debug\net7.0\Consola.exe
+D:\Santiago Baillo\N2B\Semana 7\Discografica2023\Discografica2023\Discografica2023\Consola\bin\Debug\net7.0\Consola.deps.json
+D:\Santiago Baillo\N2B\Semana 7\Discografica2023\Discografica2023\Discografica2023\Consola\bin\Debug\net7.0\Consola.runtimeconfig.json
+D:\Santiago Baillo\N2B\Semana 7\Discografica2023\Discografica2023\Discografica2023\Consola\bin\Debug\net7.0\Consola.dll
+D:\Santiago Baillo\N2B\Semana 7\Discografica2023\Discografica2023\Discografica2023\Consola\bin\Debug\net7.0\Consola.pdb
+D:\Santiago Baillo\N2B\Semana 7\Discografica2023\Discografica2023\Discografica2023\Consola\bin\Debug\net7.0\Dominio.dll
+D:\Santiago Baillo\N2B\Semana 7\Discografica2023\Discografica2023\Discografica2023\Consola\bin\Debug\net7.0\Dominio.pdb
+D:\Santiago Baillo\N2B\Semana 7\Discografica2023\Discografica2023\Discografica2023\Consola\obj\Debug\net7.0\Consola.csproj.AssemblyReference.cache
+D:\Santiago Baillo\N2B\Semana 7\Discografica2023\Discografica2023\Discografica2023\Consola\obj\Debug\net7.0\Consola.GeneratedMSBuildEditorConfig.editorconfig
+D:\Santiago Baillo\N2B\Semana 7\Discografica2023\Discografica2023\Discografica2023\Consola\obj\Debug\net7.0\Consola.AssemblyInfoInputs.cache
+D:\Santiago Baillo\N2B\Semana 7\Discografica2023\Discografica2023\Discografica2023\Consola\obj\Debug\net7.0\Consola.AssemblyInfo.cs
+D:\Santiago Baillo\N2B\Semana 7\Discografica2023\Discografica2023\Discografica2023\Consola\obj\Debug\net7.0\Consola.csproj.CoreCompileInputs.cache
+D:\Santiago Baillo\N2B\Semana 7\Discografica2023\Discografica2023\Discografica2023\Consola\obj\Debug\net7.0\Consola.csproj.CopyComplete
+D:\Santiago Baillo\N2B\Semana 7\Discografica2023\Discografica2023\Discografica2023\Consola\obj\Debug\net7.0\Consola.dll
+D:\Santiago Baillo\N2B\Semana 7\Discografica2023\Discografica2023\Discografica2023\Consola\obj\Debug\net7.0\refint\Consola.dll
+D:\Santiago Baillo\N2B\Semana 7\Discografica2023\Discografica2023\Discografica2023\Consola\obj\Debug\net7.0\Consola.pdb
+D:\Santiago Baillo\N2B\Semana 7\Discografica2023\Discografica2023\Discografica2023\Consola\obj\Debug\net7.0\Consola.genruntimeconfig.cache
+D:\Santiago Baillo\N2B\Semana 7\Discografica2023\Discografica2023\Discografica2023\Consola\obj\Debug\net7.0\ref\Consola.dll

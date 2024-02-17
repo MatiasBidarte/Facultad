@@ -1,0 +1,65 @@
+﻿@using Dominio;
+@model Casa;
+
+@{
+    ViewData["Title"] = "Alta Casa";
+}
+
+<h1>Alta Casa</h1>
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">@ViewBag.Error</div>
+}
+
+@if (ViewBag.Exito != null)
+{
+    <div class="alert alert-success">@ViewBag.Exito</div>
+}
+
+<br />
+
+<form action="~/Propiedades/ProcesarAltaCasa" method="post">
+    <div class="form-group">
+        <label for="calle">Calle</label>
+        <input type="text" class="form-control" name="calle" placeholder="Ingrese calle">
+    </div>
+
+    <div class="from-select">
+        <label for="barrio">Barrio</label>
+        <select class="form-control" id="barrio" name="codigoBarrio">
+            @foreach (Barrio b in Sistema.Instancia.Barrios)
+            {
+                <option value="@b.Codigo">@b.Nombre</option>
+            }
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="fechaConstruccion">Fecha de construccion</label>
+        <input type="date" class="form-control" name="FechaConstruccion" value="@Model.FechaConstruccion">
+    </div>
+
+    <div class="form-group">
+        <label for="mtFrente">Metros de frente</label>
+        <input type="number" class="form-control" name="MtFrente" value="@Model.MtFrente">
+    </div>
+
+    <div class="form-group">
+        <label for="mtFondo">Metros de fondo</label>
+        <input type="number" class="form-control" name="MtFondo" value="@Model.MtFondo">
+    </div>
+
+    <div class="form-group">
+        <label for="costoContribucion">Costo de contribucion</label>
+        <input type="number" class="form-control" name="CostoContribucion" value="@Model.CostoContribucion">
+    </div>
+
+    <div class="form-group">
+        <label for="impuestoPrimaria">Impuesto de primaria</label>
+        <input type="number" class="form-control" name="ImpuestoPrimaria" value="@Model.ImpuestoPrimaria">
+    </div>
+
+    <br />
+    <input type="submit" class="btn btn-secondary" value="Crear" />
+</form>

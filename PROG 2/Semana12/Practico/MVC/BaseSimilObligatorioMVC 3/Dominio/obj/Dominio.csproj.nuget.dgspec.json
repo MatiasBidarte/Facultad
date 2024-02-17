@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/matiasbidarte/Desktop/facu.nosync/PROG 2/Semana12/Practico/MVC/BaseSimilObligatorioMVC 3/Dominio/Dominio.csproj": {}
+  },
+  "projects": {
+    "/Users/matiasbidarte/Desktop/facu.nosync/PROG 2/Semana12/Practico/MVC/BaseSimilObligatorioMVC 3/Dominio/Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/matiasbidarte/Desktop/facu.nosync/PROG 2/Semana12/Practico/MVC/BaseSimilObligatorioMVC 3/Dominio/Dominio.csproj",
+        "projectName": "Dominio",
+        "projectPath": "/Users/matiasbidarte/Desktop/facu.nosync/PROG 2/Semana12/Practico/MVC/BaseSimilObligatorioMVC 3/Dominio/Dominio.csproj",
+        "packagesPath": "/Users/matiasbidarte/.nuget/packages/",
+        "outputPath": "/Users/matiasbidarte/Desktop/facu.nosync/PROG 2/Semana12/Practico/MVC/BaseSimilObligatorioMVC 3/Dominio/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/matiasbidarte/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.310/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

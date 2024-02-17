@@ -1,0 +1,15 @@
+/Users/matiasvidarte/Desktop/facu/PROG 2/Practico2/Ejercicio2/obj/Debug/net7.0/Ejercicio2.csproj.AssemblyReference.cache
+/Users/matiasvidarte/Desktop/facu/PROG 2/Practico2/Ejercicio2/obj/Debug/net7.0/Ejercicio2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/matiasvidarte/Desktop/facu/PROG 2/Practico2/Ejercicio2/obj/Debug/net7.0/Ejercicio2.AssemblyInfoInputs.cache
+/Users/matiasvidarte/Desktop/facu/PROG 2/Practico2/Ejercicio2/obj/Debug/net7.0/Ejercicio2.AssemblyInfo.cs
+/Users/matiasvidarte/Desktop/facu/PROG 2/Practico2/Ejercicio2/obj/Debug/net7.0/Ejercicio2.csproj.CoreCompileInputs.cache
+/Users/matiasvidarte/Desktop/facu/PROG 2/Practico2/Ejercicio2/bin/Debug/net7.0/Ejercicio2
+/Users/matiasvidarte/Desktop/facu/PROG 2/Practico2/Ejercicio2/bin/Debug/net7.0/Ejercicio2.deps.json
+/Users/matiasvidarte/Desktop/facu/PROG 2/Practico2/Ejercicio2/bin/Debug/net7.0/Ejercicio2.runtimeconfig.json
+/Users/matiasvidarte/Desktop/facu/PROG 2/Practico2/Ejercicio2/bin/Debug/net7.0/Ejercicio2.dll
+/Users/matiasvidarte/Desktop/facu/PROG 2/Practico2/Ejercicio2/bin/Debug/net7.0/Ejercicio2.pdb
+/Users/matiasvidarte/Desktop/facu/PROG 2/Practico2/Ejercicio2/obj/Debug/net7.0/Ejercicio2.dll
+/Users/matiasvidarte/Desktop/facu/PROG 2/Practico2/Ejercicio2/obj/Debug/net7.0/refint/Ejercicio2.dll
+/Users/matiasvidarte/Desktop/facu/PROG 2/Practico2/Ejercicio2/obj/Debug/net7.0/Ejercicio2.pdb
+/Users/matiasvidarte/Desktop/facu/PROG 2/Practico2/Ejercicio2/obj/Debug/net7.0/Ejercicio2.genruntimeconfig.cache
+/Users/matiasvidarte/Desktop/facu/PROG 2/Practico2/Ejercicio2/obj/Debug/net7.0/ref/Ejercicio2.dll

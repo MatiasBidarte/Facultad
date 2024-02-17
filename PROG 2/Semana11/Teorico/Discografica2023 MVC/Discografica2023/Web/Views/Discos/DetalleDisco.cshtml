@@ -1,0 +1,54 @@
+﻿@using Dominio;
+
+@{
+    ViewData["Title"] = "DetalleDisco";
+}
+
+<h1>Detalle Disco</h1>
+
+<br />
+
+@if (ViewBag.Disco == null)
+{
+    <p class="alert alert-danger">Disco no puede ser vacio</p>
+}
+else
+{
+    <p><strong>Codigo:</strong> @ViewBag.Disco.Codigo</p>
+    <p><strong>Titulo:</strong> @ViewBag.Disco.Titulo</p>
+    <p><strong>Año:</strong> @ViewBag.Disco.Anio</p>
+    <p><strong>Musico:</strong> @ViewBag.Disco.Musico.Nombre</p>
+
+    <br />
+
+    @if (ViewBag.Disco.PosicionCanciones.Count == 0)
+    {
+        <p class="alert alert-warning">El disco no tiene canciones</p>
+    }
+    else
+    {
+        <br />
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Posicion</th>
+                    <th>Duracion</th>
+                    <th>Precio</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (PosicionCancion pc in ViewBag.Disco.PosicionCanciones)
+                {
+                    <tr>
+                        <td>@pc.Cancion.Nombre</td>
+                        <td>@pc.Posicion</td>
+                        <td>@pc.Cancion.Duracion</td>
+                        <td>@pc.Cancion.Precio</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+}
+

@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+p {
+  margin: 5px 0;
+  text-indent: 20px;
+}
+
+header {
+  background-color: aquamarine;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 30px;
+}
+
+section {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  align-items: flex-start;
+}
+
+article {
+  background-color: aquamarine;
+  width: 450px;
+  padding: 20px;
+}
+
+.boton {
+  display: block;
+  background-color: black;
+  color: aquamarine;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  padding: 20px;
+  width: 150px;
+  margin: 0 auto;
+}
+
+.boton:hover {
+  background-color: aquamarine;
+  color: black;
+  font-weight: bolder;
+  border: 1px solid black;
+  transition: 0.2s ease;
+}
+
+#fondo {
+  width: 100%;
+  height: 550px;
+  background-image: url(foto1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 30px 0;
+}

@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: blanchedalmond;
+}
+
+h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 5px;
+  width: 100%;
+}
+
+h3 {
+  color: white;
+  font-size: 25px;
+}
+
+p {
+  color: white;
+  padding: 10px 0;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+article {
+  padding: 10px;
+  background-color: black;
+  width: 230px;
+}
+
+article:nth-child(2n) {
+  background-color: green;
+}
+
+#container {
+  margin-top: 100px;
+}
+
+/* article {
+  display: flex;
+} */

@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{4CDE6ACE-9076-40BD-9658-2FD75955C039}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Consola/Program.cs">
+    <Files>
+      <File FileName="Dominio/Cancion.cs" Line="18" Column="16" />
+      <File FileName="Consola/Program.cs" Line="65" Column="67" />
+      <File FileName="Dominio/Sistema.cs" Line="234" Column="27" />
+      <File FileName="Dominio/Banda.cs" Line="37" Column="74" />
+      <File FileName="Dominio/Disco.cs" Line="130" Column="59" />
+      <File FileName="Dominio/PosicionCancion.cs" Line="5" Column="30" />
+      <File FileName="Dominio/Sexo.cs" Line="1" Column="1" />
+      <File FileName="Dominio/Solista.cs" Line="24" Column="10" />
+      <File FileName="Dominio/Interfaces/IValidable.cs" Line="4" Column="29" />
+      <File FileName="Dominio/Musico.cs" Line="47" Column="32" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Discografica2023" expanded="True">
+            <Node name="Consola" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+            <Node name="Dominio" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Consola PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
