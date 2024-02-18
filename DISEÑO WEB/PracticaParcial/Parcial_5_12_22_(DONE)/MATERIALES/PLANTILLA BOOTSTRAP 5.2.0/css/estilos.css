@@ -1,0 +1,106 @@
+:root {
+  --naranja: #e78825;
+  --gris-claro: #e9e9e9;
+  --negro-transparente: rgba(0, 0, 0, 0.3);
+}
+
+@font-face {
+  font-family: "Bebas Neue";
+  src: url(../fonts/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Bebas Neue", "arial";
+}
+
+h1 {
+  font-size: 80px;
+}
+
+h2 {
+  font-size: 60px;
+  padding: 20px;
+  background-color: var(--naranja);
+}
+
+thead {
+  background-color: var(--naranja);
+}
+
+thead td {
+  font-weight: bold;
+  border-right: 1px solid white;
+}
+
+tr td:nth-child(1) {
+  font-weight: bold;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+figure {
+  margin: 0;
+  padding: 5px;
+}
+
+table {
+  margin: 0 !important;
+}
+
+.btn {
+  background-color: black;
+}
+
+nav .btn {
+  width: 100%;
+}
+
+.btn-dark:hover {
+  background-color: var(--naranja);
+  color: black;
+  border: none;
+}
+
+#fondo {
+  background-image: url(../img/Portada.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 60vh;
+}
+
+#fondo h1,
+#fondo p {
+  color: white;
+}
+
+#fondo > div {
+  height: 100%;
+}
+
+#fondoNegro {
+  background-color: var(--negro-transparente);
+}
+
+#bandas img {
+  border-bottom: 4px solid var(--naranja);
+}
+
+#tickets > div {
+  background-color: var(--gris-claro);
+  padding-bottom: 3rem;
+}
+
+#tickets h2 {
+  margin: 0;
+}

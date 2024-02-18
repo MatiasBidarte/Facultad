@@ -1,0 +1,27 @@
+﻿
+---------------------------
+
+FUENTES - fuentes de Google Fonts
+
+	TÍTULOS
+	Bree Serif
+
+	RESTO DE TEXTOS
+	Exo 2
+
+---------------------------
+
+COLORES
+	FONDO: #E5E5E5
+	ROSADO 1: #e58782
+	ROSADO 2: crimson
+	GRIS TEXTO: #666
+
+---------------------------
+
+Detalles:
+
+Indentado de algunos textos: 15 px
+Espaciado entre algunas letras y palabras: 5px
+
+Los títulos tienen margen de 20px arriba, y el resto de cajas 10px

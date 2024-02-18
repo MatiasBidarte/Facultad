@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* etiquetas de texto */
+figure{
+    width:1250px;
+    padding: 20px;
+    margin: 50px auto;
+    border: 1px solid blue;
+
+}
+figcaption{
+    width: 70%;
+    margin: 30px auto;
+    border-top: 5px double green;
+    text-align: center;
+}
+figure img{
+    width: 30%;
+    padding: 10px;
+    border: 1px solid rgb(113, 30, 15);
+    /* border-radius: 50%; */
+}

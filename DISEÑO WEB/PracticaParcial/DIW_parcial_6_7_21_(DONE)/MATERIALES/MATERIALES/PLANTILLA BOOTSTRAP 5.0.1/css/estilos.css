@@ -1,0 +1,109 @@
+:root {
+  --amarillo: rgb(250, 174, 59);
+  --rojo: rgb(175, 20, 66);
+  --negro: rgb(0, 0, 0);
+}
+
+h2,
+h3,
+h4 {
+  color: var(--rojo);
+}
+
+h2,
+h3 {
+  padding: 10px 0;
+}
+
+nav ul li {
+  text-align: center;
+  flex: 1;
+}
+
+nav ul li a {
+  display: block !important;
+  background-color: rgb(250, 174, 59);
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  background-color: #fff;
+  color: rgb(250, 174, 59);
+}
+
+th {
+  color: var(--rojo);
+}
+
+#cabecera {
+  border-top: 5px solid var(--amarillo);
+  background-color: var(--negro);
+  padding-top: 20px;
+}
+
+#imgFondo {
+  background-image: url("../img/fondo.jpg");
+  background-attachment: fixed;
+  background-position: right;
+  background-size: cover;
+  height: 700px;
+}
+
+#menu > p {
+  padding: 10px 0;
+  border-top: 1px solid var(--rojo);
+  border-bottom: 1px solid var(--rojo);
+  font-weight: 600;
+}
+
+#pie {
+  border-top: 5px solid var(--rojo);
+  background-color: var(--negro);
+}
+
+#pie div p {
+  color: white;
+}
+
+.btn {
+  background-color: var(--amarillo);
+}
+
+li .btn {
+  color: white;
+  display: block;
+  margin-bottom: 10px;
+}
+
+li .btn:hover {
+  background-color: white;
+  color: var(--amarillo);
+}
+
+input {
+  height: 40px;
+}
+
+input[type="text"],
+input[type="submit"] {
+  border-radius: 5px;
+  border: none;
+}
+
+input[type="text"] {
+  color: rgb(175, 20, 66);
+  width: calc(80% - 28px);
+  margin-right: 20px;
+}
+
+input[type="submit"] {
+  background-color: rgb(175, 20, 66);
+  width: 20%;
+}
+input[type="submit"]:hover {
+  background-color: #fff;
+  color: rgb(175, 20, 66);
+}

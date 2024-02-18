@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+    margin:0;
+    padding:0;
+}
+
+figure{
+    width:1000px;
+    padding:10px 0px 10px 20px;
+    border:1px dashed #999;
+    margin:10px auto;
+}
+
+img{
+    padding:3px;
+    border:1px solid #999;
+    margin:0px 20px  0px 0px;
+}
+
+figcaption{
+    width:800px;
+    padding:10px;
+    border-top:3px double #999;
+    margin:10px auto;
+    font-family:"Times New Roman", Times, serif;
+    font-style:italic;
+    text-align:center;
+}

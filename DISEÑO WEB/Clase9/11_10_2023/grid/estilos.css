@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {}
+
+/* tipografia */
+h1, h2, p {
+    margin: 10px 0;
+}
+
+h1 {}
+
+h2 {}
+
+p {}
+
+/* enlaces y nav */
+a {}
+
+a:hover {}
+
+/* menu principal */
+nav#principal {}
+
+nav#redes {}
+
+/* contenedores */
+header {}
+
+section {
+    border: 1px solid darkcyan
+}
+
+footer {}
+
+.centrado {
+    width: 1200px;
+    margin: 20px auto;
+}
+
+section#layout1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+section#layout1 article {
+    background-color: darkcyan;
+    padding: 10px;
+}
+
+section#layout1 h1, section#layout1 p {
+    grid-column: span 3;
+}
+
+section#layout1>p {
+    width: 500px;
+    color: blue
+}
+h1+p{
+    background-color: aqua;
+}
+section#layout1 img{
+    width: 100%;
+    height: calc(100% - 200px);
+    object-fit: cover;
+    object-position: right bottom;
+}
+section#layout1 article:nth-of-type(1), section#layout1 article:nth-of-type(4),
+section#layout1 article:nth-of-type(5){
+    grid-column: span 2;
+}

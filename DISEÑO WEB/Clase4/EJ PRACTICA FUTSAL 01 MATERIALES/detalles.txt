@@ -1,0 +1,18 @@
+﻿FONDO
+
+#135264 + trama
+
+CONTENEDOR
+1024px
+
+TÍTULOS
+#F79321
+#135264
+#6CC0DC
+
+
+IMÁGENES
+Bordes
+6px solid #F79321
+6px solid #135264
+

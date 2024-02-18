@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Plantilla inicio - Bootstrap v5.2.0 beta</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+
+    <!--Primero el móvil, no tender a hacer zoom, sino levantar a escala natural siempre y cuando haya
+       sido pensado como un sitio responsive, y anular el comportamiento de ajustar a los límites del dispositivo
+       el contenido, cuando este sobresalga-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <!--Bootstrap CSS-->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <!--CSS Propio-->
+    <link href="css/estilos.css" rel="stylesheet" type="text/css" />
+
+    
+
+</head>
+
+<body>
+
+	<div class="container-fluid">
+		<div class="row text-center align-items-center justify-content-center">
+			<figure class="col-5 col-md-4 col-lg-2">
+				<img class="img-fluid" src="img/iso-logo.jpg" alt="logo">
+			</figure>
+			<nav class="col-md-8 row col-lg-10">
+				<ul class="row row-cols-md-3 list-unstyled g-2 justify-content-end">
+					<li class="col-12 col-lg-3"><a class="btn btn-dark" href="">Bandas</a></li>
+					<li class="col-12 col-lg-3"><a class="btn btn-dark" href="">Tickets</a></li>
+					<li class="col-lg-3"><a class="btn btn-dark d-none d-md-block" href="">Suscribite</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+
+	<div class="container-fluid" id="fondo">
+		<div class="row justify-content-center align-items-center">
+			<div class="col-8 col-lg-10" id="fondoNegro">
+				<h1>VIVÍ EL MVD MUSIC</h1>
+				<p>
+					Un festival único donde vas a poder disfrutar de la música de varios artistas uruguayos. No te pierdas la oportinudad de ver a tus artistas favoritos en vivo.
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid mb-5">
+		<section class="row" id="bandas">
+			<h2>BANDAS</h2>
+			<article class="col-6 col-md-4 col-lg-3">
+				<img class="img-fluid" src="img/NTVG.jpeg" alt="ntvg">
+				<h3>NO TE VA GUSTAR</h3>
+				<P>
+					Grupo musical de rock alternativo, pop rock, murga, candombe, ska y reggae.
+				</P>
+				<a class="btn btn-dark" href="#">Ver más</a>
+			</article>
+			<article class="col-6 col-md-4 col-lg-3">
+				<img class="img-fluid" src="img/Camila.jpeg" alt="camila">
+				<h3>Camila Sapin</h3>
+				<P>
+					Cantautora y vocal coach, dedicada al estilo musical pop, fusionado con rock, trap, soul y candombe y funk.
+				</P>
+				<a class="btn btn-dark" href="#">Ver más</a>
+			</article>
+			<article class="d-none d-md-block col-md-4 col-lg-3">
+				<img class="img-fluid" src="img/Luciano.jpg" alt="luciano">
+				<h3>Luciano Supervielle</h3>
+				<P>
+					Músico, compositor, productor y DJ. Su musica fusiona los clásico del piano con lo moderno de la electrónica y el hip-hop.
+				</P>
+				<a class="btn btn-dark" href="#">Ver más</a>
+			</article>
+			<article class="col-lg-3">
+				<img class="img-fluid w-100" src="img/Cuarteto.jpeg" alt="el cuarteto de nos">
+				<h3>El Cuarteto de Nos</h3>
+				<P>
+					Banda de rock alternativo y rap rock con elementos pop, electrónica y fusión de varios géneros latinoamericanos
+				</P>
+				<a class="btn btn-dark" href="#">Ver más</a>
+			</article>
+		</section>
+	</div>
+
+	<section class="container-fluid" id="tickets">
+		<h2>TICKETS</h2>
+		<div class="row align-items-end">
+			<div class="col-md-6 col-lg-5">
+				<h3>PRECIOS</h3>
+				<table class="table table-striped text-center">
+					<thead>
+						<td>SECTOR</td>
+						<td>PRECIO PREVENTA</td>
+						<td>PRECIO</td>
+					</thead>
+					<tr>
+						<td>Campo</td>
+						<td>$1000</td>
+						<td>$1500</td>
+					</tr>
+					<tr>
+						<td>Platea</td>
+						<td>$1300</td>
+						<td>$1800</td>
+					</tr>
+					<tr>
+						<td>Platea VIP</td>
+						<td>$1800</td>
+						<td>$2200</td>
+					</tr>
+				</table>
+			</div>
+			<figure class="col-md-6 col-lg-6 d-none d-md-block">
+				<img class="img-fluid" src="img/banda.jpg" alt="banda">
+			</figure>
+		</div>
+	</section>
+
+	<section class="container-fluid pb-5 d-none d-md-block">
+		<h2>SUSCRIBETE</h2>
+		<div class="row justify-content-center w-100">
+			<form class="col-8" action="#" method="post">
+				<p>ecibirás informacion y descuentos exclusivos</p>
+				<label for="nombre">Nombre</label>
+				<input class="form-control" type="text" name="nombre" id="nombre">
+				<label for="email">Email</label>
+				<input class="form-control" type="email" name="email" id="email">
+				<input class="btn btn-dark col-6 mt-2" type="submit" value="Enviar">
+			</form>
+		</div>
+	</section>
+
+	<footer class="container-fluid">
+		<div class="text-center">
+			<figure>
+				<img src="img/logo.svg" alt="iso">
+			</figure>
+			<p>© Todos los derechos reservados - 2022</p>
+		</div>
+	</footer>
+
+<!-- JavaScript -->
+<script src="js/bootstrap.bundle.js"></script>
+<!--<script src="js/bootstrap.js"></script>-->
+</body>
+
+</html>

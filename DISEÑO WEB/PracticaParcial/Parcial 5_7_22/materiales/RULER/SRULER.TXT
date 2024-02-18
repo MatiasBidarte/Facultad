@@ -1,0 +1,204 @@
+---------------------------------------------------------------
+  Screen Ruler for Windows 95/NT  Version: 1.1  January 1998
+---------------------------------------------------------------
+
+Author:    Jesse Carneiro     <microfox@kagi.com>
+           Micro Fox Software <http://www.kagi.com/microfox/>
+Address:   P.O. Box 14932 / Columbus, Ohio 43214-0932 / USA
+Shareware: US$15 (cash, check, VISA, MasterCard - see note below)
+
+
+  Screen Ruler is a great virtual ruler ready to be dragged 
+  around on your computer screen. This Windows 95/NT 32bit 
+  application is very useful to measure objects in Pixels. 
+  It features a vertical or horizontal orientation, a dynamic 
+  mouse measurement tracking, custom length, plus it can also 
+  remain on top, above all windows. Try it! Named "Cool Tool" 
+  by Internet World magazine. Very handy when designing Web 
+  Pages and other screen layouts. The registered version is 
+  even better.
+
+---------------------------------------------------------------
+Features
+---------------------------------------------------------------
+
+  * Double-click on the ruler itself to make it flip from
+    horizontal to vertical orientation and vice-versa.
+
+  * Left-click on the ruler to drag it to a new position.
+
+  * Right-click on the ruler to bring up its menu.
+
+  * Use the arrow keys to move the ruler 1 pixel at a time.
+    The CTRL-Arrow Key combination allows you to move it by
+    10 pixels at a time.
+
+  * Clicking on the leftmost square icon will exit the program.
+
+  * Clicking on the second square icon (with hatch marks) will
+    flip the ruler. Equivalent to double-clicking on the ruler
+    itself to change its orientation.
+
+  * Clicking on the double-arrow icon allows you to drag the 
+    right (or bottom) side of the ruler giving it a new custom 
+    length. The minimum length on the unregistered version is 
+    400 pixels (registered version is 300). The maximum length 
+    is 1200 pixels. While you drag the grow icon, the ruler 
+    tracks the new length in the measurement display.
+
+  * The ruler dims its title "Screen Ruler" to gray when it's 
+    NOT the currently active application (the one on the front) 
+    even if it is marked to always be on top of all windows. 
+    Click on the ruler or use ALT-Tab to make it active.
+
+  * Screen Ruler uses a specially designed cursor. Its 1 pixel 
+    tail-like line protrudes beyond the ruler itself as an aid 
+    in precisely measuring objects down to the pixel. The cursor
+    must be over the active or inactive ruler for it to change
+    to its unique shape.
+
+  * The mouse tracking mechanism constantly watches the cursor
+    position and informs you of its location relative to the
+    bottom left corner of the ruler (the zero point). Even when
+    the ruler is NOT the currently active window.
+
+  * Releasing the ALT key (or F10) pops up the menu. You can 
+    then use the mouse or the arrow keys to make your selection. 
+    Use the ESC key to send the menu away.
+
+  * If your computer is equipped with a sound card capable of 
+    playing wave files, one of the menu items will say "Make 
+    Click Sound", otherwise it will just say "Make Beep Sound."
+    When this menu item is checked, it allows a "click" sound
+    to be heard when you move the ruler with the arrow keys.
+
+  * If you need two or more rulers on the screen at the same 
+    time, just double-click the Screen Ruler icon again, another
+    copy of it will run.
+
+  * The "About Screen Ruler" menu item has our address, e-mail, 
+    home page, etc. It also contains notice of the fact that
+    Screen Ruler is NOT free. It is being distributed on the 
+    shareware honor system. That is, to continue its development
+    we depend on continued user support in the form of payment of
+    the shareware registration fee of only US$15. It's really
+    up to you!
+
+  * The "Register" menu item enables you to conveniently register
+    Screen Ruler's shareware fee. If you have a web browser
+    application such as Netscape or Internet Explorer installed
+    in your computer, this menu runs it and automatically points 
+    the browser to our web home page. Follow the links there to
+    register online. If there's no browser installed, this menu
+    opens a form file ready for you to fill it and mail it. This
+    feature is also triggered from the "link" found in the "About
+    Screen Ruler" dialog box.
+
+  * When you send your US$15 registration fee, we will send you 
+    via e-mail a copy with your name prominently displayed in 
+    the About Box. To send via regular mail requires an extra 
+    US$5. Please send your name, postal address, e-mail, phone 
+    and also the version number you are registering. Please
+    indicate that you are registering the Windows version, 
+    because we also have a Macintosh version.
+
+  * The "Help" menu brings up the document you are now reading.
+
+  * Unregistered copies of Screen Ruler will randomly display at 
+    startup, the message "Please Register Screen Ruler." After 
+    some usage, it appends "Used x times." to the above message. 
+    If that number gets too high, you might consider getting a 
+    copy with your name in it.
+
+  * The "Always on Top" menu item essentially makes the ruler
+    always float above all windows. Technically speaking, it can
+    go under other windows who share the same TOPMOST status.
+  
+  * The "Slide to Zero" menu item will shift the ruler 
+    horizontally or vertically to the edge of the screen.
+
+  * You may also use accelerator key combinations (such as
+    CTRL-F, CTRL-S, CTRL-A and CTRL-M) for its features.
+
+  * The "Minimize" menu item will shrink the ruler to an icon
+    on the Windows taskbar.
+
+  * When you exit Screen Ruler, it automatically saves its 
+    settings in the Windows Registry.
+
+  * Currently this version (1.0) of the ruler only measure in 
+    Pixels. The remaining dimmed items in the menu reflect other 
+    types of measurements implemented in the registered version.
+
+---------------------------------------------------------------
+Note
+---------------------------------------------------------------
+
+  The version you get when you register has more measurements
+  and other cool enhancements. Well worth the small investment.
+
+  We suggest you keep the Screen Ruler handy by dragging its 
+  icon over the Widows 95 Start Button on the Taskbar.
+
+  In all likelihood, this version has already been updated.
+  Get the latest version. If you haven't registered yet, please 
+  do. You will receive early notification of new releases
+  plus a special version directly from us (via e-mail) with 
+  your name prominently displayed in the About Box.
+
+  If you get the message "This is an old version of Screen
+  Ruler," is because it has been over a year since it was 
+  released (time to get an updated version), or your computer
+  clock is not set to the current date.
+
+---------------------------------------------------------------
+Easy To Register
+---------------------------------------------------------------
+
+  For your convenience, Screen Ruler's registrations are handled
+  by Kagi Shareware <http://www.kagi.com/>, a service run by Kee 
+  Nethery <admin@kagi.com>. This allows shareware authors to 
+  concentrate on their programs while Kagi takes care of processing
+  orders. In addition to cash in various currencies and US checks 
+  drawn on USA banks, Kagi Shareware also accepts credit card 
+  registrations by mail, fax, or e-mail.
+
+  Alternatively, if you so chose, you can pay by cash (yes, some 
+  people prefer it) or US check. In this case, you can send it 
+  directly to me at the address given below.
+
+  Kagi also handles invoices and site licenses for organizations.
+  Visit their web site for more information.
+  We have made registering Screen Ruler quick and simple.
+
+  Thank you for your time and for trying Screen Ruler.
+
+  Write or e-mail any suggestions, comments or bugs to:
+
+    Jesse Carneiro     <microfox@kagi.com>
+    Micro Fox Software <http://www.kagi.com/microfox/>
+    P.O. Box 14932
+    Columbus, OH 43214-0932
+    USA
+    
+    shareware@kagi.com   (for registration matters)
+
+---------------------------------------------------------------
+A Personal Statement
+---------------------------------------------------------------
+
+  There is a force in the known universe that wants you to 
+  be a winner. Your life was given by the grace of God. 
+  The eternal continuation of your life is offered by the 
+  sheer belief in Jesus Christ as your Savior.
+
+---------------------------------------------------------------
+Legal Stuff
+---------------------------------------------------------------
+©1998 Jesse Carneiro, Micro Fox Software
+Usual disclaimers apply: Jesse Carneiro and Micro Fox Software 
+accept no responsibility for any incidental or consequential 
+damage of any sort as a direct or indirect result of using this 
+software. The software is provided "as is," and no warranties 
+are made as to its fitness for a particular purpose.
+---------------------------------------------------------------

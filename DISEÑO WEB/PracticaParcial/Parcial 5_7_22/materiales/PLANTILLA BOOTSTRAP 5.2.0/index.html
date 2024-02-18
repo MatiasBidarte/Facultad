@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Plantilla inicio - Bootstrap v5.2.0 beta</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+
+    <!--Primero el móvil, no tender a hacer zoom, sino levantar a escala natural siempre y cuando haya
+       sido pensado como un sitio responsive, y anular el comportamiento de ajustar a los límites del dispositivo
+       el contenido, cuando este sobresalga-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <!--Bootstrap CSS-->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <!--CSS Propio-->
+    <link href="css/estilos.css" rel="stylesheet" type="text/css" />
+
+    
+
+</head>
+
+<body>
+
+	<div class="container-fluid" id="cabezal">
+		<header class="container">
+			<div class="d-flex flex-column align-items-center">
+				<figure class="col-lg-2 col-md-4 py-2">
+					<img class="img-fluid" src="imagenes/logo.png" alt="logo">
+				</figure>
+				<nav class="col-md-8">
+					<ul class="row row-cols-md-3 list-unstyled">
+						<li><a class="boton" href="">Productos</a></li>
+						<li><a class="boton" href="">Cupón descuento</a></li>
+						<li><a class="boton" href="">Producto Destacado</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+	</div>
+
+	<div class="container mt-4">
+		<section class="row" id="productos">
+			<h1>Productos</h1>
+			<article class="col-lg-4">
+				<img class="img-fluid" src="imagenes/producto1.jpg" alt="p1">
+				<h2>Chaleco acolchado</h2>
+				<p>
+					Chaleco confeccionado en tejido con tacto aterciopelado. Cuello subido y manga sisa. Bolsillos en ambas partes. Cierre frontal con botones a presión.
+				</p>
+				<ul>
+					<li>Material impermeable</li>
+					<li>forro en algodón</li>
+				</ul>
+				<a class="btn btn-dark" href="">Comprar</a>
+			</article>
+			<article class="col-lg-4 col-md-6">
+				<img class="img-fluid" src="imagenes/producto2.jpg" alt="p2">
+				<h2>Sobrecamisa jacquard</h2>
+				<p>
+					Sobrecamisa relaxed fit de cuello solapa y manga larga acabada en puño con botón. Bolsillos de plastrón con solapa en pecho. Cierre frontal de botonadura.
+				</p>
+				<ul>
+					<li>100% material reciclado</li>
+					<li>Prenda unisex</li>
+				</ul>
+				<a class="btn btn-dark" href="">Comprar</a>
+			</article>
+			<article class="col-lg-4 col-md-6 d-none d-md-block">
+				<img class="img-fluid" src="imagenes/producto3.jpg" alt="p3">
+				<h2>Pantalón chino skinny</h2>
+				<p>
+					Pantalón skinny fit confeccionado en tejido de algodón con elasticidad. Bolsillos frontales, y bolsillos de vivo en espalda. Cierre frontal con cremallera y botón.
+				</p>
+				<ul>
+					<li>70% algodón 30% elastano</li>
+					<li>en varios colores</li>
+				</ul>
+				<a class="btn btn-dark" href="">Comprar</a>
+			</article>
+		</section>
+	</div>
+
+	<div class="container-fluid my-4" id="descuentos">
+		<div class="row h-100 justify-content-end align-items-center">
+			<div class="col-lg-4 col-md-6" id="contenedorTexto">
+				<h1>30% OFF EN TU SIGUIENTE COMPRA</h1>
+				<p>Registrate ahora para recibir cupón de descuento</p>
+				<p><small>El descuento es valido hasta fin de mes</small></p>
+				<form action="#" method="post">
+					<input class="form-control" type="text" name="email" id="email" required>
+					<input class="btn btn-dark mt-2" type="submit" value="Registrate">
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<section class="row align-items-end" id="destacados">
+			<div class="col-lg-5">
+				<h1>Producto destacado</h1>
+				<h2>Sudadera básica capucha</h2>
+				<p>
+					Sudadera amplia de cuello con capucha ajustable y manga larga. Bolsillos frontal tipo canguro. Acabados en rib.
+				</p>
+				<p>UYU 1790,00 <mark>-25% UYU 1290,00</mark> </p>
+				<p><small>*Posibilidad de pago en 4 cuotas sin intereses</small></p>
+				<h3 class="d-none d-lg-block">Guía de talles</h3>
+				<table class="table d-none d-lg-block">
+					<tr>
+						<th></th>
+						<th>Largo</th>
+						<th>Ancho</th>
+					</tr>
+					<tr>
+						<th>XS</th>
+						<td>70 cm</td>
+						<td>105 cm</td>
+					</tr>
+					<tr>
+						<th>S</th>
+						<td>80 cm</td>
+						<td>115 cm</td>
+					</tr>
+					<tr>
+						<th>M</th>
+						<td>85 cm</td>
+						<td>120 cm</td>
+					</tr>
+					<tr>
+						<th>L</th>
+						<td>90 cm</td>
+						<td>125 cm</td>
+					</tr>
+					<tr>
+						<th>XL</t>
+						<td>95 cm</td>
+						<td>133 cm</td>
+					</tr>
+					<tr>
+						<th>XXL</th>
+						<td>100 cm</td>
+						<td>145 cm</td>
+					</tr>
+				</table>
+				<h3>Materiales, cuidados y origen</h3>
+				<p>
+					El estándar Green to Wear 2.0 tiene como objetivo minimizar el impacto ambiental de la producción textil. Para ello hemos desarrollado el programa The List de Inditex que nos ayuda a garantizar tanto la limpieza de los procesos
+				</p>
+				<h3>Join Life</h3>
+				<p>
+					Care for fiber: al menos 25% poliéster reciclado. Etiquetamos bajo el nombre Join Life las prendas que se producen utilizando tecnologías y materias primas que nos ayudan a reducir el impacto medioambiental de nuestros productos.
+				</p>
+			</div>
+			<div class="col-lg-7">
+				<div class="row">
+					<figure class="col-md-6">
+						<img class="img-fluid" src="imagenes/canguro1.jpg" alt="c1">
+					</figure>
+					<figure class="col-md-6">
+						<img class="img-fluid" src="imagenes/canguro2.jpg" alt="c2">
+					</figure>
+				</div>
+				<figure class="d-none d-lg-block">
+					<img class="img-fluid" src="imagenes/canguro3.jpg" alt="c3">
+				</figure>
+			</div>
+		</section>
+	</div>
+
+<!-- JavaScript -->
+<script src="js/bootstrap.bundle.js"></script>
+<!--<script src="js/bootstrap.js"></script>-->
+</body>
+
+</html>

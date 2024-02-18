@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{}
+
+section{
+    width: 1200px;
+    /* height: 1200px; */
+    margin: 20px auto;
+    border: 1px solid gray;
+}
+header{
+    width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+nav#principal{
+    /* display: flex;
+    justify-content: center; */
+}
+nav#principal ul{
+    width: 500px;
+    display: flex;
+    /* justify-content: space-between; */
+    gap:10px;
+    list-style-type: none;
+}
+nav#principal ul li{
+    /* width: 100px; */
+    /* width: calc(100% / 4); */
+    /* propiedes flex item */
+    flex:1;
+}
+nav#principal ul li a{
+    display: block;
+    line-height: 50px;
+    text-align: center;
+    background-color: rgb(43, 226, 137);
+}
+nav#principal ul li a:hover{
+    background-color: coral;
+}
+
+#layout1{
+    border-color: darkcyan;
+    padding: 10px;
+    /* flex container - padre */
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px 50px
+}
+section#layout1 h1{
+    width: 100%;
+}
+#layout1 article{
+    background-color: darkcyan;
+    padding: 10px;
+    width: 500px;
+    /* flex items - hijos */
+}
+
+#layout2{
+    border-color: rgb(139, 0, 97);
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#layout2 article{
+    background-color: bisque;
+    width: 500px;
+    padding: 20px;
+}
+
+#layout3{
+    display: flex;
+    gap:30px
+}
+#layout3 article{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}

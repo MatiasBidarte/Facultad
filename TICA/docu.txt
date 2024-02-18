@@ -1,0 +1,29 @@
+USUARIOS Y CONTRASEÑAS OBLIGATORIO
+
+Instancia 1:
+usuario: Administrator
+contraseña: xuOV=n6clOMSoJY88HwqqFjjcTeTOeH)
+
+Instancia 2:
+usuario: Administrator
+contraseña: L@36R9.=UL%8Qua3R$)to84Q9NAhqvcs
+
+Somee:
+Usuario mBidarte
+contraseña mBidarte0811
+
+XAMPP usuario FTP:
+nombre MatiasFTP1
+contraseña MatiasFTP1
+
+IIS usuario FTP:
+nombre MatiasFTP2
+contraseña matias.ftp2
+
+IIS usuario FTP desde instancia 2:
+nombre: matiasFTPinstancia2
+contraseña: matias.ftpinstancia2
+
+Azure FTP:
+usuario: SitioWebEnAzure\$SitioWebEnAzure
+contraseña: he9oH5AW3FT4Xjq0zluhpMvoMkpr5pFPuS3GKh6QtctgbwdnnrmK9FeuY7b4

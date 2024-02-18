@@ -1,0 +1,374 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto Slab, serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: Autour One;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: Autour One;
+}
+
+h1,
+p,
+small {
+  padding: 5px;
+}
+
+header {
+  display: flex;
+  background-color: gainsboro;
+  height: 100px;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  width: 600px;
+}
+
+nav ul li {
+  flex: 1;
+}
+
+nav ul li a {
+  color: black;
+  display: block;
+  width: 150px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  text-decoration: none;
+  transition: 0.2s ease all;
+}
+
+nav ul li a:hover {
+  border-top: 2px solid gray;
+  font-weight: bolder;
+}
+
+figcaption {
+  font-size: 10px;
+  font-weight: bold;
+  text-align: right;
+  margin-top: 10px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+input:focus,
+textarea:focus {
+  transition: 0.3s ease;
+  background-color: beige;
+}
+
+input[type="submit"] {
+  width: 150px;
+  height: 40px;
+  background-color: beige;
+  border: none;
+  border-radius: 5px;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(245, 245, 150);
+}
+
+fieldset {
+  border: none;
+}
+
+textarea {
+  height: 100px;
+  padding: 0;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  width: 30px;
+}
+
+form label {
+  display: block;
+}
+
+input[type="radio"] + label,
+input[type="checkbox"] + label {
+  display: inline;
+}
+
+footer {
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: black;
+}
+
+footer div {
+  display: flex;
+  gap: 20px;
+}
+
+section#layout1 {
+  background-image: url(img/background.webp);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 850px;
+  display: flex;
+  align-items: center;
+}
+
+section#layout1 article {
+  margin: 0 auto;
+  width: 600px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 40px;
+  text-align: center;
+  padding: 20px;
+}
+
+#TopSales {
+  margin-top: 40px;
+}
+
+#TopSales > div:first-of-type {
+  width: 600px;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: rgb(58, 54, 54);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+#Grilla {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  padding: 30px;
+  place-items: center;
+  gap: 10px;
+}
+
+#Grilla div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#Grilla > div:first-of-type {
+  background-image: url(img/backgroundJinx.jpg);
+  background-size: cover;
+  background-position: center;
+  grid-column: span 2;
+  border-radius: 10px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+#Grilla > div:first-of-type p {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: azure;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+#Grilla img {
+  width: 100%;
+  object-fit: contain;
+}
+
+#Grilla article {
+  grid-row: span 2;
+  grid-column: span 2;
+  text-align: center;
+}
+
+#Grilla article p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+#Grilla div:last-of-type {
+  background-image: url(img/artStationBackground.jpg);
+  background-size: cover;
+  color: white;
+  grid-column: span 4;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+#Grilla > div strong {
+  font-family: Autour One;
+  font-size: 50px;
+}
+
+#novedades {
+  padding: 100px;
+}
+
+#productosNovedades {
+  display: flex;
+  height: 100%;
+  gap: 20px;
+}
+
+#productosNovedades article {
+  height: 400px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#productosNovedades article img {
+  width: 50%;
+}
+
+#nosotros {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  align-items: flex-start;
+  padding: 40px 0;
+}
+#nosotros h2,
+#nosotros p {
+  margin: 10px 0;
+}
+
+#nosotros div:first-of-type {
+  width: 120%;
+}
+
+#nosotros div:nth-of-type(2) {
+  display: flex;
+  gap: 20px;
+  height: 100%;
+}
+
+#nosotros div:nth-of-type(2) figure img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+#nosotros input[type="email"] {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid beige;
+}
+
+#contacto {
+  height: 700px;
+}
+
+#contacto article {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+#contacto form {
+  width: 150%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px 30px;
+}
+
+#contacto form div {
+  width: 100%;
+}
+
+#contacto form div:nth-child(5) {
+  grid-column: span 2;
+}
+
+#contacto form div:nth-child(6),
+#contacto input[type="submit"] {
+  grid-column: 2;
+  justify-self: right;
+}
+
+#contacto form div:nth-child(6) {
+  text-align: right;
+}
+
+.boton {
+  margin: 10px auto;
+  display: block;
+  background-color: azure;
+  width: 150px;
+  height: 50px;
+  line-height: 50px;
+  text-decoration: none;
+  border-radius: 40px;
+  transition: 0.2s ease-in-out;
+}
+
+.boton:hover {
+  color: azure;
+  background-color: transparent;
+  border: 2px solid blueviolet;
+}
+
+.botonCompra {
+  margin: 15px 5px;
+  display: block;
+  background-color: black;
+  color: wheat;
+  width: 150px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+}
+
+.botonCompra:hover {
+  color: black;
+  background-color: inherit;
+  border: 2px solid black;
+}
+
+.centrado {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.centradoConFondo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: beige;
+}

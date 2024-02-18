@@ -1,0 +1,56 @@
+Registrarse
+Lanzamiento
+Productos
+--------------------------------------------------
+Contactate con nosotros
+Nos podés dejar tu mensaje completando el siguiente formulario por si tenés noticias que te interesaría que publiquemos, o también consultas sobre lanzamientos, pruebas, productos que están por llegar, etc.
+
+No responderemos consultas: opiniones personales de productos, sobre repuestos, aseguradoras, quejas sobre servicios de posventa/concesionarios, y/o venta de vehículos).
+--------------------------------------------------
+
+Ferrari 458 Italia
+Lanzamiento
+El Ferrari 458 Italia es un modelo realizado empleando la tecnología y la experiencia que atesora Ferrari en la Formula 1 con la colaboración de Michael Schumacher y que cuenta con un motor 4.5 V8 de Ferrari con 570 CV, el motor más eficiente que se haya empleado nunca en un cavallino rampante. Su versión más radical, el Ferrari 458 Speciale, alcanza los 605 CV.
+
+El motor 4.5 V8 del Ferrari 458 Italia está asociado a una caja de cambios de siete velocidades con doble embrague desarrollada específicamente para ofrecer un rendimiento deportivo con marchas cortas que desarrollen el máximo par a bajas revoluciones y con una séptima marcha larga para alcanzar la máxima velocidad punta. Esta máquina es capaz de acelerar de 0 a 100 km/h en solo 3,4 segundos y alcanza una velocidad máxima de 325 km/h.
+
+				458 Italia1		458 Spider		458 Speciale
+Alimentación				Inyección directa, naturalmente aspirado.
+Capacidad de combustible	95 litros (25,1 galAm)	86 litros (22,7 galAm)
+Emisiones de CO2		320 g (11,3 oz)/km	275 g (9,7 onzas)/km	277 g (9,8 onzas)/km
+Peso en seco			1380 kg (3042 lb)	1430 kg (3153 lb)	1290 kg (2844 lb)
+Velocidad máxima		325 km/h (202 mph)	320 km/h (199 mph)	325 km/h (202 mph)
+
+--------------------------------------------------
+Productos
+
+Ferrari 812 Superfast
+Impulsado por sus 800 cv, el 812 Superfast es el Ferrari de carretera más potente y rápido jamás construido.
+
+Potencia 800 cv
+Cilindros V12
+Velocidad 340 Km/h
+
+Lamborghini Aventador SVJ
+El Lamborghini Aventador SVJ es la máxima expresión del nuevo concepto de Super Sports Cars. Condúcelo para entender porque es diferente de todos los demás deportivos.
+
+Potencia 610 cv
+Cilindros V10
+Velocidad 625 Km/h
+
+Porsche 911 Coupe
+El modelo de 2016 consta de un nuevo motor biturbo con mayor potencia y un nuevo sistema de escape deportivo con salidas centrales que evoca a los origenes del 911 en los circuitos de competición.
+
+Potencia 370 cv
+Cilindros 16
+Velocidad 295 Km/h
+
+Ford Mustang Shelby GT
+El Mustang Shelby es un coche con espíritu. Su motor 5.2 litros de ocho cilindros es apodado “Vodoo” y dota al coche de mejores cifras de potencia y par motor que sus antecesores, además de un rugido de escape espectacular.
+
+Potencia 810 cv
+Cilindros V15
+Velocidad 345 Km/h
+
+
+Nombre Alumno - nro estudiante - grupo

@@ -1,0 +1,50 @@
+﻿Logo Futsal Tournment
+
+dos jugadores de diferentes equipos marcándose
+Jugadores y sustitutos expulsados
+Un jugador expulsado antes del saque de salida sólo podrá ser reemplazado por uno de los sustitutos designados.
+
+Un sustituto designado, expulsado antes del saque de salida o después del comienzo del partido, no podrá ser sustituido.
+
+Un sustituto podrá sustituir a un jugador expulsado y entrar en la superficie de juego una vez transcurridos dos minutos de juego efectivos después de la expulsión,siempre que cuente con la autorización del cronometrador o el tercer árbitro (árbitros asistentes), salvo si se marca un gol antes de que transcurran dos minutos, en cuyo caso, se aplicarán las siguientes disposiciones:
+
+si cinco jugadores se enfrentan a cuatro y el equipo en superioridad numérica marca un gol, se podrá completar el equipo de cuatro jugadores
+si ambos equipos juegan con cuatro o tres jugadores y se marca un gol, ambos equipos mantendrán el mismo número de jugadores
+si cinco jugadores se enfrentan a tres, o cuatro jugadores a tres, y el equipo en superioridad numérica marca un gol, se podrá añadir un jugador al equipo con tres jugadores
+si el equipo en inferioridad numérica marca un gol, se continuará el juego sin alterar el número de jugadores
+cancha estándar, con marcas en el suelo
+Marcación de la superficie
+La superficie de juego será rectangular y estará marcada con líneas. Dichas líneas pertenecerán a las zonas que demarcan y deberán diferenciarse claramente del color de la superficie de juego.
+
+Las dos líneas de marcación más largas se denominarán líneas de banda. Las dos más cortas se llamarán líneas de meta.
+
+La superfi cie de juego estará dividida en dos mitades por una línea media, que unirá los dos puntos medios de las dos líneas de banda.
+
+El centro de la superfi cie de juego estará marcado con un punto en la mitad de la línea media, alrededor del cual se trazará un círculo con un radio de 3 m.
+
+Se deberá hacer una marca fuera de la superfi cie de juego, a 5 m de cada área de esquina y perpendicular a la línea de meta, para señalar la distancia que deberá observarse en la ejecución de un saque de esquina. La anchura de la marca será de 8 cm.
+
+Se deberán hacer dos marcas adicionales en la superfi cie de juego, a 5 m del segundo punto penal, a izquierda y derecha, para señalar la distancia mínima que deberá observarse en la ejecución de un tiro desde el segundo punto penal.
+
+La anchura de la marca será de 8 cm.
+
+Texto alternativo
+Reemplazo de un balón defectuoso
+Si el balón explota o se daña mientras está en juego, se interrumpirá el juego:
+
+el juego se reanudará dejando caer el balón de reserva al suelo, en el sitio donde se daño el balón original, a menos que el partido se haya interrumpido dentro del área penal, en cuyo caso uno de los árbitros dejará caer un balón de reserva al suelo en la línea del área penal, en el punto más cercano al sitio donde el balón original se encontraba cuando se interrumpió el juego
+el juego se reanudará con repetición del tiro si el balón explota o se daña en el lanzamiento de un tiro libre directo sin barrera, un tiro desde el segundo punto penal o un tiro penal y no ha tocado los postes, el travesaño o a un jugador, ni se ha cometido una infracción
+Si el balón explota o se daña en un momento en que no se halla en juego (saque de salida, saque de meta, saque de esquina, balón al suelo, tiro libre, tiro penal o saque de banda):
+
+El partido se reanudará conforme a las Reglas de Juego del Fútsal
+El balón no podrá ser cambiado durante el partido sin la autorización de los árbitros.
+
+Tabla estadística
+Posición	Equipo	Resultados
+Mundiales ganados	Puntos
+1°	Brasil	8	159
+2°	España	137
+3°	Italia	7	84
+4°	Argentina	8	81
+5°	Rusia	6	73
+6°	Portugal	5	55

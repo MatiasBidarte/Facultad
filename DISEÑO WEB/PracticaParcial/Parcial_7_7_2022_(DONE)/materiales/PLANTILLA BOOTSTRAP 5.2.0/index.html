@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Parcial julio 2022</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+
+    <!--Primero el móvil, no tender a hacer zoom, sino levantar a escala natural siempre y cuando haya
+       sido pensado como un sitio responsive, y anular el comportamiento de ajustar a los límites del dispositivo
+       el contenido, cuando este sobresalga-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <!--Bootstrap CSS-->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <!--CSS Propio-->
+    <link href="css/estilos.css" rel="stylesheet" type="text/css" />
+
+    
+
+</head>
+
+<body>
+
+	<div class="container-fluid fondoCeleste">
+		<div class="container">
+			<header class="row justify-content-center align-items-center justify-content-lg-between">
+				<figure class="col-6 col-md-4 col-lg-2">
+					<img class="img-fluid" src="imagenes/logo.png" alt="Logo">
+				</figure>
+				<nav class="col-11 col-lg-8">
+					<ul class="row row-cols-md-3 list-unstyled text-center g-3">
+						<li><a href="">Registrarse</a></li>
+						<li><a href="">Lanzamiento</a></li>
+						<li><a href="">Productos</a></li>
+					</ul>
+				</nav>
+			</header>
+		</div>
+	</div>
+
+	<div class="container-fluid" id="nosotros">
+		<section class="row align-items-center justify-content-center">
+			<article class="col-md-8 col-lg-5 p-5">
+				<h1>Contactate con nosotros</h1>
+				<p>
+					<strong>
+						Nos podés dejar tu mensaje completando el siguiente formulario por si tenés noticias que te interesaría que publiquemos, o también consultas sobre lanzamientos, pruebas, productos que están por llegar, etc.
+					</strong>
+				</p>
+				<p>
+					No responderemos consultas: opiniones personales de productos, sobre repuestos, aseguradoras, quejas sobre servicios de posventa/concesionarios, y/o venta de vehículos).
+				</p>
+				<form action="">
+					<input class="form-control" type="email" name="email" id="email" required>
+					<input class="btn btn-dark my-3" type="submit" value="registrarse">
+				</form>
+			</article>
+		</section>
+	</div>
+
+	<div class="container-fluid fondoCeleste" id="destacado">
+		<article class="row justify-content-end align-items-end">
+				<div class="col-lg-4 col-md-6">
+					<div class="row">
+						<figure class="col-md-6">
+							<img class="img-fluid" src="imagenes/destacado1.jpg" alt="auto1">
+						</figure>
+						<figure class="col-md-6">
+							<img class="img-fluid" src="imagenes/destacado2.jpg" alt="auto2">
+						</figure>
+						<figure class="d-none d-md-block">
+							<img class="img-fluid" src="imagenes/destacado3.jpg" alt="auto2">
+						</figure>
+						<figure class="d-none d-md-block">
+							<img class="img-fluid" src="imagenes/destacado4.jpg" alt="auto2">
+						</figure>
+					</div>
+				</div>
+				<div class="col-lg-5 col-md-6">
+					<h1> Ferrari 458 italia</h1>
+					<h2>Lanzamiento</h2>
+					<p>
+						<strong>
+							El Ferrari 458 Italia es un modelo realizado empleando la tecnología y la experiencia que atesora Ferrari en la Formula 1 con la colaboración de Michael Schumacher y que cuenta con un motor 4.5 V8 de Ferrari con 570 CV, el motor más eficiente que se haya empleado nunca en un cavallino rampante. Su versión más radical, el Ferrari 458 Speciale, alcanza los 605 CV.
+						</strong>
+					</p>
+					<p>
+						El motor 4.5 V8 del Ferrari 458 Italia está asociado a una caja de cambios de siete velocidades con doble embrague desarrollada específicamente para ofrecer un rendimiento deportivo con marchas cortas que desarrollen el máximo par a bajas revoluciones y con una séptima marcha larga para alcanzar la máxima velocidad punta. Esta máquina es capaz de acelerar de 0 a 100 km/h en solo 3,4 segundos y alcanza una velocidad máxima de 325 km/h.
+					</p>
+					<table class="table table-bordered table-striped">
+						<th>
+							<td>458 Italia1</td>
+							<td>458 Spider</td>
+							<td>458 Speciale</td>
+						</th>
+						<tr>
+							<td>Alimentacion</td>
+							<td colspan="3" >Inyección directa, naturalmente aspirado.</td>
+						</tr>
+						<tr>
+							<td>Capacidad de combustible</td>
+							<td>95 litros (25,1 galAm)</td>
+							<td colspan="2">86 litros (22,7 galAm)</td>
+						</tr>
+						<tr>
+							<td>Emisiones de CO2</td>
+							<td>320 g (11,3 oz)/km</td>
+							<td>275 g (9,7 onzas)/km</td>
+							<td>277 g (9,8 onzas)/km</td>
+						</tr>
+						<tr>
+							<td>Peso en seco</td>
+							<td>1380 kg (3042 lb)</td>
+							<td>1430 kg (3153 lb)</td>
+							<td>1290 kg (2844 lb)</td>
+						</tr>
+						<tr>
+							<td>Velocidad máxima</td>
+							<td>325 km/h (202 mph)</td>
+							<td>320 km/h (199 mph)</td>
+							<td>325 km/h (202 mph)</td>
+						</tr>
+					</table>
+				</div>
+		</article>
+	</div>
+
+	<div class="container row align-items-end" id="productos">
+		<h1>Productos</h1>
+		<article class="col-lg-8">
+			<figure>
+				<img class="img-fluid imagen" src="imagenes/auto1.png" alt="auto1">
+			</figure>
+			<h2 class="subtProductos">Ferrari 812 Superfast</h2>
+			<p>Impulsado por sus 800 cv, el 812 Superfast es el Ferrari de carretera más potente y rápido jamás construido.</p>
+			<ul>
+				<li>Potencia 800 cv</li>
+				<li>Cilindros V12</li>
+				<li>Velocidad 340 Km/h</li>
+			</ul>
+			<a class="btn btn-dark" href="">Pedir info</a>
+		</article>
+	
+		<article class="col-lg-4">
+			<figure>
+				<img class="img-fluid imagen" src="imagenes/auto2.png" alt="auto2">
+			</figure>
+			<h2 class="subtProductos">Lamborghini Aventador SVJ</h2>
+			<p>
+				El Lamborghini Aventador SVJ es la máxima expresión del nuevo concepto de Super Sports Cars. Condúcelo para entender porque es diferente de todos los demás deportivos.
+			</p>
+			<ul>
+				<li>Potencia 610 cv</li>
+				<li>Cilindros V10</li>
+				<li>Velocidad 625 Km/h</li>
+			</ul>
+			<a class="btn btn-dark" href="">Pedir info</a>
+		</article>
+
+		<article class="col-lg-4">
+			<figure>
+				<img class="img-fluid imagen" src="imagenes/auto3.png" alt="auto3">
+			</figure>
+			<h2 class="subtProductos">Porsche 911 Coupe</h2>
+			<p>
+				El modelo de 2016 consta de un nuevo motor biturbo con mayor potencia y un nuevo sistema de escape deportivo con salidas centrales que evoca a los origenes del 911 en los circuitos de competición.
+			</p>
+			<ul>
+				<li>Potencia 370 cv</li>
+				<li>Cilindros 16</li>
+				<li>Velocidad 295 Km/h</li>
+			</ul>
+			<a class="btn btn-dark" href="">Pedir info</a>
+		</article>
+
+		<article class="col-lg-8">
+			<figure>
+				<img class="img-fluid imagen" src="imagenes/auto4.png" alt="auto4">
+			</figure>
+			<h2 class="subtProductos">Ford Mustang Shelby GT</h2>
+			<p>
+				El Mustang Shelby es un coche con espíritu. Su motor 5.2 litros de ocho cilindros es apodado “Vodoo” y dota al coche de mejores cifras de potencia y par motor que sus antecesores, además de un rugido de escape espectacular.
+			</p>
+			<ul>
+				<li>Potencia 810 cv</li>
+				<li>Cilindros V15</li>
+				<li>Velocidad 345 Km/h</li>
+			</ul>
+			<a class="btn btn-dark" href="">Pedir info</a>
+		</article>
+	</div>
+
+	<footer class="text-center">
+		<p>Matias bidarte</p>
+	</footer>
+
+<!-- JavaScript -->
+<script src="js/bootstrap.bundle.js"></script>
+<!--<script src="js/bootstrap.js"></script>-->
+</body>
+
+</html>

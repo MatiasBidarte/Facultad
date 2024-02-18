@@ -1,0 +1,40 @@
+﻿MENU
+Inicio 
+Daenerys Targaryen 
+Jon Snow 
+Tyrion Lannister 
+Cersei Lannister
+
+
+
+Ancho del contenedor
+1200px
+
+Altura del logo
+50px
+
+Textos
+Karla - fuente Google Fonts
+
+Títulos y menu
+Cinzel - fuente Google Fonts
+
+H1
+color #0F2027
+Tamaño 60px
+Altura de la caja 120px
+
+H2
+Borde inferior sólido de 2px color #ccc
+
+Strong
+color #666
+
+Menú
+Ancho 1200px
+Cada item, letra negra, ancho 240 px, altura 50px, borde redondeado 10px
+hover - #2C5364
+activo - negro
+
+Redondeado foto
+10px arriba

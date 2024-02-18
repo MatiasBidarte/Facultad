@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIOS</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <section>
+        <!-- 
+           input * type
+           html4 text /password / radio / checkbox / file /
+           botones / button(frontend) - submit - reset(desuso) (backend)
+           --------------------------
+           html5 number /mail / date / color / range / url / tel /search/
+           globales class / id (js css for) / title /name (backend)
+           especificos value="" / required / minlength / maxlength 
+           min / max/ step / placeholder/
+
+         -->
+        <form action="procesa.php" method="POST" autocomplete="on">
+            <h1>Registro del alumno <abbr title="">ORT</abbr></h1>
+            <p>todos los campos marcados con (*) son obligatorios</p>
+            <fieldset>
+                <legend>Usuario</legend>
+                <label for="nombre">Nombre*</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Juan Perez" required>
+                <label for="contrasenia">Contraseña*</label>
+                <input type="password" name="contrasenia" id="contrasenia" minlength="8" required>
+
+            </fieldset>
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <label for="edad">Edad*</label>
+                <input type="number" name="edad" id="edad" min="0" max="100" step="10" required>
+                <label for="fechaNac">Fecha nacimiento</label>
+                <input type="date" name="fechaNac" id="fechaNac" min="2023-09-17" max="2023-11-17">
+                <label for="mail">email</label>
+                <input type="email" name="mail" id="mail" required>
+                <label for="telefono">Telefono*</label>
+                <input type="tel" name="telefono" id="telefono" required maxlength="9">
+                <label for="colorFav">Color Favorito</label>
+                <input type="color" name="colorFav" id="colorFav">
+                <label for="valoracion">valoraciòn</label>
+                <input id="valoracion" name="valoracion" type="range" min="0" max="20" value="2">
+                <fieldset>
+                    <legend>seleccione su genero</legend>
+                    <input type="radio" name="genero" value="fem" id="femenino" checked>
+                    <label for="femenino">Femenino</label>
+                    <input type="radio" name="genero" id="masculino" value="masc">
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" name="genero" id="otros" value="otr">
+                    <label for="otros">Otros</label>
+                </fieldset>
+                <label for="fotoPerfil">Foto de perfil</label>
+                <input type="file" name="fotoPerfil" id="fotoPerfil" accept="image/*">
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Datos de estudio</legend>
+                <label for="carrera">Carrera estudia</label>
+                <select id="carrera" name="carrera" required>
+                    <option value="">seleccione su carrera</option>
+                    <optgroup label="Carreras universitarias">
+                        <option value="ingElect">Ingeniería Eléctrica</option>
+                        <option value="ingSis">Ingeniería de Sistemas</option>
+                        <option value="ingTel">Ingeniería Telecomunicaciones</option>
+                    </optgroup>
+
+                    <optgroup label="Carreras técnicas">
+                        <option value="analistaProg">Analista Programador</option>
+                        <option value="analInfrasInformatica">Analista en Infraestructura Informática</option>
+                    </optgroup>
+
+                </select>
+                <fieldset>
+                    <legend>seleccione su semestre</legend>
+                    <input type="checkbox" name="semestre1" id="semestre1">
+                    <label for="semestre1"> Semestre 1</label>
+                    <input type="checkbox" name="semestre2" id="semestre2">
+                    <label for="semestre2"> Semestre 2</label>
+                    <input type="checkbox" name="semestre3" id="semestre3">
+                    <label for="semestre3"> Semestre 3</label>
+                </fieldset>
+                <label for="comentarios">Comentarios</label>
+                <textarea name="comentarios" id="comentarios"></textarea>
+            </fieldset>
+
+            <input type="submit" value="Registrarse">
+        </form>
+    </section>
+<script>
+    document.querySelector("#valoracion").addEventListener("change", function(){
+        let valor=this.value;
+        alert(valor)
+    })
+</script>
+</body>
+
+</html>

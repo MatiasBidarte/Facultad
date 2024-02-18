@@ -1,0 +1,89 @@
+:root {
+  --celeste: rgb(147, 212, 230);
+  --gris-oscuro: #212529;
+  --rosado: rgb(249, 113, 168);
+  --blanco: #fff;
+}
+
+h1 {
+  font-style: italic;
+}
+
+h1,
+h2 {
+  font-weight: 300;
+}
+
+strong {
+  font-weight: 500;
+}
+
+footer {
+  background-color: var(--celeste);
+  color: var(--blanco);
+  height: 100px;
+  line-height: 100px;
+}
+
+nav ul a {
+  display: block;
+  border: none;
+  color: var(--blanco);
+  padding: 10px;
+  text-decoration: none;
+  border-top: 1px solid var(--blanco);
+  border-bottom: 1px solid var(--blanco);
+}
+
+nav ul a:hover {
+  color: var(--rosado);
+  border-top: 1px solid var(--rosado);
+  border-bottom: 1px solid var(--rosado);
+}
+
+header {
+  padding: 10px;
+}
+
+.fondoCeleste {
+  background-color: var(--celeste);
+}
+
+.imagen {
+  border-bottom: 10px solid var(--celeste);
+}
+
+.subtProductos {
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--celeste);
+}
+
+#destacado {
+  padding-top: 15px;
+}
+
+#destacado h1 {
+  color: var(--blanco);
+  border-top: 2px dashed var(--blanco);
+}
+
+#productos {
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+#nosotros {
+  background-image: url(../imagenes/Fondo.webp);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 70vh;
+}
+
+#nosotros section {
+  height: 100%;
+}
+
+#nosotros section article {
+  border-top: 20px double var(--celeste);
+  border-bottom: 20px double var(--rosado);
+}

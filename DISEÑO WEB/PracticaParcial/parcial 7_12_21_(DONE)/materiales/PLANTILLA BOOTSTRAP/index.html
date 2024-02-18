@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLANTILLA BOOTSTRAP</title>
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!--CSS Propio-->	
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+	<div class="container-fluid cabezal">
+		<div class="container">
+			<header class="row justify-content-lg-between justify-content-center align-items-center">
+				<figure class="col-lg-2 col-md-4">
+					<img class="img-fluid" src="img/logo.jpg" alt="logo">
+				</figure>
+				<nav class="col-lg-8">
+					<ul class="row row-cols-md-3 list-unstyled text-center g-1">
+						<li><a class="btn" href="#">Inicio</a></li>
+						<li><a class="btn" href="#">Especialidades</a></li>
+						<li><a class="btn" href="#">Newsletter</a></li>
+					</ul>
+				</nav>
+			</header>
+		</div>
+	</div>
+
+	<div class="container my-4">
+		<section class="row especialidades">
+			<h1>Especialidades</h1>
+			<article class="col-lg-3 col-md-6">
+				<img class="img-fluid" src="img/foto1.jpg" alt="foto1">
+				<h2>Pan de manzana</h2>
+				<p>
+					Un excelente acompañamiento para el té o el café. Este pan de manzana es muy fácil de preparar y sale riquísimo.
+				</p>
+				<h3>Ingredientes</h3>
+				<ul>
+					<li>¾ de taza de azúcar refinada</li>
+					<li>1 huevo</li>
+					<li>½ taza de leche</li>
+					<li>1 ½ tazas de harina</li>
+					<li>2 cucharaditas de polvo para hornear</li>
+					<li>3 manzanas chicas, cortadas en rebanadas delgadas</li>
+				</ul>
+				<a class="btn btn-dark" href="">Video paso a paso</a>
+			</article>
+
+			<article class="col-lg-3 col-md-6">
+				<img class="img-fluid" src="img/foto2.jpg" alt="foto2">
+				<h2>Waffles</h2>
+				<p>
+					Waffles suaves con ingredientes básicos, pero con el procedimiento adecuado que da como resultado un producto verdaderamente superior.
+				</p>
+				<h3>Ingredientes</h3>
+				<ul>
+					<li>2 tazas de harina de trigo</li>
+					<li>1 cucharada de polvo para hornear</li>
+					<li>1 cucharadita de sal</li>
+					<li>3 cucharadas de azúcar blanca</li>
+					<li>1 1/4 tazas de leche</li>
+					<li>1/2 taza de aceite vegetal</li>
+					<li>4 claras de huevo</li>
+				</ul>
+				<a class="btn btn-dark" href="">Video paso a paso</a>
+			</article>
+
+			<article class="col-lg-3 col-md-6 d-none d-md-block">
+				<img class="img-fluid" src="img/foto3.jpg" alt="foto2">
+				<h2>Pan casero</h2>
+				<p>
+					Una delicia de pan esponjoso con un toque de miel y ralladura de limón. Sencillo de hacer y con una aroma irresistible.
+				</p>
+				<h3>Ingredientes</h3>
+				<ul>
+					<li>1 taza de leche tibia</li>
+					<li>1 cucharada de azúcar</li>
+					<li>1 sobre de levadura seca</li>
+					<li>2 huevos, ligeramente batidos</li>
+					<li>1 limón, su ralladura</li>
+					<li>500 gramos de harina de trigo, cernida</li>
+				</ul>
+				<a class="btn btn-dark" href="">Video paso a paso</a>
+			</article>
+
+			<article class="col-lg-3 col-md-6 d-none d-md-block">
+				<img class="img-fluid" src="img/foto4.jpg" alt="foto2">
+				<h2>Trenza de canela</h2>
+				<p>
+					Si les gustan los rollos de canela, definitivamente tienen que probar esta trenza de canela, es tan suave, deliciosa y húmeda que no podrán parar de comerla.
+				</p>
+				<h3>Ingredientes</h3>
+				<ul>
+					<li>1 taza leche entera</li>
+					<li>7 gr levadura en polvo</li>
+					<li>½ taza azúcar blanca granulada</li>
+					<li>2 huevos</li>
+					<li>4 1/2 taza harina sin polvos de hornear/li></li>
+					<li>1 cucharadita rasa sal fina</li>
+				</ul>
+				<a class="btn btn-dark" href="">Video paso a paso</a>
+			</article>
+		</section>
+	</div>
+
+	<div id="fondo" class="container-fluid">
+		<div class="container col-lg-5 panNuestro">
+			<h1>El pan nuestro <br> de cada dia</h1>
+			<p class="pb-3">
+				Ese es el pan, uno de los inventos más geniales de la humanidad. Y su universo, compuesto por infinidad de productos diferentes y con los más variados usos gastronómicos, está hecho de olores y de efluvios, de recuerdos y de símbolos.
+			</p>
+		</div>
+	</div>
+
+	<div class="container my-4">
+		<section class="row">
+			<div class="col-lg-4 col-md-6">
+				<h1>Recibi tus recetas favoritas</h1>
+				<p>
+					El renombrado chef mexicano Irving Quiroz nos invita a un sabroso recorrido por lo mejor de la panadería de su país como el pan de fiesta, los garibaldis y chilindrinas. También nos presenta clásicos internacionales como los pretzels, los bagels y los rolls de canela. Recetas deliciosas con paso a paso detallado para llevar esos sabores a nuestra cocina.
+				</p>
+				<p>
+					Escríbenos para recibir cada semana una notificación con el link a la receta de la semana
+				</p>
+				<form class="" method="post" action="#">
+					<label for="nombre">Nombre*</label>
+					<input class="form-control" type="text" id="nombre" name="nombre" required>
+					<label for="email">Mail*</label>
+					<input class="form-control" type="email" id="email" name="email" required>
+					<input class="btn btn-dark" type="submit" value="enviar">
+				</form>
+			</div>
+			<figure class="col-lg-8 col-md-6 d-none d-md-block">
+				<img class="img-fluid img-thumbnail" src="img/newsletter.jpg" alt="algo">
+			</figure>
+		</section>
+	</div>
+
+	<div class="container">
+		<div class="container-fluid">
+			<footer>
+				<p>Realizado por Nombre estudiante - Nro estudiante</p>
+			</footer>
+		</div>
+	</div>
+    <!-- JavaScript -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

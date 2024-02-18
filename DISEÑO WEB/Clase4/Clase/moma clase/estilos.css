@@ -1,0 +1,124 @@
+/* 
+CSS herencia / especificidad / cascada
+escritura general a lo especifico
+*/
+
+
+@font-face {
+    font-family: "pepito";
+    src: url(fonts/quicksand-regular-webfont.woff2);
+}
+@font-face {
+    font-family: "lala";
+    src: url(fonts/sunny_weather_demo-webfont.woff2);
+}
+* {
+    /*  color:darkgreen */
+    margin: 0;
+    padding: 0;
+    font-family: pepito;
+    /* line-height: 10px; */
+    /* font-family: 'Poppins', sans-serif; */
+
+}
+
+/* SELECTORES DE ELEMENTOS O ETIQUETAS */
+body {
+    color: darkslategrey;
+    background-color: beige;
+
+}
+
+h1 {
+    /* propiedades de caja */
+    width: 400px;
+    /* unidades-> % px */
+    /*  height: 200px; */
+    padding: 30px;
+    /* afecto todos los paddings top / right / bottom / left */
+    /*  padding: 50px 30px; */
+    /* top-bottom / right-left */
+    /*  padding: 50px 20px 100px 50px; */
+    /* top - right - bottom - left */
+
+    /*  */
+    margin: 30px;
+    /* afecto todos los margins top / right / bottom / left */
+    /* centrar una caja */
+    margin: 30px auto;
+    border: 3px blue dashed;
+    color: mediumvioletred;
+    /* propiedades de fuente */
+    font-family: 'Times New Roman', Times, serif ;
+    font-size: 100px;/* px em rem */
+    font-weight: 200; /* bold 100-900 */
+    font-variant: normal;/* small-caps */
+    font-style: italic;
+    line-height: 200px;
+    /* propiedades de texto */
+    text-align: center;
+    text-decoration: overline blue dashed;
+    text-transform: lowercase;
+
+}
+
+h3 {
+    color: forestgreen
+}
+
+/* SELECTOR AGRUPADO */
+p, strong {
+    color: gray;
+}
+
+h2, h3 p, ul, blockquote, dl {
+    margin: 20px 0;
+}
+
+/* SELECTOR DESCENDENTE MARCA ANIDACION */
+ul li {
+    list-style-type: circle;
+    list-style-position: inside;
+    /* list-style-image: url(imagenes/pelotita.jpg); */
+}
+
+p strong {}
+p{
+    text-align: justify;
+    /* word-spacing: 25px;
+    letter-spacing: 15px; */
+    text-indent: 50px;
+}
+
+/*p strong /  p q strong */
+
+
+
+
+
+/* SELECTOR CLASE (se puede usar muchas veces en el documento)
+html -> atributo class
+css ->.nombreClase
+*/
+.fondoNaranja {
+    background-color: darksalmon;
+}
+
+/* SELECTOR DE ID (se puede usar una solo vez en el documento html)
+html->atributo id
+css->#nombreId
+*/
+#destacado, #pepito {
+    background-color: crimson;
+    color: white;
+}
+
+#contenido {
+    width: 600px;
+    padding: 20px;
+    margin: 20px auto;
+    border-top: 10px solid orangered;
+    border-radius: 20px 20px 0 0; /* top-left top-right bottom-right bottom left */
+    background-color: white;
+    box-shadow: 10px 10px 0px rgba(254, 46, 101, 0.612);
+}

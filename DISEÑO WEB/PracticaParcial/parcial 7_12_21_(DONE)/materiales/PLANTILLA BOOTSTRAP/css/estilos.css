@@ -1,0 +1,80 @@
+:root {
+  --gris-oscuro: #1d1d1d;
+  --gris-claro: #5f5f5f;
+  --blanco: #ffffff;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 100;
+  color: var(--gris-oscuro);
+  padding: 20px 0;
+}
+
+h2 {
+  text-align: center;
+  background-color: var(--gris-claro);
+  color: var(--blanco);
+}
+
+h3 {
+  padding: 5px 0;
+  border-bottom: 1px dashed var(--gris-oscuro);
+  text-align: center;
+}
+
+nav ul li a {
+  display: block;
+  width: 100%;
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+}
+
+#fondo {
+  background-image: url(../img/fondo.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 700px;
+  padding-top: 200px;
+}
+
+.panNuestro {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.panNuestro h1 {
+  font-size: 60px;
+  font-style: italic;
+  text-align: center;
+  border-bottom: 1px dashed var(--gris-oscuro);
+  padding: 10px;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+}
+
+.cabezal {
+  border-bottom: 1px solid var(--gris-oscuro);
+}
+
+.especialidades img {
+  border: 1px solid var(--gris-oscuro);
+  border-radius: 10px 10px 0 0;
+}
+
+.img-thumbnail {
+  border: 1px dashed var(--gris-oscuro);
+}

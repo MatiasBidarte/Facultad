@@ -1,0 +1,61 @@
+:root {
+  --rojo: #fb001c;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 100;
+  color: var(--rojo);
+}
+
+footer {
+  background-color: var(--rojo);
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+}
+
+nav {
+  border-top: 1px solid var(--rojo);
+  border-bottom: 1px solid var(--rojo);
+}
+
+nav ul {
+  margin: 0;
+  padding: 20px 0;
+}
+
+.titulo h1 {
+  font-size: 60px;
+  font-weight: 900;
+  background-color: white;
+}
+
+.btn {
+  background-color: var(--rojo);
+  color: white;
+}
+
+.btn:hover {
+  background-color: white;
+  color: var(--rojo);
+  border: 1px solid var(--rojo);
+}
+
+nav .btn {
+  width: 100%;
+}
+
+#comunicate img {
+  border-radius: 5px;
+  border: 3px solid var(--rojo);
+}
+
+#fondo {
+  padding: 0;
+  background-image: url(../img/fondo.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 700px;
+}

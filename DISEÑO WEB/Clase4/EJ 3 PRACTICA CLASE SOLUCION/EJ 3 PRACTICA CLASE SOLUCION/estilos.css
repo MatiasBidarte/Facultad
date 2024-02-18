@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0
+}
+body{
+    background-color: #2d4059
+}
+
+h1{
+    font-size: 40px;
+    color: #2d4059
+}
+h2{
+    color: #2d4059
+}
+p{
+    margin: 10px 0;
+}
+p strong{
+    color: #ea5455;
+    font-size: 16px
+}
+ul{
+    list-style-type: circle;
+    list-style-position: inside
+}
+ul li{
+    border-bottom: 1px solid #ca005b;
+    margin: 5px 0;
+}
+
+.destacado{
+
+    background-color: #ea5455;
+    color: #fff;
+    margin: 20px 0 10px 0;
+    padding: 20px;
+    border-radius: 5px
+}
+
+#contenedor{
+    width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #e5e5e5;
+    border-radius: 10px
+}

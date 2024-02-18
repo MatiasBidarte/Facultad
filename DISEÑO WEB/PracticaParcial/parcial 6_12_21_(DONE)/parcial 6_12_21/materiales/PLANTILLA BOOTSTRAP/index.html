@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLANTILLA BOOTSTRAP</title>
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!--CSS Propio-->
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+	<header class="container-fluid">
+		<div class="row justify-content-center">
+			<figure class="col-2 text-center">
+				<img src="img/logo.svg" alt="logo">
+			</figure>
+			<nav>
+				<ul class="row row-cols-3 justify-content-center list-unstyled g-2">
+					<li class="col-md-2 col-12"><a class="btn"  href="">INICIO</a></li>
+					<li class="col-md-2 col-12"><a class="btn" href="">PRODUCTOS</a></li>
+					<li class="col-md-2 col-12"><a class="btn" href="">COMUNICATE</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<div class="container-fluid" id="fondo">
+		<div class="row justify-content-end">
+			<div class="col-md-5 titulo mt-5">
+				<h1 class="p-2">
+					El verdadero café de Colombia
+				</h1>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<section class="row">
+			<h1>Productos</h1>
+			<article class="col-lg-4 col-md-6">
+				<img class="img-fluid" src="img/cafe1.png" alt="cafe1">
+				<h2>Paisaje Cultural Cafetero</h2>
+				<p>
+					Café de origen fuerte con notas de sabor a manzana verde, caramelo y cacao. El Eje Cafetero se reconoce por ser un territorio principalmente cafetero de montañas empinadas y mucha riqueza natural.
+				</p>
+				<p>
+					Este paisaje fue reconocido como patrimonio mundial por el Comité de patrimonio mundial de la Organización de las Naciones Unidas para la educación, la ciencia y la cultura.
+				</p>
+				<ul>
+					<li>Tipología Grano</li>
+					<li>Nivel de Tostión Medio</li>
+					<li>Sabores Dulce / Frutales / Chocolate</li>
+				</ul>
+				<a class="btn" href="#">Comprar</a>
+			</article>
+			<article class="col-lg-4 col-md-6">
+				<img class="img-fluid" src="img/cafe2.png" alt="cafe2">
+				<h2>Valle Del Cauca</h2>
+				<p>
+					Café de origen fuerte con notas de sabor a malta tostada y miel de caña. La alegría del Valle y el dulce de la caña de azúcar se plasman en un café pronunciado, con carácter y sutiles notas silvestres.
+				</p>
+				<p>
+					La zona norte del Valle cuenta con una tradición de caficultura sostenible que aporta directamente al bienestar de las familias y a los ecosistemas de la región.
+				</p>
+				<ul>
+					<li>Tipología Grano</li>
+					<li>Nivel de Tostión Medio</li>
+					<li>Sabores Dulce / Miel</li>
+				</ul>
+				<a class="btn" href="#">Comprar</a>
+			</article>
+			<article class="col-lg-4 d-none d-lg-block">
+				<img class="img-fluid" src="img/cafe3.png" alt="cafe3">
+				<h2>Tolima</h2>
+				<p>
+					Café de origen suave con notas de sabor a fresa y mora. Entre los bosques de niebla del corazón de Colombia crece este café suave, que lleva la dulzura propia de los campos de la región tolimense.
+				</p>
+				<p>
+					El caficultor de Tolima es una persona auténtica y natural, amante de su cultura musical, que con orgullo cultiva sus tradiciones al igual que su café.
+				</p>
+				<ul>
+					<li>Tipología Grano</li>
+					<li>Nivel de Tostión Medio</li>
+					<li>Sabores Dulce / Frutales</li>
+				</ul>
+				<a class="btn" href="#">Comprar</a>
+			</article>
+		</section>
+	</div>
+
+	<div class="container mt-4" id="comunicate">
+		<section class="row align-items-center">
+			<figure class="col-lg-8 col-md-6 d-none d-md-block">
+				<img class="img-fluid" src="img/tacita.jpeg" alt="taza">
+			</figure>
+			<div class="col-lg-4 col-md-6">
+				<h1>Comunicate</h1>
+				<form action="#">
+					<label for="nombre">Nombre*</label>
+					<input class="form-control" type="text" id="nombre" name="nombre" required>
+					<label for="email">Mail*</label>
+					<input class="form-control" type="email" id="email" name="email" required>
+					<input class="btn my-2" type="submit" value="enviar">
+				</form>
+			</div>
+		</section>
+	</div>
+
+	<footer class="container-fluid">
+		Realizado por Nombre estudiante - Nro estudiante 
+	</footer>
+	</head>
+    <!-- JavaScript -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
