@@ -26,6 +26,7 @@
         <ion-route url="/Registro" component="registro"></ion-route>
         <ion-route url="/CerrarSesion" component="inicio"></ion-route>
         <ion-route url="/AgregarAlimento" component="agregarAlimento"></ion-route>
+        <ion-route url="/ListadoRegistros" component="listadoRegistros"></ion-route>
       </ion-router>
       <ion-nav></ion-nav>
       <ion-menu content-id="main-content" id="menu">
@@ -43,6 +44,7 @@
             >
             <ion-item href="/CerrarSesion" onclick="CerrarMenu()">Cerrar sesion</ion-item>
             <ion-item href="/AgregarAlimento" onclick="CerrarMenu()">Agregar registro de comida</ion-item>
+            <ion-item href="/ListadoRegistros" onclick="CerrarMenu()">Listar registros</ion-item>
           </ion-list>
         </ion-content>
       </ion-menu>
@@ -69,7 +71,7 @@
           </ion-toolbar>
         </ion-header>
         <ion-content>
-          <p>App para administrar pedidos</p>
+          <p>App para administrar alimentos</p>
         </ion-content>
       </ion-page>
       <ion-page id="login" class="ion-page">
@@ -94,7 +96,7 @@
             id="passwordLogin"
           ></ion-input>
           <ion-button expand="block" id="btnLogin">Iniciar sesión</ion-button>
-          <p id="mensajeLogin"></p>
+          <p id="mensajesLogin"></p>
         </ion-content>
       </ion-page>
       <ion-page id="registro" class="ion-page">
@@ -156,6 +158,19 @@
 					<p id="mensajesAgregarAlimento"></p>
 				</ion-content>
 			</ion-page>
+      <ion-page id="listadoRegistros" class="ion-page">
+        <ion-header>
+          <ion-toolbar>
+            <ion-buttons slot="start">
+              <ion-menu-button></ion-menu-button>
+            </ion-buttons>
+            <ion-title>Listado de registros</ion-title>
+          </ion-toolbar>
+        </ion-header>
+        <ion-content id="contenidoListadoRegistros">
+          <p id="mensajeListadoRegistros"></p>
+        </ion-content>
+      </ion-page>
     </ion-app>
   </body>
 </html>

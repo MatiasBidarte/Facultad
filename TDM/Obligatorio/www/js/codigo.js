@@ -1,4 +1,5 @@
 const API_URL = 'https://calcount.develotion.com'
+const API_IMAGENES = 'https://calcount.develotion.com/imgs'
 Inicializar()
 
 function Inicializar() {
@@ -41,6 +42,10 @@ function Navegar(event) {
       break
     case '/AgregarAlimento':
       document.getElementById('agregarAlimento').style.display = 'block'
+      break
+    case "/ListadoRegistros":
+      document.getElementById('listadoRegistros').style.display = 'block'
+      ListadoRegistros()
       break
   }
 }
@@ -129,22 +134,22 @@ function Login() {
             })
       )
       .then(data => {
-        document.getElementById('mensajeLogin').innerHTML = `Login exitoso`
+        document.getElementById('mensajesLogin').innerHTML = `Login exitoso`
         localStorage.setItem('apiKey', data.apiKey)
         localStorage.setItem('idUsuario', data.id)
       })
       .catch(
         error =>
-          (document.getElementById('mensajeLogin').innerHTML = error.mensaje)
+          (document.getElementById('mensajesLogin').innerHTML = error.mensaje)
       )
   } catch (error) {
-    document.getElementById('mensajeLogin').innerHTML = error.message
+    document.getElementById('mensajesLogin').innerHTML = error.message
   }
 }
 
 function AgregarAlimento() {
   if (localStorage.getItem('apiKey') === null) {
-    document.getElementById('mensajeAgregarAlimento').innerHTML = 'Debe iniciar sesión para agregar un alimento'
+    document.getElementById('mensajesAgregarAlimento').innerHTML = 'Debe iniciar sesión para agregar un alimento'
   } else {
     let alimento = document.getElementById('alimento').value
     let cantidad = document.getElementById('cantidadAlimento').value
@@ -196,7 +201,7 @@ function AgregarAlimento() {
                   'iduser': idUsuario
                 },
                 body: JSON.stringify({
-                  alimento,
+                  idAlimento: alimento,
                   idUsuario,
                   cantidad,
                   fecha
@@ -205,6 +210,8 @@ function AgregarAlimento() {
                 .then(response => response.json())
                 .then(data => {
                   document.getElementById('mensajesAgregarAlimento').innerHTML = data.mensaje
+                  document.getElementById('alimento').value = ''
+                  document.getElementById('cantidadAlimento').value = ''
                 })
                 .catch(error => console.log(error))
             }
@@ -220,42 +227,76 @@ function AgregarAlimento() {
   }
 }
 
-function VerificarAlimentoExiste(id) {
-  let alimentos = ObtenerAlimentos()
-  let resultado = false
-  let i = 0
-  while (i < alimentos.length) {
-    if (alimentos[i].id === id) {
-      resultado = true
-      break
-    }
-    i++
-  }
-  return resultado
-}
-
-function ObtenerAlimentos() {
-  let alimentos = []
-  let idUsuario = localStorage.getItem('idUsuario')
-  let apiKey = localStorage.getItem('apiKey')
-  fetch(`${API_URL}/alimentos.php`, {
-    headers: {
-      'Content-Type': 'application/json',
-      'apikey': apiKey,
-      'iduser': idUsuario
-    }
-  })
-    .then(response => response.json())
-    .then(data => {
-      if (data.codigo === 200) {
-        console.log(data.alimentos)
-        alimentos = data.alimentos
-      }
-    })
-    .catch(error => console.log(error))
-  return alimentos
-}
-
 function CerrarSesion() {
   localStorage.clear();
+}
+
+function ListadoRegistros() {
+  if (localStorage.getItem('apiKey') === null) {
+    document.getElementById('mensajeListadoRegistros').innerHTML = 'Debe iniciar sesión para ver el listado de registros'
+  } else {
+    let idUsuario = localStorage.getItem('idUsuario')
+    let apiKey = localStorage.getItem('apiKey')
+    fetch(`${API_URL}/alimentos.php`, {
+      headers: {
+        'Content-Type': 'application/json',
+        'apikey': apiKey,
+        'iduser': idUsuario
+      }
+    })
+      .then(response => response.json())
+      .then(data => {
+        if (data.codigo === 200) {
+          let alimentos = data.alimentos // array de objetos
+          fetch(`${API_URL}/registros.php?idUsuario=${idUsuario}`, {
+            headers: {
+              'Content-Type': 'application/json',
+              'apikey': apiKey,
+              'iduser': idUsuario
+            }
+            })
+            .then(response => response.json())
+            .then(data => {
+              if (data.codigo === 200) {
+                document.getElementById('contenidoListadoRegistros').innerHTML = ''
+                let registros = data.registros //array
+                registros.forEach(registro => {
+                  let alimento = alimentos.find(alimento => alimento.id === registro.idAlimento)
+                  document.getElementById('contenidoListadoRegistros').innerHTML += `
+                    <ion-card style="margin-bottom: 40px;">
+                      <img alt="${alimento.nombre}" src="${API_IMAGENES}/${alimento.imagen}.png" style="max-width: 100%;height: 200px;"/>
+                      <ion-card-header>
+                        <ion-card-title>${alimento.nombre}</ion-card-title>
+                      </ion-card-header>
+                      <ion-card-content>
+                        <p>Calorias: ${alimento.calorias}</p>
+                        <ion-button onclick='EliminarRegistro(${registro.id})'>Eliminar</ion-button>
+                      </ion-card-content>
+                    </ion-card>
+                  `
+                })
+              } else {
+                document.getElementById('mensajeListadoRegistros').innerHTML = data.mensaje
+              }
+            })
+            .catch(error => console.log(error))
+        } else {
+          document.getElementById('mensajeListadoRegistros').innerHTML = data.mensaje
+        }
+      })
+      .catch(error => console.log(error))
+  }
+}
+
+function EliminarRegistro(id) {
+  fetch(`${API_URL}/registros.php?idRegistro=${id}`, {
+    method: 'DELETE',
+    headers: {
+      'Content-Type': 'application/json',
+      'apikey': localStorage.getItem('apiKey'),
+      'iduser': localStorage.getItem('idUsuario')
+    }})
+    .then(() => ListadoRegistros()
+    )
+    .catch(error => console.log(error))
 }
