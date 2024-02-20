@@ -1,5 +1,6 @@
 const API_URL = 'https://calcount.develotion.com'
 const API_IMAGENES = 'https://calcount.develotion.com/imgs'
+let alimentos = []
 Inicializar()
 
 function Inicializar() {
@@ -20,11 +21,13 @@ function AgregarEventos() {
     .addEventListener('ionRouteWillChange', Navegar)
   document.getElementById('btnRegistro').addEventListener('click', Registro)
   document.getElementById('btnLogin').addEventListener('click', Login)
-  document.getElementById('btnAgregarAlimento').addEventListener('click', AgregarAlimento)
+  document
+    .getElementById('btnAgregarAlimento')
+    .addEventListener('click', AgregarAlimento)
 }
 
 function Navegar(event) {
-  console.log(event);
+  console.log(event)
   OcultarSecciones()
   switch (event.detail.to) {
     case '/':
@@ -34,16 +37,22 @@ function Navegar(event) {
       document.getElementById('registro').style.display = 'block'
       break
     case '/Login':
+      document.getElementById('mensajesLogin').innerHTML = ''
       document.getElementById('login').style.display = 'block'
       break
-    case "/CerrarSesion":
+    case '/CerrarSesion':
       CerrarSesion()
-      ruteo.push("/")
+      ruteo.push('/')
       break
     case '/AgregarAlimento':
+      ObtenerAlimentos()
+      setTimeout(() => {
+        LlenarSelectDeAlimentos()
+      }, 2000)
       document.getElementById('agregarAlimento').style.display = 'block'
       break
-    case "/ListadoRegistros":
+    case '/ListadoRegistros':
+      ObtenerAlimentos()
       document.getElementById('listadoRegistros').style.display = 'block'
       ListadoRegistros()
       break
@@ -106,7 +115,6 @@ function Registro() {
 function Login() {
   let usuario = document.getElementById('usuarioLogin').value
   let password = document.getElementById('passwordLogin').value
-  document.getElementById('mensajesLogin').innerHTML = ''
 
   try {
     if (usuario.trim().length === 0) {
@@ -134,6 +142,8 @@ function Login() {
             })
       )
       .then(data => {
+        document.getElementById('usuarioLogin').value = ''
+        document.getElementById('passwordLogin').value = ''
         document.getElementById('mensajesLogin').innerHTML = `Login exitoso`
         localStorage.setItem('apiKey', data.apiKey)
         localStorage.setItem('idUsuario', data.id)
@@ -147,9 +157,35 @@ function Login() {
   }
 }
 
+function LlenarSelectDeAlimentos() {
+  alimentos.forEach(alimento => {
+    document.getElementById('alimento').innerHTML += `
+      <ion-select-option value="${alimento.id}">${alimento.nombre}</ion-select-option>
+      `
+  })
+}
+
+function ObtenerAlimentos() {
+  let idUsuario = localStorage.getItem('idUsuario')
+  let apiKey = localStorage.getItem('apiKey')
+  fetch(`${API_URL}/alimentos.php`, {
+    headers: {
+      'Content-Type': 'application/json',
+      apikey: apiKey,
+      iduser: idUsuario,
+    },
+  })
+    .then(response => response.json())
+    .then(data => {
+      alimentos = data.alimentos
+    })
+    .catch(error => console.log(error))
+}
+
 function AgregarAlimento() {
   if (localStorage.getItem('apiKey') === null) {
-    document.getElementById('mensajesAgregarAlimento').innerHTML = 'Debe iniciar sesión para agregar un alimento'
+    document.getElementById('mensajesAgregarAlimento').innerHTML =
+      'Debe iniciar sesión para agregar un alimento'
   } else {
     let alimento = document.getElementById('alimento').value
     let cantidad = document.getElementById('cantidadAlimento').value
@@ -171,117 +207,78 @@ function AgregarAlimento() {
       if (fecha > new Date().toISOString().split('T')[0]) {
         throw new Error('La fecha no puede ser mayor a la actual')
       }
-
-      fetch(`${API_URL}/alimentos.php`, {
+      fetch(`${API_URL}/registros.php`, {
+        method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'apikey': apiKey,
-          'iduser': idUsuario
-        }
+          apikey: apiKey,
+          iduser: idUsuario,
+        },
+        body: JSON.stringify({
+          idAlimento: alimento,
+          idUsuario,
+          cantidad,
+          fecha,
+        }),
       })
         .then(response => response.json())
         .then(data => {
-          if (data.codigo === 200) {
-            let alimentos = data.alimentos
-            let i = 0
-            while (i < alimentos.length) {
-              if (alimentos[i].id == alimento) {
-                break
-              }
-              i++
-            }
-            if (i === alimentos.length) {
-              document.getElementById('mensajesAgregarAlimento').innerHTML = 'El alimento no existe'
-            } else {
-              fetch(`${API_URL}/registros.php`, {
-                method: 'POST',
-                headers: {
-                  'Content-Type': 'application/json',
-                  'apikey': apiKey,
-                  'iduser': idUsuario
-                },
-                body: JSON.stringify({
-                  idAlimento: alimento,
-                  idUsuario,
-                  cantidad,
-                  fecha
-                }),
-              })
-                .then(response => response.json())
-                .then(data => {
-                  document.getElementById('mensajesAgregarAlimento').innerHTML = data.mensaje
-                  document.getElementById('alimento').value = ''
-                  document.getElementById('cantidadAlimento').value = ''
-                })
-                .catch(error => console.log(error))
-            }
-          }
-          else {
-            document.getElementById('mensajesAgregarAlimento').innerHTML = data.mensaje
-          }
+          document.getElementById('mensajesAgregarAlimento').innerHTML =
+            data.mensaje
+          document.getElementById('alimento').value = ''
+          document.getElementById('cantidadAlimento').value = ''
         })
         .catch(error => console.log(error))
     } catch (error) {
-      document.getElementById('mensajesAgregarAlimento').innerHTML = error.message
+      document.getElementById('mensajesAgregarAlimento').innerHTML =
+        error.message
     }
   }
 }
 
 function CerrarSesion() {
-  localStorage.clear();
+  localStorage.clear()
 }
 
 function ListadoRegistros() {
   if (localStorage.getItem('apiKey') === null) {
-    document.getElementById('mensajeListadoRegistros').innerHTML = 'Debe iniciar sesión para ver el listado de registros'
+    document.getElementById('mensajeListadoRegistros').innerHTML =
+      'Debe iniciar sesión para ver el listado de registros'
   } else {
     let idUsuario = localStorage.getItem('idUsuario')
     let apiKey = localStorage.getItem('apiKey')
-    fetch(`${API_URL}/alimentos.php`, {
+    fetch(`${API_URL}/registros.php?idUsuario=${idUsuario}`, {
       headers: {
         'Content-Type': 'application/json',
-        'apikey': apiKey,
-        'iduser': idUsuario
-      }
+        apikey: apiKey,
+        iduser: idUsuario,
+      },
     })
       .then(response => response.json())
       .then(data => {
         if (data.codigo === 200) {
-          let alimentos = data.alimentos // array de objetos
-          fetch(`${API_URL}/registros.php?idUsuario=${idUsuario}`, {
-            headers: {
-              'Content-Type': 'application/json',
-              'apikey': apiKey,
-              'iduser': idUsuario
-            }
-            })
-            .then(response => response.json())
-            .then(data => {
-              if (data.codigo === 200) {
-                document.getElementById('contenidoListadoRegistros').innerHTML = ''
-                let registros = data.registros //array
-                registros.forEach(registro => {
-                  let alimento = alimentos.find(alimento => alimento.id === registro.idAlimento)
-                  document.getElementById('contenidoListadoRegistros').innerHTML += `
-                    <ion-card style="margin-bottom: 40px;">
-                      <img alt="${alimento.nombre}" src="${API_IMAGENES}/${alimento.imagen}.png" style="max-width: 100%;height: 200px;"/>
-                      <ion-card-header>
-                        <ion-card-title>${alimento.nombre}</ion-card-title>
-                      </ion-card-header>
-                      <ion-card-content>
-                        <p>Calorias: ${alimento.calorias}</p>
-                        <ion-button onclick='EliminarRegistro(${registro.id})'>Eliminar</ion-button>
-                      </ion-card-content>
-                    </ion-card>
-                  `
-                })
-              } else {
-                document.getElementById('mensajeListadoRegistros').innerHTML = data.mensaje
-              }
-            })
-            .catch(error => console.log(error))
+          document.getElementById('contenidoListadoRegistros').innerHTML = ''
+          let registros = data.registros //array
+          registros.forEach(registro => {
+            let alimento = alimentos.find(
+              alimento => alimento.id === registro.idAlimento
+            )
+            document.getElementById('contenidoListadoRegistros').innerHTML += `
+              <ion-card style="margin-bottom: 40px;">
+                <img alt="${alimento.nombre}" src="${API_IMAGENES}/${alimento.imagen}.png" style="max-width: 100%;height: 200px;"/>
+                <ion-card-header>
+                  <ion-card-title>${alimento.nombre}</ion-card-title>
+                </ion-card-header>
+                <ion-card-content>
+                  <p>Calorias: ${alimento.calorias}</p>
+                  <ion-button onclick='EliminarRegistro(${registro.id})'>Eliminar</ion-button>
+                </ion-card-content>
+              </ion-card>
+            `
+          })
         } else {
-          document.getElementById('mensajeListadoRegistros').innerHTML = data.mensaje
+          document.getElementById('mensajeListadoRegistros').innerHTML =
+            data.mensaje
         }
       })
       .catch(error => console.log(error))
@@ -293,10 +290,10 @@ function EliminarRegistro(id) {
     method: 'DELETE',
     headers: {
       'Content-Type': 'application/json',
-      'apikey': localStorage.getItem('apiKey'),
-      'iduser': localStorage.getItem('idUsuario')
-    }})
-    .then(() => ListadoRegistros()
-    )
+      apikey: localStorage.getItem('apiKey'),
+      iduser: localStorage.getItem('idUsuario'),
+    },
+  })
+    .then(() => ListadoRegistros())
     .catch(error => console.log(error))
 }

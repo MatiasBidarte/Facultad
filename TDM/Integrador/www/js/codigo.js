@@ -148,12 +148,13 @@ function Login() {
 
 function ListadoProductos() {
   OcultarSecciones()
+  let token = localStorage.getItem('token')
   document.getElementById('listadoProductos').style.display = 'block'
   document.getElementById('mensajesListadoProductos').innerHTML = ''
   if (localStorage.getItem('token') !== null) {
     fetch(`${API_URL}/productos`, {
       headers: {
-        Authorization: `Bearer ${token}`,
+        'Content-Type': 'application/json',
         'x-auth': token,
       },
     })
