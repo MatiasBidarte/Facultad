@@ -305,8 +305,8 @@ function ListadoPorFechas() {
           alimento => alimento.id === registro.idAlimento
         )
         document.getElementById('contenidoListadoRegistros').innerHTML += `
-        <ion-card style="margin-bottom: 40px;">
-          <img alt="${alimento.nombre}" src="${API_IMAGENES}/${alimento.imagen}.png" style="max-width: 100%;height: 200px;"/>
+        <ion-card style="margin-bottom: 40px; width:200px;">
+          <img alt="${alimento.nombre}" src="${API_IMAGENES}/${alimento.imagen}.png" style="max-width: 100%;height: 100px;"/>
           <ion-card-header>
             <ion-card-title>${alimento.nombre}</ion-card-title>
           </ion-card-header>
@@ -318,6 +318,8 @@ function ListadoPorFechas() {
       `
       }
     })
+    document.getElementById('fechaDeFiltroInicial').value = ''
+    document.getElementById('fechaDeFiltroFinal').value = ''
   }
 }
 
