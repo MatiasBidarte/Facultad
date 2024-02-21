@@ -1,6 +1,7 @@
 const API_URL = 'https://calcount.develotion.com'
 const API_IMAGENES = 'https://calcount.develotion.com/imgs'
 let alimentos = []
+let registros = [];
 Inicializar()
 
 function Inicializar() {
@@ -24,6 +25,7 @@ function AgregarEventos() {
   document
     .getElementById('btnAgregarAlimento')
     .addEventListener('click', AgregarAlimento)
+  document.getElementById('btnFiltrarRegistros').addEventListener('click', ListadoPorFechas)  
 }
 
 function Navegar(event) {
@@ -54,7 +56,7 @@ function Navegar(event) {
     case '/ListadoRegistros':
       ObtenerAlimentos()
       document.getElementById('listadoRegistros').style.display = 'block'
-      ListadoRegistros()
+      ListadoRegistros() 
       break
   }
 }
@@ -240,6 +242,7 @@ function CerrarSesion() {
   localStorage.clear()
 }
 
+
 function ListadoRegistros() {
   if (localStorage.getItem('apiKey') === null) {
     document.getElementById('mensajeListadoRegistros').innerHTML =
@@ -258,7 +261,7 @@ function ListadoRegistros() {
       .then(data => {
         if (data.codigo === 200) {
           document.getElementById('contenidoListadoRegistros').innerHTML = ''
-          let registros = data.registros //array
+          registros = data.registros //array
           registros.forEach(registro => {
             let alimento = alimentos.find(
               alimento => alimento.id === registro.idAlimento
@@ -285,6 +288,32 @@ function ListadoRegistros() {
   }
 }
 
+function ListadoPorFechas(){
+  let ionDatetimeElement = document.getElementById('fechaDeFiltro');
+  let fechasSeleccionadas = [] = ionDatetimeElement.value;
+  let fechaInicio = fechasSeleccionadas[0];
+  let fechaFinal = fechasSeleccionadas[1];
+  document.getElementById('contenidoListadoRegistros').innerHTML = '';
+  registros.forEach(registro => {
+    if(registro.fecha>=fechaInicio&&registro.fecha<=fechaFinal){
+    let alimento = alimentos.find(
+      alimento => alimento.id === registro.idAlimento
+    )
+    document.getElementById('contenidoListadoRegistros').innerHTML += `
+      <ion-card style="margin-bottom: 40px;">
+        <img alt="${alimento.nombre}" src="${API_IMAGENES}/${alimento.imagen}.png" style="max-width: 100%;height: 200px;"/>
+        <ion-card-header>
+          <ion-card-title>${alimento.nombre}</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <p>Calorias: ${alimento.calorias}</p>
+          <ion-button onclick='EliminarRegistro(${registro.id})'>Eliminar</ion-button>
+        </ion-card-content>
+      </ion-card>
+    `}
+  })
+}
+
 function EliminarRegistro(id) {
   fetch(`${API_URL}/registros.php?idRegistro=${id}`, {
     method: 'DELETE',
@@ -296,4 +325,5 @@ function EliminarRegistro(id) {
   })
     .then(() => ListadoRegistros())
     .catch(error => console.log(error))
+    registros.filter(registro => registro.id === id);
 }
