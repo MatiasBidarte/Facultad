@@ -1,7 +1,7 @@
 const API_URL = 'https://calcount.develotion.com'
 const API_IMAGENES = 'https://calcount.develotion.com/imgs'
 let alimentos = []
-let registros = [];
+let registros = []
 Inicializar()
 
 function Inicializar() {
@@ -25,7 +25,9 @@ function AgregarEventos() {
   document
     .getElementById('btnAgregarAlimento')
     .addEventListener('click', AgregarAlimento)
-  document.getElementById('btnFiltrarRegistros').addEventListener('click', ListadoPorFechas)  
+  document
+    .getElementById('btnFiltrarRegistros')
+    .addEventListener('click', ListadoPorFechas)
 }
 
 function Navegar(event) {
@@ -56,7 +58,9 @@ function Navegar(event) {
     case '/ListadoRegistros':
       ObtenerAlimentos()
       document.getElementById('listadoRegistros').style.display = 'block'
-      ListadoRegistros() 
+      setTimeout(() => {
+        ListadoRegistros()
+      }, 500)
       break
   }
 }
@@ -242,7 +246,6 @@ function CerrarSesion() {
   localStorage.clear()
 }
 
-
 function ListadoRegistros() {
   if (localStorage.getItem('apiKey') === null) {
     document.getElementById('mensajeListadoRegistros').innerHTML =
@@ -267,8 +270,8 @@ function ListadoRegistros() {
               alimento => alimento.id === registro.idAlimento
             )
             document.getElementById('contenidoListadoRegistros').innerHTML += `
-              <ion-card style="margin-bottom: 40px;">
-                <img alt="${alimento.nombre}" src="${API_IMAGENES}/${alimento.imagen}.png" style="max-width: 100%;height: 200px;"/>
+              <ion-card style="margin-bottom: 40px; width:200px;">
+                <img alt="${alimento.nombre}" src="${API_IMAGENES}/${alimento.imagen}.png" style="max-width: 100%;height: 100px;"/>
                 <ion-card-header>
                   <ion-card-title>${alimento.nombre}</ion-card-title>
                 </ion-card-header>
@@ -288,30 +291,34 @@ function ListadoRegistros() {
   }
 }
 
-function ListadoPorFechas(){
-  let ionDatetimeElement = document.getElementById('fechaDeFiltro');
-  let fechasSeleccionadas = [] = ionDatetimeElement.value;
-  let fechaInicio = fechasSeleccionadas[0];
-  let fechaFinal = fechasSeleccionadas[1];
-  document.getElementById('contenidoListadoRegistros').innerHTML = '';
-  registros.forEach(registro => {
-    if(registro.fecha>=fechaInicio&&registro.fecha<=fechaFinal){
-    let alimento = alimentos.find(
-      alimento => alimento.id === registro.idAlimento
-    )
-    document.getElementById('contenidoListadoRegistros').innerHTML += `
-      <ion-card style="margin-bottom: 40px;">
-        <img alt="${alimento.nombre}" src="${API_IMAGENES}/${alimento.imagen}.png" style="max-width: 100%;height: 200px;"/>
-        <ion-card-header>
-          <ion-card-title>${alimento.nombre}</ion-card-title>
-        </ion-card-header>
-        <ion-card-content>
-          <p>Calorias: ${alimento.calorias}</p>
-          <ion-button onclick='EliminarRegistro(${registro.id})'>Eliminar</ion-button>
-        </ion-card-content>
-      </ion-card>
-    `}
-  })
+function ListadoPorFechas() {
+  let fechaInicio = document.getElementById('fechaDeFiltroInicial').value
+  let fechaFinal = document.getElementById('fechaDeFiltroFinal').value
+  if (fechaInicio.trim().length !== 0 && fechaFinal.trim().length !== 0) {
+    document.getElementById('contenidoListadoRegistros').innerHTML = ''
+    document.getElementById('contenidoListadoRegistros').innerHTML = `
+    <ion-button onclick='ListadoRegistros()'>Reiniciar</ion-button>
+    `
+    registros.forEach(registro => {
+      if (registro.fecha >= fechaInicio && registro.fecha <= fechaFinal) {
+        let alimento = alimentos.find(
+          alimento => alimento.id === registro.idAlimento
+        )
+        document.getElementById('contenidoListadoRegistros').innerHTML += `
+        <ion-card style="margin-bottom: 40px;">
+          <img alt="${alimento.nombre}" src="${API_IMAGENES}/${alimento.imagen}.png" style="max-width: 100%;height: 200px;"/>
+          <ion-card-header>
+            <ion-card-title>${alimento.nombre}</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <p>Calorias: ${alimento.calorias}</p>
+            <ion-button onclick='EliminarRegistro(${registro.id})'>Eliminar</ion-button>
+          </ion-card-content>
+        </ion-card>
+      `
+      }
+    })
+  }
 }
 
 function EliminarRegistro(id) {
@@ -325,5 +332,5 @@ function EliminarRegistro(id) {
   })
     .then(() => ListadoRegistros())
     .catch(error => console.log(error))
-    registros.filter(registro => registro.id === id);
+  registros.filter(registro => registro.id === id)
 }

@@ -173,7 +173,11 @@
           <p id="mensajesAgregarAlimento"></p>
         </ion-content>
       </ion-page>
-      <ion-page id="listadoRegistros" class="ion-page">
+      <ion-page
+        id="listadoRegistros"
+        class="ion-page"
+        style="margin-bottom: 200px"
+      >
         <ion-header>
           <ion-toolbar>
             <ion-buttons slot="start">
@@ -182,10 +186,17 @@
             <ion-title>Listado de registros</ion-title>
           </ion-toolbar>
         </ion-header>
-        <ion-datetime presentation="date" multiple="true" id="fechaDeFiltro"></ion-datetime>
-        <ion-button expand="block" id="btnFiltrarRegistros"
-            >Listar</ion-button
-          >
+        <ion-input
+          type="date"
+          label="Ingrese fecha de filtro inicial"
+          id="fechaDeFiltroInicial"
+        ></ion-input>
+        <ion-input
+          type="date"
+          label="Ingrese fecha de filtro final"
+          id="fechaDeFiltroFinal"
+        ></ion-input>
+        <ion-button expand="block" id="btnFiltrarRegistros">Listar</ion-button>
         <ion-content id="contenidoListadoRegistros">
           <p id="mensajeListadoRegistros"></p>
         </ion-content>
