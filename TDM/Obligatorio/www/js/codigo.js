@@ -57,11 +57,20 @@ function Navegar(event) {
       break
     case '/ListadoRegistros':
       ObtenerAlimentos()
+      ObtenerRegistros()
       document.getElementById('listadoRegistros').style.display = 'block'
       setTimeout(() => {
         ListadoRegistros()
       }, 500)
       break
+    case '/CalculoCalorias':
+      ObtenerAlimentos()
+      ObtenerRegistros()
+      document.getElementById('calculoCalorias').style.display = 'block'
+      setTimeout(() => {
+        CalculoCalorias()
+      }, 1000)
+      break  
   }
 }
 
@@ -251,20 +260,8 @@ function ListadoRegistros() {
     document.getElementById('mensajeListadoRegistros').innerHTML =
       'Debe iniciar sesión para ver el listado de registros'
   } else {
-    let idUsuario = localStorage.getItem('idUsuario')
-    let apiKey = localStorage.getItem('apiKey')
-    fetch(`${API_URL}/registros.php?idUsuario=${idUsuario}`, {
-      headers: {
-        'Content-Type': 'application/json',
-        apikey: apiKey,
-        iduser: idUsuario,
-      },
-    })
-      .then(response => response.json())
-      .then(data => {
-        if (data.codigo === 200) {
+
           document.getElementById('contenidoListadoRegistros').innerHTML = ''
-          registros = data.registros //array
           registros.forEach(registro => {
             let alimento = alimentos.find(
               alimento => alimento.id === registro.idAlimento
@@ -282,14 +279,8 @@ function ListadoRegistros() {
               </ion-card>
             `
           })
-        } else {
-          document.getElementById('mensajeListadoRegistros').innerHTML =
-            data.mensaje
         }
-      })
-      .catch(error => console.log(error))
-  }
-}
+      }
 
 function ListadoPorFechas() {
   let fechaInicio = document.getElementById('fechaDeFiltroInicial').value
@@ -335,4 +326,38 @@ function EliminarRegistro(id) {
     .then(() => ListadoRegistros())
     .catch(error => console.log(error))
   registros.filter(registro => registro.id === id)
+}
+
+function ObtenerRegistros(){
+  let idUsuario = localStorage.getItem('idUsuario')
+    let apiKey = localStorage.getItem('apiKey')
+    fetch(`${API_URL}/registros.php?idUsuario=${idUsuario}`, {
+      headers: {
+        'Content-Type': 'application/json',
+        apikey: apiKey,
+        iduser: idUsuario,
+      },
+    })
+    .then(response => response.json())
+      .then(data => {
+        if (data.codigo === 200) {
+          registros = data.registros 
+        }
+    })
+  .catch(error => console.log(error))
+}
+
+function CalculoCalorias(){
+  let caloriasTotales=0;
+  let caloriasHoy=0;
+  console.log(registros)
+  console.log(alimentos)
+  for(let i=0; i < registros.length;i++){
+    for(let z=0; z < alimentos.length; z++){
+      if(registros[i].idAlimento===alimentos[z].id){
+         caloriasTotales+=(registros[i].cantidad*alimentos[z].calorias)
+      }
+    }
+  }
+  document.getElementById('mensajeCalculoCaloriasTotales').innerHTML="Las calorias totales consumidas hasta el momentos son:"+caloriasTotales+"."
 }
