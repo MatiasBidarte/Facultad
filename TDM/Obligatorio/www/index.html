@@ -46,6 +46,10 @@
           component="listadoRegistros"
         ></ion-route>
         <ion-route url="/Mapa" component="mapa"></ion-route>
+        <ion-route
+          url="/CalculoCalorias"
+          component="calculoCalorias"
+        ></ion-route>
       </ion-router>
       <ion-nav></ion-nav>
       <ion-menu content-id="main-content" id="menu">
@@ -71,6 +75,9 @@
               >Listar registros</ion-item
             >
             <ion-item href="/Mapa" onclick="CerrarMenu()">Mapa</ion-item>
+            <ion-item href="/CalculoCalorias" onclick="CerrarMenu()"
+              >Calculo de calorias</ion-item
+            >
           </ion-list>
         </ion-content>
       </ion-menu>
@@ -240,6 +247,20 @@
           <ion-button expand="block" id="btnUsuariosPorPais"
             >Usuarios por pais</ion-button
           >
+        </ion-content>
+      </ion-page>
+      <ion-page id="calculoCalorias" class="ion-page">
+        <ion-header>
+          <ion-toolbar>
+            <ion-buttons slot="start">
+              <ion-menu-button></ion-menu-button>
+            </ion-buttons>
+            <ion-title>Mapa</ion-title>
+          </ion-toolbar>
+        </ion-header>
+        <ion-content id="contenidoCalculoCalorias">
+          <p id="mensajeCalculoCaloriasTotales"></p>
+          <p id="mensajeCalculoCaloriasHoy"></p>
         </ion-content>
       </ion-page>
     </ion-app>

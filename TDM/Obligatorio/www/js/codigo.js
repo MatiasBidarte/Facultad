@@ -74,6 +74,7 @@ function Navegar(event) {
       break
     case '/ListadoRegistros':
       ObtenerAlimentos()
+      ObtenerRegistros()
       document.getElementById('listadoRegistros').style.display = 'block'
       setTimeout(() => {
         ListadoRegistros()
@@ -87,6 +88,14 @@ function Navegar(event) {
         CargarMapa()
       }, 1000)
       document.getElementById('mapa').style.display = 'block'
+      break
+    case '/CalculoCalorias':
+      ObtenerAlimentos()
+      ObtenerRegistros()
+      document.getElementById('calculoCalorias').style.display = 'block'
+      setTimeout(() => {
+        CalculoCalorias()
+      }, 1000)
       break
   }
 }
@@ -277,25 +286,12 @@ function ListadoRegistros() {
     document.getElementById('mensajeListadoRegistros').innerHTML =
       'Debe iniciar sesión para ver el listado de registros'
   } else {
-    let idUsuario = localStorage.getItem('idUsuario')
-    let apiKey = localStorage.getItem('apiKey')
-    fetch(`${API_URL}/registros.php?idUsuario=${idUsuario}`, {
-      headers: {
-        'Content-Type': 'application/json',
-        apikey: apiKey,
-        iduser: idUsuario,
-      },
-    })
-      .then(response => response.json())
-      .then(data => {
-        if (data.codigo === 200) {
-          document.getElementById('contenidoListadoRegistros').innerHTML = ''
-          registros = data.registros //array
-          registros.forEach(registro => {
-            let alimento = alimentos.find(
-              alimento => alimento.id === registro.idAlimento
-            )
-            document.getElementById('contenidoListadoRegistros').innerHTML += `
+    document.getElementById('contenidoListadoRegistros').innerHTML = ''
+    registros.forEach(registro => {
+      let alimento = alimentos.find(
+        alimento => alimento.id === registro.idAlimento
+      )
+      document.getElementById('contenidoListadoRegistros').innerHTML += `
               <ion-card style="margin-bottom: 40px; width:200px;">
                 <img alt="${alimento.nombre}" src="${API_IMAGENES}/${alimento.imagen}.png" style="max-width: 100%;height: 100px;"/>
                 <ion-card-header>
@@ -307,13 +303,7 @@ function ListadoRegistros() {
                 </ion-card-content>
               </ion-card>
             `
-          })
-        } else {
-          document.getElementById('mensajeListadoRegistros').innerHTML =
-            data.mensaje
-        }
-      })
-      .catch(error => console.log(error))
+    })
   }
 }
 
@@ -383,4 +373,41 @@ function CargarMapa() {
     attribution: '© OpenStreetMap',
   }).addTo(map)
   L.marker([latitudOrigen, longitudOrigen]).addTo(map)
+}
+
+function ObtenerRegistros() {
+  let idUsuario = localStorage.getItem('idUsuario')
+  let apiKey = localStorage.getItem('apiKey')
+  fetch(`${API_URL}/registros.php?idUsuario=${idUsuario}`, {
+    headers: {
+      'Content-Type': 'application/json',
+      apikey: apiKey,
+      iduser: idUsuario,
+    },
+  })
+    .then(response => response.json())
+    .then(data => {
+      if (data.codigo === 200) {
+        registros = data.registros
+      }
+    })
+    .catch(error => console.log(error))
+}
+
+function CalculoCalorias() {
+  let caloriasTotales = 0
+  let caloriasHoy = 0
+  console.log(registros)
+  console.log(alimentos)
+  for (let i = 0; i < registros.length; i++) {
+    for (let z = 0; z < alimentos.length; z++) {
+      if (registros[i].idAlimento === alimentos[z].id) {
+        caloriasTotales += registros[i].cantidad * alimentos[z].calorias
+      }
+    }
+  }
+  document.getElementById('mensajeCalculoCaloriasTotales').innerHTML =
+    'Las calorias totales consumidas hasta el momentos son:' +
+    caloriasTotales +
+    '.'
 }
