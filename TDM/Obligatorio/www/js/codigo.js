@@ -1,12 +1,26 @@
 const API_URL = 'https://calcount.develotion.com'
 const API_IMAGENES = 'https://calcount.develotion.com/imgs'
+const ruteo = document.getElementById('ruteo')
+
+let latitudOrigen = -34.90346198385623
+let longitudOrigen = -56.19080483049811
 let alimentos = []
 let registros = []
+let map
+
+navigator.geolocation.getCurrentPosition(GuardarUbicacion, () =>
+  alert('no se pudo obtener la ubicacion')
+)
 Inicializar()
 
 function Inicializar() {
   OcultarSecciones()
   AgregarEventos()
+}
+
+function GuardarUbicacion(position) {
+  latitudOrigen = position.coords.latitude
+  longitudOrigen = position.coords.longitude
 }
 
 function OcultarSecciones() {
@@ -28,6 +42,9 @@ function AgregarEventos() {
   document
     .getElementById('btnFiltrarRegistros')
     .addEventListener('click', ListadoPorFechas)
+  document
+    .getElementById('btnUsuariosPorPais')
+    .addEventListener('click', MostrarUsuariosPorPais)
 }
 
 function Navegar(event) {
@@ -61,6 +78,15 @@ function Navegar(event) {
       setTimeout(() => {
         ListadoRegistros()
       }, 500)
+      break
+    case '/Mapa':
+      if (map != null) {
+        map.remove()
+      }
+      setTimeout(() => {
+        CargarMapa()
+      }, 1000)
+      document.getElementById('mapa').style.display = 'block'
       break
   }
 }
@@ -335,4 +361,26 @@ function EliminarRegistro(id) {
     .then(() => ListadoRegistros())
     .catch(error => console.log(error))
   registros.filter(registro => registro.id === id)
+}
+
+function MostrarUsuariosPorPais() {
+  let apikey = localStorage.getItem('apiKey')
+  let idUsuario = localStorage.getItem('idUsuario')
+  if (apikey == null || idUsuario == null) {
+    document.getElementById('mensajeListadoUsuarios').innerHTML =
+      'Debe iniciar sesión para ver el listado de usuarios'
+  } else {
+    map.remove()
+    let usuarios = document.getElementById('usuariosPorPais').value
+    // hacer fetch para conseguir los paises y los usuarios por pais, etc
+  }
+}
+
+function CargarMapa() {
+  map = L.map('map').fitWorld()
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '© OpenStreetMap',
+  }).addTo(map)
+  L.marker([latitudOrigen, longitudOrigen]).addTo(map)
 }
