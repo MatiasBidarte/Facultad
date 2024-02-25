@@ -7,6 +7,7 @@ let longitudOrigen = -56.19080483049811
 let alimentos = []
 let registros = []
 let map
+let caloriasPorDia=0;
 
 navigator.geolocation.getCurrentPosition(GuardarUbicacion, () =>
   alert('no se pudo obtener la ubicacion')
@@ -94,7 +95,7 @@ function Navegar(event) {
       document.getElementById('calculoCalorias').style.display = 'block'
       setTimeout(() => {
         CalculoCalorias()
-      }, 1000)
+      }, 1250)
       break
   }
 }
@@ -185,6 +186,7 @@ function Login() {
         document.getElementById('usuarioLogin').value = ''
         document.getElementById('passwordLogin').value = ''
         document.getElementById('mensajesLogin').innerHTML = `Login exitoso`
+        caloriasPorDia=data.caloriasDiarias;
         localStorage.setItem('apiKey', data.apiKey)
         localStorage.setItem('idUsuario', data.id)
       })
@@ -431,19 +433,33 @@ function ObtenerRegistros() {
 }
 
 function CalculoCalorias() {
+  let fechaActual = new Date();
+  let fechaActualString = fechaActual.toISOString().slice(0, 10);
   let caloriasTotales = 0
   let caloriasHoy = 0
   console.log(registros)
   console.log(alimentos)
+
   for (let i = 0; i < registros.length; i++) {
     for (let z = 0; z < alimentos.length; z++) {
       if (registros[i].idAlimento === alimentos[z].id) {
-        caloriasTotales += registros[i].cantidad * alimentos[z].calorias
+        caloriasTotales += (registros[i].cantidad * alimentos[z].calorias)/alimentos[z].porcion.slice(0, -1)
+      }
+      if(registros[i].idAlimento === alimentos[z].id && registros[i].fecha === fechaActualString){
+        caloriasHoy += (registros[i].cantidad * alimentos[z].calorias)/alimentos[z].porcion.slice(0, -1)
       }
     }
   }
-  document.getElementById('mensajeCalculoCaloriasTotales').innerHTML =
-    'Las calorias totales consumidas hasta el momentos son:' +
-    caloriasTotales +
-    '.'
+  document.getElementById('caloriasHoySpan').innerText = caloriasHoy;
+
+  document.getElementById('caloriasTotales').innerHTML = caloriasTotales;
+    if(caloriasHoy>caloriasPorDia){
+    document.getElementById('caloriasHoySpan').color = 'danger';
+    }else if(caloriasHoy>caloriasPorDia-caloriasHoy*0.1 && caloriasHoy < caloriasPorDia){
+    document.getElementById('caloriasHoySpan').color = 'warning'
+    }else{
+    document.getElementById('caloriasHoySpan').color = 'success'
+    }
+
+    
 }
