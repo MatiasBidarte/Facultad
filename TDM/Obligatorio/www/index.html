@@ -255,13 +255,20 @@
             <ion-buttons slot="start">
               <ion-menu-button></ion-menu-button>
             </ion-buttons>
-            <ion-title>Mapa</ion-title>
+            <ion-title>Calculo de calorias</ion-title>
           </ion-toolbar>
         </ion-header>
-        <ion-content id="contenidoCalculoCalorias">
-          <p id="mensajeCalculoCaloriasTotales"></p>
-          <p id="mensajeCalculoCaloriasHoy"></p>
-        </ion-content>
+        </ion-content id="contenidoCalculoCalorias">
+        <ion-list style="width: 230px;">
+          <ion-item>
+            <ion-badge slot="start" id="caloriasHoySpan"></ion-badge>
+            <ion-label>Calorias de hoy</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>Calorias totales</ion-label>
+            <ion-badge slot="start" id="caloriasTotales" color="tertiary"></ion-badge>
+          </ion-item>
+        </ion-list>
       </ion-page>
     </ion-app>
   </body>
