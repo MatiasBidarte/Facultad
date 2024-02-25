@@ -48,7 +48,6 @@ function AgregarEventos() {
 }
 
 function Navegar(event) {
-  console.log(event)
   OcultarSecciones()
   switch (event.detail.to) {
     case '/':
@@ -357,12 +356,49 @@ function MostrarUsuariosPorPais() {
   let apikey = localStorage.getItem('apiKey')
   let idUsuario = localStorage.getItem('idUsuario')
   if (apikey == null || idUsuario == null) {
-    document.getElementById('mensajeListadoUsuarios').innerHTML =
+    document.getElementById('mensajesMapa').innerHTML =
       'Debe iniciar sesión para ver el listado de usuarios'
   } else {
     map.remove()
-    let usuarios = document.getElementById('usuariosPorPais').value
-    // hacer fetch para conseguir los paises y los usuarios por pais, etc
+    setTimeout(() => {
+      CargarMapa()
+    }, 1000)
+    let cantUsuarios = document.getElementById('usuariosPorPais').value
+    if (cantUsuarios != '') {
+      fetch(`${API_URL}/paises.php`, {
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      })
+        .then(response => response.json())
+        .then(data => {
+          let paises = data.paises
+          fetch(`${API_URL}/usuariosPorPais.php`, {
+            headers: {
+              'Content-Type': 'application/json',
+              apikey: apikey,
+              iduser: idUsuario,
+            },
+          })
+            .then(response => response.json())
+            .then(data => {
+              let usuariosPorPais = data.paises
+              let paisesConUsuarios = usuariosPorPais.filter(usuarioPorPais => usuarioPorPais.cantidadDeUsuarios > cantUsuarios)
+              paisesConUsuarios.forEach(paisConUsuario => {
+                let pais = paises.find(pais => pais.id === paisConUsuario.id)
+                if (pais) {
+                  L.marker([pais.latitude, pais.longitude])
+                    .addTo(map)
+                    .bindPopup(
+                      `Pais: ${pais.name}, Cantidad de usuarios: ${paisConUsuario.cantidadDeUsuarios}`
+                    )
+                }
+              })
+            })
+            .catch(error => console.log(error))
+        })
+        .catch(error => console.log(error))   
+    }
   }
 }
 
@@ -372,7 +408,7 @@ function CargarMapa() {
     maxZoom: 19,
     attribution: '© OpenStreetMap',
   }).addTo(map)
-  L.marker([latitudOrigen, longitudOrigen]).addTo(map)
+  L.marker([latitudOrigen, longitudOrigen]).addTo(map).bindPopup('Mi ubicacion')
 }
 
 function ObtenerRegistros() {

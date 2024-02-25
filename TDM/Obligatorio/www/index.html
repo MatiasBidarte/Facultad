@@ -28,7 +28,8 @@
       integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
       crossorigin=""
     ></script>
-    <script src="JS/codigo.js" defer></script>
+    <script src="js/codigo.js" defer></script>
+    <script src="capacitor.js"></script>
   </head>
   <body>
     <ion-app>
@@ -247,6 +248,7 @@
           <ion-button expand="block" id="btnUsuariosPorPais"
             >Usuarios por pais</ion-button
           >
+          <p id="mensajesMapa"></p>
         </ion-content>
       </ion-page>
       <ion-page id="calculoCalorias" class="ion-page">
@@ -255,7 +257,7 @@
             <ion-buttons slot="start">
               <ion-menu-button></ion-menu-button>
             </ion-buttons>
-            <ion-title>Mapa</ion-title>
+            <ion-title>Calorias consumidas</ion-title>
           </ion-toolbar>
         </ion-header>
         <ion-content id="contenidoCalculoCalorias">
