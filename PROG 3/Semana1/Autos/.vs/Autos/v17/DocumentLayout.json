@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alumnoFI\\source\\repos\\Autos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{65EDBD81-2CD9-404B-85A0-D85C62D30BD4}|Dominio\\Dominio.csproj|c:\\users\\alumnofi\\source\\repos\\autos\\dominio\\interfacesdominio\\ivalidable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65EDBD81-2CD9-404B-85A0-D85C62D30BD4}|Dominio\\Dominio.csproj|solutionrelative:dominio\\interfacesdominio\\ivalidable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65EDBD81-2CD9-404B-85A0-D85C62D30BD4}|Dominio\\Dominio.csproj|c:\\users\\alumnofi\\source\\repos\\autos\\dominio\\entidadesagregados\\auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65EDBD81-2CD9-404B-85A0-D85C62D30BD4}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entidadesagregados\\auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AE0E41F-831B-4150-A099-61AE45E7120A}|AppWeb\\AppWeb.csproj|c:\\users\\alumnofi\\source\\repos\\autos\\appweb\\views\\auto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3AE0E41F-831B-4150-A099-61AE45E7120A}|AppWeb\\AppWeb.csproj|solutionrelative:appweb\\views\\auto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AE0E41F-831B-4150-A099-61AE45E7120A}|AppWeb\\AppWeb.csproj|c:\\users\\alumnofi\\source\\repos\\autos\\appweb\\views\\auto\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3AE0E41F-831B-4150-A099-61AE45E7120A}|AppWeb\\AppWeb.csproj|solutionrelative:appweb\\views\\auto\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AE0E41F-831B-4150-A099-61AE45E7120A}|AppWeb\\AppWeb.csproj|c:\\users\\alumnofi\\source\\repos\\autos\\appweb\\controllers\\autocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AE0E41F-831B-4150-A099-61AE45E7120A}|AppWeb\\AppWeb.csproj|solutionrelative:appweb\\controllers\\autocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\alumnoFI\\source\\repos\\Autos\\AppWeb\\Views\\Auto\\Index.cshtml",
+              "RelativeDocumentMoniker": "AppWeb\\Views\\Auto\\Index.cshtml",
+              "ToolTip": "C:\\Users\\alumnoFI\\source\\repos\\Autos\\AppWeb\\Views\\Auto\\Index.cshtml",
+              "RelativeToolTip": "AppWeb\\Views\\Auto\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T01:25:04.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\alumnoFI\\source\\repos\\Autos\\AppWeb\\Views\\Auto\\Create.cshtml",
+              "RelativeDocumentMoniker": "AppWeb\\Views\\Auto\\Create.cshtml",
+              "ToolTip": "C:\\Users\\alumnoFI\\source\\repos\\Autos\\AppWeb\\Views\\Auto\\Create.cshtml",
+              "RelativeToolTip": "AppWeb\\Views\\Auto\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T01:24:46.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IValidable.cs",
+              "DocumentMoniker": "C:\\Users\\alumnoFI\\source\\repos\\Autos\\Dominio\\InterfacesDominio\\IValidable.cs",
+              "RelativeDocumentMoniker": "Dominio\\InterfacesDominio\\IValidable.cs",
+              "ToolTip": "C:\\Users\\alumnoFI\\source\\repos\\Autos\\Dominio\\InterfacesDominio\\IValidable.cs",
+              "RelativeToolTip": "Dominio\\InterfacesDominio\\IValidable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T01:19:18.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AutoController.cs",
+              "DocumentMoniker": "C:\\Users\\alumnoFI\\source\\repos\\Autos\\AppWeb\\Controllers\\AutoController.cs",
+              "RelativeDocumentMoniker": "AppWeb\\Controllers\\AutoController.cs",
+              "ToolTip": "C:\\Users\\alumnoFI\\source\\repos\\Autos\\AppWeb\\Controllers\\AutoController.cs",
+              "RelativeToolTip": "AppWeb\\Controllers\\AutoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T00:24:13.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Auto.cs",
+              "DocumentMoniker": "C:\\Users\\alumnoFI\\source\\repos\\Autos\\Dominio\\EntidadesAgregados\\Auto.cs",
+              "RelativeDocumentMoniker": "Dominio\\EntidadesAgregados\\Auto.cs",
+              "ToolTip": "C:\\Users\\alumnoFI\\source\\repos\\Autos\\Dominio\\EntidadesAgregados\\Auto.cs",
+              "RelativeToolTip": "Dominio\\EntidadesAgregados\\Auto.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAmwBcAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T00:14:45.474Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

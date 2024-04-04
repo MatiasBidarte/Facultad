@@ -1,0 +1,16 @@
+/Users/matiasbidarte/Desktop/facu.nosync/PROG 3/Semana2/Libreria_N3B_202403_V2/LogicaAccesoDatos/bin/Debug/net8.0/LogicaAccesoDatos.deps.json
+/Users/matiasbidarte/Desktop/facu.nosync/PROG 3/Semana2/Libreria_N3B_202403_V2/LogicaAccesoDatos/bin/Debug/net8.0/LogicaAccesoDatos.dll
+/Users/matiasbidarte/Desktop/facu.nosync/PROG 3/Semana2/Libreria_N3B_202403_V2/LogicaAccesoDatos/bin/Debug/net8.0/LogicaAccesoDatos.pdb
+/Users/matiasbidarte/Desktop/facu.nosync/PROG 3/Semana2/Libreria_N3B_202403_V2/LogicaAccesoDatos/bin/Debug/net8.0/LogicaNegocio.dll
+/Users/matiasbidarte/Desktop/facu.nosync/PROG 3/Semana2/Libreria_N3B_202403_V2/LogicaAccesoDatos/bin/Debug/net8.0/LogicaNegocio.pdb
+/Users/matiasbidarte/Desktop/facu.nosync/PROG 3/Semana2/Libreria_N3B_202403_V2/LogicaAccesoDatos/obj/Debug/net8.0/LogicaAccesoDatos.csproj.AssemblyReference.cache
+/Users/matiasbidarte/Desktop/facu.nosync/PROG 3/Semana2/Libreria_N3B_202403_V2/LogicaAccesoDatos/obj/Debug/net8.0/LogicaAccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+/Users/matiasbidarte/Desktop/facu.nosync/PROG 3/Semana2/Libreria_N3B_202403_V2/LogicaAccesoDatos/obj/Debug/net8.0/LogicaAccesoDatos.AssemblyInfoInputs.cache
+/Users/matiasbidarte/Desktop/facu.nosync/PROG 3/Semana2/Libreria_N3B_202403_V2/LogicaAccesoDatos/obj/Debug/net8.0/LogicaAccesoDatos.AssemblyInfo.cs
+/Users/matiasbidarte/Desktop/facu.nosync/PROG 3/Semana2/Libreria_N3B_202403_V2/LogicaAccesoDatos/obj/Debug/net8.0/LogicaAccesoDatos.csproj.CoreCompileInputs.cache
+/Users/matiasbidarte/Desktop/facu.nosync/PROG 3/Semana2/Libreria_N3B_202403_V2/LogicaAccesoDatos/obj/Debug/net8.0/LogicaAccesoDatos.sourcelink.json
+/Users/matiasbidarte/Desktop/facu.nosync/PROG 3/Semana2/Libreria_N3B_202403_V2/LogicaAccesoDatos/obj/Debug/net8.0/LogicaAc.5A0EF2D8.Up2Date
+/Users/matiasbidarte/Desktop/facu.nosync/PROG 3/Semana2/Libreria_N3B_202403_V2/LogicaAccesoDatos/obj/Debug/net8.0/LogicaAccesoDatos.dll
+/Users/matiasbidarte/Desktop/facu.nosync/PROG 3/Semana2/Libreria_N3B_202403_V2/LogicaAccesoDatos/obj/Debug/net8.0/refint/LogicaAccesoDatos.dll
+/Users/matiasbidarte/Desktop/facu.nosync/PROG 3/Semana2/Libreria_N3B_202403_V2/LogicaAccesoDatos/obj/Debug/net8.0/LogicaAccesoDatos.pdb
+/Users/matiasbidarte/Desktop/facu.nosync/PROG 3/Semana2/Libreria_N3B_202403_V2/LogicaAccesoDatos/obj/Debug/net8.0/ref/LogicaAccesoDatos.dll

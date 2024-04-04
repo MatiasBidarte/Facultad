@@ -1,0 +1,45 @@
+﻿<Properties StartupConfiguration="{3AE0E41F-831B-4150-A099-61AE45E7120A}|https">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.AppWeb PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AppWeb/Views/Shared/_Layout.cshtml">
+    <Files>
+      <File FileName="Dominio/Excepciones/DominioException.cs" Line="1" Column="1" />
+      <File FileName="Dominio/Excepciones/Auto/PuertasInvalidasException.cs" />
+      <File FileName="Dominio/Excepciones/Auto/MatriculaInvalidaException.cs" Line="7" Column="42" />
+      <File FileName="AppWeb/Controllers/AutoController.cs" Line="32" Column="6" />
+      <File FileName="AppWeb/Views/Auto/Index.cshtml" Line="22" Column="18" />
+      <File FileName="AppWeb/Views/Auto/Create.cshtml" Line="34" Column="19" />
+      <File FileName="Dominio/Excepciones/Auto/AutoException.cs" Line="1" Column="1" />
+      <File FileName="AppWeb/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Autos" expanded="True">
+            <Node name="AppWeb">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Auto" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="Dominio">
+              <Node name="EntidadesAgregados" expanded="True" />
+              <Node name="Excepciones" expanded="True">
+                <Node name="Auto" expanded="True" />
+              </Node>
+              <Node name="InterfacesDominio" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

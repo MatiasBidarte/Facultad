@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{481E562B-EC58-4787-A1FC-745963623596}|https">
+  <MonoDevelop.Ide.ItemProperties.WebApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Practico1/Views/Tema/CrearTema.cshtml">
+    <Files>
+      <File FileName="Dominio/Entidades/Tema.cs" />
+      <File FileName="Dominio/Entidades/Pais.cs" />
+      <File FileName="Dominio/Interfaces/IValidable.cs" />
+      <File FileName="Dominio/Excepciones/Tema/TemaException.cs" />
+      <File FileName="Dominio/Excepciones/Tema/NombreTemaException.cs" />
+      <File FileName="Dominio/Excepciones/Tema/DescripcionTemaException.cs" />
+      <File FileName="Practico1/Controllers/TemaController.cs" Line="53" Column="14" />
+      <File FileName="Practico1/Views/Shared/_Layout.cshtml.css" />
+      <File FileName="Practico1/Views/Shared/_Layout.cshtml" />
+      <File FileName="Practico1/Views/Tema/CrearTema.cshtml" Line="31" Column="78" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Practico1">
+            <Node name="Dominio" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

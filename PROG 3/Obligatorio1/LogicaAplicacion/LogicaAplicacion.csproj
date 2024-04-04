@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Usuarios\" />
+    <None Remove="Articulos\" />
+    <None Remove="Pedidos\" />
+    <None Remove="Clientes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Usuarios\" />
+    <Folder Include="Articulos\" />
+    <Folder Include="Pedidos\" />
+    <Folder Include="Clientes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Infraestructura\Infraestructura.csproj" />
+    <ProjectReference Include="..\LogicaNegocio\LogicaNegocio.csproj" />
+  </ItemGroup>
+</Project>

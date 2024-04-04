@@ -1,0 +1,90 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "LogicaNegocio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/LogicaNegocio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LogicaNegocio.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LogicaNegocio/1.0.0": {
+      "type": "project",
+      "path": "../LogicaNegocio/LogicaNegocio.csproj",
+      "msbuildProject": "../LogicaNegocio/LogicaNegocio.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "LogicaNegocio >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/matiasbidarte/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/matiasbidarte/Desktop/facu.nosync/PROG 3/Semana2/Libreria_N3B_202403_V2/LogicaAccesoDatos/LogicaAccesoDatos.csproj",
+      "projectName": "LogicaAccesoDatos",
+      "projectPath": "/Users/matiasbidarte/Desktop/facu.nosync/PROG 3/Semana2/Libreria_N3B_202403_V2/LogicaAccesoDatos/LogicaAccesoDatos.csproj",
+      "packagesPath": "/Users/matiasbidarte/.nuget/packages/",
+      "outputPath": "/Users/matiasbidarte/Desktop/facu.nosync/PROG 3/Semana2/Libreria_N3B_202403_V2/LogicaAccesoDatos/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/matiasbidarte/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "/usr/local/share/dotnet/library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "/Users/matiasbidarte/Desktop/facu.nosync/PROG 3/Semana2/Libreria_N3B_202403_V2/LogicaNegocio/LogicaNegocio.csproj": {
+              "projectPath": "/Users/matiasbidarte/Desktop/facu.nosync/PROG 3/Semana2/Libreria_N3B_202403_V2/LogicaNegocio/LogicaNegocio.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

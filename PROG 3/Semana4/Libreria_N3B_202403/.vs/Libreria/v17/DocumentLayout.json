@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Dentone\\semana 04\\Libreria_N3B_202403\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{05B0069C-3672-462A-BDC0-D2A1402503A8}|LogicaNegocio\\LogicaNegocio.csproj|d:\\dentone\\semana 04\\libreria_n3b_202403\\logicanegocio\\entidades\\pais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05B0069C-3672-462A-BDC0-D2A1402503A8}|LogicaNegocio\\LogicaNegocio.csproj|solutionrelative:logicanegocio\\entidades\\pais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05B0069C-3672-462A-BDC0-D2A1402503A8}|LogicaNegocio\\LogicaNegocio.csproj|d:\\dentone\\semana 04\\libreria_n3b_202403\\logicanegocio\\valueobjects\\direccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05B0069C-3672-462A-BDC0-D2A1402503A8}|LogicaNegocio\\LogicaNegocio.csproj|solutionrelative:logicanegocio\\valueobjects\\direccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05B0069C-3672-462A-BDC0-D2A1402503A8}|LogicaNegocio\\LogicaNegocio.csproj|d:\\dentone\\semana 04\\libreria_n3b_202403\\logicanegocio\\entidades\\autor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05B0069C-3672-462A-BDC0-D2A1402503A8}|LogicaNegocio\\LogicaNegocio.csproj|solutionrelative:logicanegocio\\entidades\\autor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05B0069C-3672-462A-BDC0-D2A1402503A8}|LogicaNegocio\\LogicaNegocio.csproj|d:\\dentone\\semana 04\\libreria_n3b_202403\\logicanegocio\\valueobjects\\nombre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05B0069C-3672-462A-BDC0-D2A1402503A8}|LogicaNegocio\\LogicaNegocio.csproj|solutionrelative:logicanegocio\\valueobjects\\nombre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C70C0096-9166-4CE0-B629-D40E7547F594}|Infraestructura\\Infraestructura.csproj|d:\\dentone\\semana 04\\libreria_n3b_202403\\infraestructura\\logicaaccesodatos\\ef\\libreriacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C70C0096-9166-4CE0-B629-D40E7547F594}|Infraestructura\\Infraestructura.csproj|solutionrelative:infraestructura\\logicaaccesodatos\\ef\\libreriacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Dentone\\semana 04\\Libreria_N3B_202403\\Infraestructura\\Migrations\\20240402010806_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infraestructura\\Migrations\\20240402010806_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Nombre.cs",
+              "DocumentMoniker": "D:\\Dentone\\semana 04\\Libreria_N3B_202403\\LogicaNegocio\\ValueObjects\\Nombre.cs",
+              "RelativeDocumentMoniker": "LogicaNegocio\\ValueObjects\\Nombre.cs",
+              "ToolTip": "D:\\Dentone\\semana 04\\Libreria_N3B_202403\\LogicaNegocio\\ValueObjects\\Nombre.cs",
+              "RelativeToolTip": "LogicaNegocio\\ValueObjects\\Nombre.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T01:23:00.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LibreriaContext.cs",
+              "DocumentMoniker": "D:\\Dentone\\semana 04\\Libreria_N3B_202403\\Infraestructura\\LogicaAccesoDatos\\EF\\LibreriaContext.cs",
+              "RelativeDocumentMoniker": "Infraestructura\\LogicaAccesoDatos\\EF\\LibreriaContext.cs",
+              "ToolTip": "D:\\Dentone\\semana 04\\Libreria_N3B_202403\\Infraestructura\\LogicaAccesoDatos\\EF\\LibreriaContext.cs",
+              "RelativeToolTip": "Infraestructura\\LogicaAccesoDatos\\EF\\LibreriaContext.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAcwCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T00:46:30.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Direccion.cs",
+              "DocumentMoniker": "D:\\Dentone\\semana 04\\Libreria_N3B_202403\\LogicaNegocio\\ValueObjects\\Direccion.cs",
+              "RelativeDocumentMoniker": "LogicaNegocio\\ValueObjects\\Direccion.cs",
+              "ToolTip": "D:\\Dentone\\semana 04\\Libreria_N3B_202403\\LogicaNegocio\\ValueObjects\\Direccion.cs",
+              "RelativeToolTip": "LogicaNegocio\\ValueObjects\\Direccion.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAA8wBYAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T00:45:40.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Autor.cs",
+              "DocumentMoniker": "D:\\Dentone\\semana 04\\Libreria_N3B_202403\\LogicaNegocio\\Entidades\\Autor.cs",
+              "RelativeDocumentMoniker": "LogicaNegocio\\Entidades\\Autor.cs",
+              "ToolTip": "D:\\Dentone\\semana 04\\Libreria_N3B_202403\\LogicaNegocio\\Entidades\\Autor.cs",
+              "RelativeToolTip": "LogicaNegocio\\Entidades\\Autor.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAQwAcAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T23:23:49.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20240402010806_init.cs",
+              "DocumentMoniker": "D:\\Dentone\\semana 04\\Libreria_N3B_202403\\Infraestructura\\Migrations\\20240402010806_init.cs",
+              "RelativeDocumentMoniker": "Infraestructura\\Migrations\\20240402010806_init.cs",
+              "ToolTip": "D:\\Dentone\\semana 04\\Libreria_N3B_202403\\Infraestructura\\Migrations\\20240402010806_init.cs",
+              "RelativeToolTip": "Infraestructura\\Migrations\\20240402010806_init.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T01:08:06.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Pais.cs",
+              "DocumentMoniker": "D:\\Dentone\\semana 04\\Libreria_N3B_202403\\LogicaNegocio\\Entidades\\Pais.cs",
+              "RelativeDocumentMoniker": "LogicaNegocio\\Entidades\\Pais.cs",
+              "ToolTip": "D:\\Dentone\\semana 04\\Libreria_N3B_202403\\LogicaNegocio\\Entidades\\Pais.cs",
+              "RelativeToolTip": "LogicaNegocio\\Entidades\\Pais.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T00:47:13.601Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

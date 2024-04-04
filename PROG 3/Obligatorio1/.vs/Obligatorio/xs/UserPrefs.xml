@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{0A52BC56-24E9-4345-89A3-44450F84CCB8}|http">
+  <MonoDevelop.Ide.Workbench ActiveDocument="LogicaAplicacion/Usuarios/ObtenerUsuarios.cs">
+    <Files>
+      <File FileName="Web/Controllers/UsuarioController.cs" Line="1" Column="1" />
+      <File FileName="LogicaAplicacion/Usuarios/AltaUsuario.cs" Line="1" Column="1" />
+      <File FileName="LogicaAplicacion/Usuarios/EditarUsuario.cs" Line="1" Column="1" />
+      <File FileName="LogicaAplicacion/Usuarios/ObtenerUsuarios.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Obligatorio" expanded="True">
+            <Node name="Infraestructura" expanded="True">
+              <Node name="EF" expanded="True" />
+            </Node>
+            <Node name="LogicaAplicacion" expanded="True">
+              <Node name="Articulos" expanded="True" />
+              <Node name="Clientes" expanded="True" />
+              <Node name="Usuarios" expanded="True">
+                <Node name="ObtenerUsuarios.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="LogicaNegocio">
+              <Node name="Excepciones" expanded="True" />
+              <Node name="ValueObjects" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.WebApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

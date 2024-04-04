@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Entidades\" />
+    <None Remove="Excepciones\" />
+    <None Remove="InterfacesDominio\" />
+    <None Remove="InterfacesServicios\" />
+    <None Remove="InterfacesRepositorios\" />
+    <None Remove="ValueObjects\" />
+    <None Remove="Excepciones\Articulo\" />
+    <None Remove="Excepciones\Cliente\" />
+    <None Remove="Excepciones\Linea\" />
+    <None Remove="Excepciones\Pedido\" />
+    <None Remove="Excepciones\Usuario\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Entidades\" />
+    <Folder Include="Excepciones\" />
+    <Folder Include="InterfacesDominio\" />
+    <Folder Include="InterfacesServicios\" />
+    <Folder Include="InterfacesRepositorios\" />
+    <Folder Include="ValueObjects\" />
+    <Folder Include="Excepciones\Articulo\" />
+    <Folder Include="Excepciones\Cliente\" />
+    <Folder Include="Excepciones\Linea\" />
+    <Folder Include="Excepciones\Pedido\" />
+    <Folder Include="Excepciones\Usuario\" />
+  </ItemGroup>
+</Project>

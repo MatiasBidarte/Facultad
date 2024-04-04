@@ -1,0 +1,12 @@
+C:\Users\ooo\Desktop\ort\p3-2023-03\Semana 92 posta\Libreria\Libreria\LogicaNegocio\bin\Debug\net7.0\LogicaNegocio.deps.json
+C:\Users\ooo\Desktop\ort\p3-2023-03\Semana 92 posta\Libreria\Libreria\LogicaNegocio\bin\Debug\net7.0\LogicaNegocio.dll
+C:\Users\ooo\Desktop\ort\p3-2023-03\Semana 92 posta\Libreria\Libreria\LogicaNegocio\bin\Debug\net7.0\LogicaNegocio.pdb
+C:\Users\ooo\Desktop\ort\p3-2023-03\Semana 92 posta\Libreria\Libreria\LogicaNegocio\obj\Debug\net7.0\LogicaNegocio.csproj.AssemblyReference.cache
+C:\Users\ooo\Desktop\ort\p3-2023-03\Semana 92 posta\Libreria\Libreria\LogicaNegocio\obj\Debug\net7.0\LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ooo\Desktop\ort\p3-2023-03\Semana 92 posta\Libreria\Libreria\LogicaNegocio\obj\Debug\net7.0\LogicaNegocio.AssemblyInfoInputs.cache
+C:\Users\ooo\Desktop\ort\p3-2023-03\Semana 92 posta\Libreria\Libreria\LogicaNegocio\obj\Debug\net7.0\LogicaNegocio.AssemblyInfo.cs
+C:\Users\ooo\Desktop\ort\p3-2023-03\Semana 92 posta\Libreria\Libreria\LogicaNegocio\obj\Debug\net7.0\LogicaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\ooo\Desktop\ort\p3-2023-03\Semana 92 posta\Libreria\Libreria\LogicaNegocio\obj\Debug\net7.0\LogicaNegocio.dll
+C:\Users\ooo\Desktop\ort\p3-2023-03\Semana 92 posta\Libreria\Libreria\LogicaNegocio\obj\Debug\net7.0\refint\LogicaNegocio.dll
+C:\Users\ooo\Desktop\ort\p3-2023-03\Semana 92 posta\Libreria\Libreria\LogicaNegocio\obj\Debug\net7.0\LogicaNegocio.pdb
+C:\Users\ooo\Desktop\ort\p3-2023-03\Semana 92 posta\Libreria\Libreria\LogicaNegocio\obj\Debug\net7.0\ref\LogicaNegocio.dll

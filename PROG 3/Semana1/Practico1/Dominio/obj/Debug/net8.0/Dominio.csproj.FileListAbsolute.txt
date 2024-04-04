@@ -1,0 +1,12 @@
+/Users/matiasbidarte/Desktop/facu.nosync/PROG 3/Semana1/Practico1/Dominio/bin/Debug/net8.0/Dominio.deps.json
+/Users/matiasbidarte/Desktop/facu.nosync/PROG 3/Semana1/Practico1/Dominio/bin/Debug/net8.0/Dominio.dll
+/Users/matiasbidarte/Desktop/facu.nosync/PROG 3/Semana1/Practico1/Dominio/bin/Debug/net8.0/Dominio.pdb
+/Users/matiasbidarte/Desktop/facu.nosync/PROG 3/Semana1/Practico1/Dominio/obj/Debug/net8.0/Dominio.GeneratedMSBuildEditorConfig.editorconfig
+/Users/matiasbidarte/Desktop/facu.nosync/PROG 3/Semana1/Practico1/Dominio/obj/Debug/net8.0/Dominio.AssemblyInfoInputs.cache
+/Users/matiasbidarte/Desktop/facu.nosync/PROG 3/Semana1/Practico1/Dominio/obj/Debug/net8.0/Dominio.AssemblyInfo.cs
+/Users/matiasbidarte/Desktop/facu.nosync/PROG 3/Semana1/Practico1/Dominio/obj/Debug/net8.0/Dominio.csproj.CoreCompileInputs.cache
+/Users/matiasbidarte/Desktop/facu.nosync/PROG 3/Semana1/Practico1/Dominio/obj/Debug/net8.0/Dominio.sourcelink.json
+/Users/matiasbidarte/Desktop/facu.nosync/PROG 3/Semana1/Practico1/Dominio/obj/Debug/net8.0/Dominio.dll
+/Users/matiasbidarte/Desktop/facu.nosync/PROG 3/Semana1/Practico1/Dominio/obj/Debug/net8.0/refint/Dominio.dll
+/Users/matiasbidarte/Desktop/facu.nosync/PROG 3/Semana1/Practico1/Dominio/obj/Debug/net8.0/Dominio.pdb
+/Users/matiasbidarte/Desktop/facu.nosync/PROG 3/Semana1/Practico1/Dominio/obj/Debug/net8.0/ref/Dominio.dll

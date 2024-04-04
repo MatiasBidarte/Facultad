@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{C074FF4B-AA51-47FB-B7C9-16DE4E10069A}|https">
+  <MonoDevelop.Ide.Workbench ActiveDocument="LogicaNegocio/ValueObjects/Direccion.cs">
+    <Files>
+      <File FileName="LogicaNegocio/IntefacesDominio/IEntity.cs" />
+      <File FileName="LogicaNegocio/Excepciones/DomainException.cs" Line="16" Column="2" />
+      <File FileName="WebApp/Controllers/TemaController.cs" Line="1" Column="1" />
+      <File FileName="WebApp/Models/VMTema.cs" Line="1" Column="1" />
+      <File FileName="WebApp/Models/ErrorViewModel.cs" Line="1" Column="1" />
+      <File FileName="LogicaNegocio/ValueObjects/Direccion.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Libreria" expanded="True">
+            <Node name="Infraestructura" expanded="True" />
+            <Node name="LogicaNegocio" expanded="True">
+              <Node name="ValueObjects" expanded="True">
+                <Node name="Direccion.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.WebApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

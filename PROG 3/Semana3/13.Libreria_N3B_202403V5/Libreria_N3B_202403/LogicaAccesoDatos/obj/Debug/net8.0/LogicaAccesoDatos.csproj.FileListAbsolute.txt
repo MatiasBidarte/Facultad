@@ -1,0 +1,17 @@
+D:\dentone\semana03\Libreria_N3B_202403\LogicaAccesoDatos\bin\Debug\net8.0\LogicaAccesoDatos.deps.json
+D:\dentone\semana03\Libreria_N3B_202403\LogicaAccesoDatos\bin\Debug\net8.0\LogicaAccesoDatos.runtimeconfig.json
+D:\dentone\semana03\Libreria_N3B_202403\LogicaAccesoDatos\bin\Debug\net8.0\LogicaAccesoDatos.dll
+D:\dentone\semana03\Libreria_N3B_202403\LogicaAccesoDatos\bin\Debug\net8.0\LogicaAccesoDatos.pdb
+D:\dentone\semana03\Libreria_N3B_202403\LogicaAccesoDatos\bin\Debug\net8.0\LogicaNegocio.dll
+D:\dentone\semana03\Libreria_N3B_202403\LogicaAccesoDatos\bin\Debug\net8.0\LogicaNegocio.pdb
+D:\dentone\semana03\Libreria_N3B_202403\LogicaAccesoDatos\obj\Debug\net8.0\LogicaAccesoDatos.csproj.AssemblyReference.cache
+D:\dentone\semana03\Libreria_N3B_202403\LogicaAccesoDatos\obj\Debug\net8.0\LogicaAccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+D:\dentone\semana03\Libreria_N3B_202403\LogicaAccesoDatos\obj\Debug\net8.0\LogicaAccesoDatos.AssemblyInfoInputs.cache
+D:\dentone\semana03\Libreria_N3B_202403\LogicaAccesoDatos\obj\Debug\net8.0\LogicaAccesoDatos.AssemblyInfo.cs
+D:\dentone\semana03\Libreria_N3B_202403\LogicaAccesoDatos\obj\Debug\net8.0\LogicaAccesoDatos.csproj.CoreCompileInputs.cache
+D:\dentone\semana03\Libreria_N3B_202403\LogicaAccesoDatos\obj\Debug\net8.0\LogicaAc.5A0EF2D8.Up2Date
+D:\dentone\semana03\Libreria_N3B_202403\LogicaAccesoDatos\obj\Debug\net8.0\LogicaAccesoDatos.dll
+D:\dentone\semana03\Libreria_N3B_202403\LogicaAccesoDatos\obj\Debug\net8.0\refint\LogicaAccesoDatos.dll
+D:\dentone\semana03\Libreria_N3B_202403\LogicaAccesoDatos\obj\Debug\net8.0\LogicaAccesoDatos.pdb
+D:\dentone\semana03\Libreria_N3B_202403\LogicaAccesoDatos\obj\Debug\net8.0\LogicaAccesoDatos.genruntimeconfig.cache
+D:\dentone\semana03\Libreria_N3B_202403\LogicaAccesoDatos\obj\Debug\net8.0\ref\LogicaAccesoDatos.dll

@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Entidades\" />
+    <None Remove="Excepciones\" />
+    <None Remove="Interfaces\" />
+    <None Remove="Excepciones\Tema\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Entidades\" />
+    <Folder Include="Excepciones\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Excepciones\Tema\" />
+  </ItemGroup>
+</Project>

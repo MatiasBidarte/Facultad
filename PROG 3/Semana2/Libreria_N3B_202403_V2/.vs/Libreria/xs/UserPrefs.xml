@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{C074FF4B-AA51-47FB-B7C9-16DE4E10069A}|https">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.WebApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="LogicaAccesoDatos/Listas/RepositorioTema.cs">
+    <Files>
+      <File FileName="WebApp/Controllers/TemaController.cs" />
+      <File FileName="LogicaAccesoDatos/Listas/RepositorioTema.cs" Line="8" Column="49" />
+      <File FileName="LogicaNegocio/InterfazRepositorio/IRepositorio.cs" />
+      <File FileName="WebApp/Views/Tema/Index.cshtml" />
+      <File FileName="LogicaNegocio/Entidades/Tema.cs" />
+      <File FileName="LogicaNegocio/InterfazRepositorio/IRepositorioTema.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Libreria" expanded="True">
+            <Node name="LogicaAccesoDatos">
+              <Node name="Listas" expanded="True">
+                <Node name="RepositorioTema.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="WebApp" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+</Properties>

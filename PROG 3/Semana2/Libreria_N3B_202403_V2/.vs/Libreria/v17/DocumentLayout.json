@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Dentone\\Libreria_N3B_202403_V1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AB426E01-9CF6-4FEF-9187-5981A4ABC68A}|LogicaAccesoDatos\\LogicaAccesoDatos.csproj|d:\\dentone\\libreria_n3b_202403_v1\\logicaaccesodatos\\listas\\repositoriotema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB426E01-9CF6-4FEF-9187-5981A4ABC68A}|LogicaAccesoDatos\\LogicaAccesoDatos.csproj|solutionrelative:logicaaccesodatos\\listas\\repositoriotema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C074FF4B-AA51-47FB-B7C9-16DE4E10069A}|WebApp\\WebApp.csproj|d:\\dentone\\libreria_n3b_202403_v1\\webapp\\controllers\\temacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C074FF4B-AA51-47FB-B7C9-16DE4E10069A}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\temacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C074FF4B-AA51-47FB-B7C9-16DE4E10069A}|WebApp\\WebApp.csproj|d:\\dentone\\libreria_n3b_202403_v1\\webapp\\webapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C074FF4B-AA51-47FB-B7C9-16DE4E10069A}|WebApp\\WebApp.csproj|solutionrelative:webapp\\webapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WebApp",
+              "DocumentMoniker": "D:\\Dentone\\Libreria_N3B_202403_V1\\WebApp\\WebApp.csproj",
+              "RelativeDocumentMoniker": "WebApp\\WebApp.csproj",
+              "ToolTip": "D:\\Dentone\\Libreria_N3B_202403_V1\\WebApp\\WebApp.csproj",
+              "RelativeToolTip": "WebApp\\WebApp.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-12T01:17:36.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RepositorioTema.cs",
+              "DocumentMoniker": "D:\\Dentone\\Libreria_N3B_202403_V1\\LogicaAccesoDatos\\Listas\\RepositorioTema.cs",
+              "RelativeDocumentMoniker": "LogicaAccesoDatos\\Listas\\RepositorioTema.cs",
+              "ToolTip": "D:\\Dentone\\Libreria_N3B_202403_V1\\LogicaAccesoDatos\\Listas\\RepositorioTema.cs",
+              "RelativeToolTip": "LogicaAccesoDatos\\Listas\\RepositorioTema.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T01:15:18.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TemaController.cs",
+              "DocumentMoniker": "D:\\Dentone\\Libreria_N3B_202403_V1\\WebApp\\Controllers\\TemaController.cs",
+              "RelativeDocumentMoniker": "WebApp\\Controllers\\TemaController.cs",
+              "ToolTip": "D:\\Dentone\\Libreria_N3B_202403_V1\\WebApp\\Controllers\\TemaController.cs",
+              "RelativeToolTip": "WebApp\\Controllers\\TemaController.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAowDcAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T23:21:25.221Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

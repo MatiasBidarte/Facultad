@@ -1,0 +1,194 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/matiasbidarte/Desktop/facu.nosync/PROG 3/Semana2/Libreria_N3B_202403_V2/WebApp/WebApp.csproj": {}
+  },
+  "projects": {
+    "/Users/matiasbidarte/Desktop/facu.nosync/PROG 3/Semana2/Libreria_N3B_202403_V2/LogicaAccesoDatos/LogicaAccesoDatos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/matiasbidarte/Desktop/facu.nosync/PROG 3/Semana2/Libreria_N3B_202403_V2/LogicaAccesoDatos/LogicaAccesoDatos.csproj",
+        "projectName": "LogicaAccesoDatos",
+        "projectPath": "/Users/matiasbidarte/Desktop/facu.nosync/PROG 3/Semana2/Libreria_N3B_202403_V2/LogicaAccesoDatos/LogicaAccesoDatos.csproj",
+        "packagesPath": "/Users/matiasbidarte/.nuget/packages/",
+        "outputPath": "/Users/matiasbidarte/Desktop/facu.nosync/PROG 3/Semana2/Libreria_N3B_202403_V2/LogicaAccesoDatos/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/matiasbidarte/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/matiasbidarte/Desktop/facu.nosync/PROG 3/Semana2/Libreria_N3B_202403_V2/LogicaNegocio/LogicaNegocio.csproj": {
+                "projectPath": "/Users/matiasbidarte/Desktop/facu.nosync/PROG 3/Semana2/Libreria_N3B_202403_V2/LogicaNegocio/LogicaNegocio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/matiasbidarte/Desktop/facu.nosync/PROG 3/Semana2/Libreria_N3B_202403_V2/LogicaNegocio/LogicaNegocio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/matiasbidarte/Desktop/facu.nosync/PROG 3/Semana2/Libreria_N3B_202403_V2/LogicaNegocio/LogicaNegocio.csproj",
+        "projectName": "LogicaNegocio",
+        "projectPath": "/Users/matiasbidarte/Desktop/facu.nosync/PROG 3/Semana2/Libreria_N3B_202403_V2/LogicaNegocio/LogicaNegocio.csproj",
+        "packagesPath": "/Users/matiasbidarte/.nuget/packages/",
+        "outputPath": "/Users/matiasbidarte/Desktop/facu.nosync/PROG 3/Semana2/Libreria_N3B_202403_V2/LogicaNegocio/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/matiasbidarte/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/matiasbidarte/Desktop/facu.nosync/PROG 3/Semana2/Libreria_N3B_202403_V2/WebApp/WebApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/matiasbidarte/Desktop/facu.nosync/PROG 3/Semana2/Libreria_N3B_202403_V2/WebApp/WebApp.csproj",
+        "projectName": "WebApp",
+        "projectPath": "/Users/matiasbidarte/Desktop/facu.nosync/PROG 3/Semana2/Libreria_N3B_202403_V2/WebApp/WebApp.csproj",
+        "packagesPath": "/Users/matiasbidarte/.nuget/packages/",
+        "outputPath": "/Users/matiasbidarte/Desktop/facu.nosync/PROG 3/Semana2/Libreria_N3B_202403_V2/WebApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/matiasbidarte/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/matiasbidarte/Desktop/facu.nosync/PROG 3/Semana2/Libreria_N3B_202403_V2/LogicaAccesoDatos/LogicaAccesoDatos.csproj": {
+                "projectPath": "/Users/matiasbidarte/Desktop/facu.nosync/PROG 3/Semana2/Libreria_N3B_202403_V2/LogicaAccesoDatos/LogicaAccesoDatos.csproj"
+              },
+              "/Users/matiasbidarte/Desktop/facu.nosync/PROG 3/Semana2/Libreria_N3B_202403_V2/LogicaNegocio/LogicaNegocio.csproj": {
+                "projectPath": "/Users/matiasbidarte/Desktop/facu.nosync/PROG 3/Semana2/Libreria_N3B_202403_V2/LogicaNegocio/LogicaNegocio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
